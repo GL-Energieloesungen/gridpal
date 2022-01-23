@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.1">
+<file name="/home/kanok/openhab-master/git/openhab2-addons/addons/binding/org.openhab.binding.gridpalvendor/OSGI-INF/.gitignore">
+</file>
+<file name="/home/kanok/openhab-master/git/openhab2-addons/addons/binding/org.openhab.binding.gridpalvendor/OSGI-INF/org.openhab.binding.gridpalvendor.rest.VendorResources.xml">
+</file>
+<file name="/home/kanok/openhab-master/git/openhab2-addons/addons/binding/org.openhab.binding.gridpalvendor/README.md">
+</file>
+<file name="/home/kanok/openhab-master/git/openhab2-addons/addons/binding/org.openhab.binding.gridpalvendor/META-INF/MANIFEST.MF">
+<error line="0" severity="error" message="The package org.openhab.binding.gridpalvendor.rest should be marked as &quot;internal&quot; if it is not exported." source="org.openhab.tools.analysis.checkstyle.PackageExportsNameCheck"/>
+<error line="0" severity="error" message="The package org.openhab.binding.gridpalvendor.rest.utils should be marked as &quot;internal&quot; if it is not exported." source="org.openhab.tools.analysis.checkstyle.PackageExportsNameCheck"/>
+<error line="14" severity="warning" message="The version of the package javax.annotation.security should not be specified" source="org.openhab.tools.analysis.checkstyle.ManifestPackageVersionCheck"/>
+<error line="15" severity="warning" message="The version of the package javax.ws.rs should not be specified" source="org.openhab.tools.analysis.checkstyle.ManifestPackageVersionCheck"/>
+<error line="16" severity="warning" message="The version of the package javax.ws.rs.container should not be specified" source="org.openhab.tools.analysis.checkstyle.ManifestPackageVersionCheck"/>
+<error line="17" severity="warning" message="The version of the package javax.ws.rs.core should not be specified" source="org.openhab.tools.analysis.checkstyle.ManifestPackageVersionCheck"/>
+</file>
+<file name="/home/kanok/openhab-master/git/openhab2-addons/addons/binding/org.openhab.binding.gridpalvendor/build.properties">
+</file>
+<file name="/home/kanok/openhab-master/git/openhab2-addons/addons/binding/org.openhab.binding.gridpalvendor/.classpath">
+</file>
+<file name="/home/kanok/openhab-master/git/openhab2-addons/addons/binding/org.openhab.binding.gridpalvendor/src/main/java/org/openhab/binding/gridpalvendor/rest/utils/VendorUtility.java">
+<error line="1" severity="error" message="Header is missing" source="org.openhab.tools.analysis.checkstyle.ParameterizedRegexpHeaderCheck"/>
+<error line="15" severity="error" message="An author tag is missing" source="org.openhab.tools.analysis.checkstyle.AuthorTagCheck"/>
+<error line="15" severity="warning" message="Missing Javadoc comment." source="org.openhab.tools.analysis.checkstyle.JavadocFilterCheck"/>
+<error line="23" column="17" severity="info" message="Name &apos;Connect&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"/>
+<error line="28" column="17" severity="info" message="Name &apos;Connect&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"/>
+<error line="32" column="17" severity="info" message="Name &apos;Disconnect&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"/>
+<error line="39" column="17" severity="info" message="Name &apos;Disconnect&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"/>
+<error line="43" column="23" severity="info" message="Name &apos;GetInterfaces&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"/>
+<error line="68" column="23" severity="info" message="Name &apos;GetManufacturers&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"/>
+<error line="96" column="23" severity="info" message="Name &apos;GetDevices&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"/>
+<error line="124" column="23" severity="info" message="Name &apos;GetConfig&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"/>
+<error line="149" column="22" severity="info" message="Name &apos;GetRegisterMap&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"/>
+<error line="186" column="19" severity="info" message="Name &apos;Scan&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"/>
+</file>
+<file name="/home/kanok/openhab-master/git/openhab2-addons/addons/binding/org.openhab.binding.gridpalvendor/src/main/java/org/openhab/binding/gridpalvendor/rest/VendorResources.java">
+<error line="0" severity="info" message="File does not end with a newline." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="1" severity="error" message="Header is missing" source="org.openhab.tools.analysis.checkstyle.ParameterizedRegexpHeaderCheck"/>
+<error line="17" severity="error" message="An author tag is missing" source="org.openhab.tools.analysis.checkstyle.AuthorTagCheck"/>
+<error line="17" severity="warning" message="Missing Javadoc comment." source="org.openhab.tools.analysis.checkstyle.JavadocFilterCheck"/>
+<error line="34" column="21" severity="info" message="Name &apos;GetInterfaces&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"/>
+<error line="48" column="21" severity="info" message="Name &apos;Scan&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"/>
+<error line="62" column="21" severity="info" message="Name &apos;GetManufacturers&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"/>
+<error line="76" column="21" severity="info" message="Name &apos;GetDevices&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"/>
+<error line="91" column="21" severity="info" message="Name &apos;GetConfig&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"/>
+<error line="105" column="21" severity="info" message="Name &apos;GetRegisterMap&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"/>
+</file>
+<file name="/home/kanok/openhab-master/git/openhab2-addons/addons/binding/org.openhab.binding.gridpalvendor/ESH-INF/i18n/gridpalvendor_xx_XX.properties">
+</file>
+<file name="/home/kanok/openhab-master/git/openhab2-addons/addons/binding/org.openhab.binding.gridpalvendor/ESH-INF/thing/thing-types.xml">
+</file>
+<file name="/home/kanok/openhab-master/git/openhab2-addons/addons/binding/org.openhab.binding.gridpalvendor/ESH-INF/binding/binding.xml">
+</file>
+<file name="/home/kanok/openhab-master/git/openhab2-addons/addons/binding/org.openhab.binding.gridpalvendor/pom.xml">
+</file>
+</checkstyle>

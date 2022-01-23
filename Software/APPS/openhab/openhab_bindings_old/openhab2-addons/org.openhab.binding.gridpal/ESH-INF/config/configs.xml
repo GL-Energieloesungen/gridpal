@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config-description:config-descriptions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:config-description="http://eclipse.org/smarthome/schemas/config-description/v1.0.0"
+    xsi:schemaLocation="http://eclipse.org/smarthome/schemas/config-description/v1.0.0 http://eclipse.org/smarthome/schemas/config-description-1.0.0.xsd">
+
+    <config-description uri="gridpal:config:apl-smart-switch">
+        
+        <parameter-group name="device-params">
+            <label>Device Parameters</label>
+        </parameter-group>
+        
+        <parameter-group name="mqtt-params">
+            <label>MQTT Parameters</label>
+        </parameter-group>
+        
+        <parameter-group name="switch-item-params">
+            <label>Switch Parameters</label>
+        </parameter-group>
+        
+        
+        <parameter name="gatewayIP" type="text" groupName="mqtt-params" required="true">
+            <context>network-address</context>
+            <label>Gateway IP</label>
+            <description>The URL of the Home Gateway.</description>
+        </parameter>
+        
+        <parameter name="gatewayMac" type="text" groupName="mqtt-params" required="true">
+            <label>Gateway Mac Address</label>
+            <description>The mac address of the Gateway in Hex format.</description>
+        </parameter>
+        
+        <parameter name="deviceIDH" type="integer" max="255" min="0" groupName="device-params" required="true">
+            <label>Device ID High Byte</label>
+            <description>The High Byte of the ID of the device in BLE mesh.</description>
+            <required>true</required>
+        </parameter>
+        
+        <parameter name="deviceIDL" type="integer" max="255" min="0" groupName="device-params" required="true">
+            <label>Device ID Low Byte</label>
+            <description>The Low byte of the ID of the device in BLE mesh.</description>
+            <required>true</required>
+        </parameter>
+        
+        <parameter name="switch01" type="text" groupName="switch-item-params">
+            <label>Switch 01</label>
+            <default>Light</default>
+            <options>
+                <option value="Fan">Fan</option>
+                <option value="Light">Light</option>
+                <option value="DimLight">Dimmable Light</option>
+                <option value="TubeLight">Tube Light</option>
+                <option value="EnergySavingLight">Energy Saving Light</option>
+            </options>
+        </parameter>
+        
+        <parameter name="switch02" type="text" groupName="switch-item-params">
+            <label>Switch 02</label>
+            <default>Light</default>
+            <options>
+                <option value="Fan">Fan</option>
+                <option value="Light">Light</option>
+                <option value="DimLight">Dimmable Light</option>
+                <option value="TubeLight">Tube Light</option>
+                <option value="EnergySavingLight">Energy Saving Light</option>
+            </options>
+        </parameter>
+        
+        <parameter name="switch03" type="text" groupName="switch-item-params">
+            <label>Switch 03</label>
+            <default>Light</default>
+            <options>
+                <option value="Fan">Fan</option>
+                <option value="Light">Light</option>
+                <option value="DimLight">Dimmable Light</option>
+                <option value="TubeLight">Tube Light</option>
+                <option value="EnergySavingLight">Energy Saving Light</option>
+            </options>
+        </parameter>
+        
+         <parameter name="switch04" type="text" groupName="switch-item-params">
+            <label>Switch 04</label>
+            <default>Light</default>
+            <options>
+                <option value="Fan">Fan</option>
+                <option value="Light">Light</option>
+                <option value="DimLight">Dimmable Light</option>
+                <option value="TubeLight">Tube Light</option>
+                <option value="EnergySavingLight">Energy Saving Light</option>
+            </options>
+        </parameter>
+        
+        <parameter name="switch05" type="text" groupName="switch-item-params">
+            <label>Switch 05</label>
+            <default>Light</default>
+            <options>
+                <option value="Fan">Fan</option>
+                <option value="Light">Light</option>
+                <option value="DimLight">Dimmable Light</option>
+                <option value="TubeLight">Tube Light</option>
+                <option value="EnergySavingLight">Energy Saving Light</option>
+            </options>
+        </parameter>
+        
+        <parameter name="switch06" type="text" groupName="switch-item-params">
+            <label>Switch 06</label>
+            <default>Light</default>
+            <options>
+                <option value="Fan">Fan</option>
+                <option value="Light">Light</option>
+                <option value="DimLight">Dimmable Light</option>
+                <option value="TubeLight">Tube Light</option>
+                <option value="EnergySavingLight">Energy Saving Light</option>
+            </options>
+        </parameter>
+        
+        
+    </config-description>
+    
+    
+    
+     <config-description uri="gridpal:config:gridpal-gateway">
+        
+        <parameter name="url" type="text" required="true">
+            <context>network-address</context>
+            <label>Gateway URL</label>
+            <description>The URL of the Home Gateway.</description>
+        </parameter>
+        
+        <parameter name="port" type="text" required="true">
+            <label>Gateway Port</label>
+            <description>The port address of the Gateway.</description>
+        </parameter>
+        
+        <parameter name="username" type="text" required="true">
+            <label>Gateway Username</label>
+            <description>Username of the Gateway.</description>
+        </parameter>
+        
+        <parameter name="password" type="text" required="true">
+            <context>password</context>
+            <label>Gateway Password</label>
+            <description>Password of the Gateway.</description>
+        </parameter>
+        
+    </config-description>
+    
+    
+</config-description:config-descriptions>

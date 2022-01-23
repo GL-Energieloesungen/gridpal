@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+Automatic-Module-Name: org.openhab.binding.gridpalrest
+Bundle-SymbolicName: org.openhab.binding.gridpalrest;singleton:=true
+Bundle-Name: GridPalREST Binding
+Bundle-Version: 2.5.0.201903181612
+Bundle-ClassPath: .,lib/json-20180813.jar
+Bundle-ActivationPolicy: lazy
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-Vendor: openHAB
+Import-Package: org.eclipse.jdt.annotation;resolution:=optional,javax.
+ annotation.security;version="1.2.0",javax.ws.rs;version="2.0.1",javax
+ .ws.rs.container;version="2.0.1",javax.ws.rs.core;version="2.0.1",org
+ .eclipse.smarthome.config.core,org.eclipse.smarthome.core.auth,org.ec
+ lipse.smarthome.core.common,org.eclipse.smarthome.core.events,org.ecl
+ ipse.smarthome.core.items,org.eclipse.smarthome.core.library.types,or
+ g.eclipse.smarthome.core.thing,org.eclipse.smarthome.core.thing.bindi
+ ng,org.eclipse.smarthome.core.thing.binding.builder,org.eclipse.smart
+ home.core.thing.type,org.eclipse.smarthome.core.types,org.slf4j
+Service-Component: OSGI-INF/*.xml
+

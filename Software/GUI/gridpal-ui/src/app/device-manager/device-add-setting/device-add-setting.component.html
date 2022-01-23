@@ -1,0 +1,110 @@
+<div class="row">
+  <div class="col-md-8">
+    <h1 class="page-header">{{pageHeader}}</h1>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-10">
+    <form #DeviceForm="ngForm" (ngSubmit)="onFormSubmit(DeviceForm)">
+      <div class="form-group">
+        <label>Device Name</label>
+        <input class="form-control" [(ngModel)]="dMapObj.dataMap['label']" name="deviceName" autofocus placeholder="User Friendly Name">
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="form-group" id="interface-type">
+            <label>Interface Type</label>
+            <div [ngSwitch]="pageBehaviour">
+              <div *ngSwitchCase="'settingPage'">
+                <input class="form-control" [(ngModel)]="dMapObj.dataMap['interface-type']" name="interfaceType"
+                [attr.disabled]=true>
+              </div>
+              <div *ngSwitchCase="'addPage'">
+                <select class="form-control" [(ngModel)]="dMapObj.dataMap['interface-type']" name="interfaceType"
+                  (change)="interfaceTypeChange($event.target.value)">
+
+                  <option disabled> == SELECT == </option>
+                  <option *ngFor="let interfaces of interface_type_keys" [ngValue]="interfaces">
+                    {{interface_type[interfaces]}}
+                  </option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="form-group" id="device-manufacturer" [hidden]="hideDeviceManfacturer">
+            <label> Device Manufacturer </label>
+            <div [ngSwitch]="pageBehaviour">
+              <div *ngSwitchCase="'settingPage'">
+                <input class="form-control" [(ngModel)]="dMapObj.dataMap['manufacturer']" name="devicemanufacturer"
+                [attr.disabled]=true>
+              </div>
+              <div *ngSwitchCase="'addPage'">
+                <select class="form-control" (change)="deviceManufacturerTypeChange($event.target.value)" [(ngModel)]="dMapObj.dataMap['manufacturer']"
+                  name="deviceManufacturer">
+                  <option disabled> == SELECT == </option>
+                  <option *ngFor="let device of deviceManufacturerList" [ngValue]="device">
+                    {{deviceManufacturer[device]}}
+                  </option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="form-group" id="device-type" [hidden]="hideDeviceType">
+            <label> Device Type </label>
+            <div [ngSwitch]="pageBehaviour">
+              <div *ngSwitchCase="'settingPage'">
+                <input class="form-control" [(ngModel)]="dMapObj.dataMap['devicetype']" name="deviceType"
+                [attr.disabled]=true>
+              </div>
+              <div *ngSwitchCase="'addPage'">
+                <select class="form-control" (change)="deviceTypeChange($event.target.value)" [(ngModel)]="dMapObj.dataMap['devicetype']"
+                  name="deviceType">
+                  <option disabled> == SELECT == </option>
+                  <option *ngFor="let item of deviceTypeKeys" [ngValue]="item">
+                    {{deviceTypeObjectList[item]}}
+                  </option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <fieldset class="well" [hidden]="hideConnectionParameter">
+        <legend class="well-legend"> Connection Parameter </legend>
+        <div [ngSwitch]="deviceTypeComponent">
+          <div *ngSwitchCase="'serial'">
+            <app-serial-com [SerialData]="SerialDataList" [deviceSlaveAddress]="deviceSlaveId" #serialChild></app-serial-com>
+          </div>
+          <div *ngSwitchCase="'wireless mbus'">
+            <app-serial-com [SerialData]="SerialDataList" [deviceSlaveAddress]="deviceSlaveId" #serialChild></app-serial-com>
+          </div>
+          <div *ngSwitchCase="'wireless mbus (scan)'">
+            <app-serial-com [SerialData]="SerialDataList" [deviceSlaveAddress]="deviceSlaveId" #serialChild></app-serial-com>
+          </div>
+          <div *ngSwitchCase="'tcp'">
+            <app-tcp-com [SerialData]="SerialDataList"> </app-tcp-com>
+          </div>
+          <div *ngSwitchCase="'knx'">
+            <app-knx [knxData]="registerList"></app-knx>
+          </div>
+          <div *ngSwitchDefault> Select an interface for connection configuration </div>
+        </div>
+      </fieldset>
+      <fieldset class="well" [hidden]="hideRegister">
+        <legend class="well-legend"> Registers </legend>
+        <app-register-map [resisterMap]="registerList" [resisterMapDisabled]=resisterMapDisbaled #registerMapChild>
+        </app-register-map>
+      </fieldset>
+      <div class="form">
+        <button class="btn btn-primary"> Save </button>
+        <a routerLink="/devicemanager">
+          <button class="btn btn-default"> Cancel </button>
+        </a>
+      </div>
+    </form>
+  </div>
+</div>

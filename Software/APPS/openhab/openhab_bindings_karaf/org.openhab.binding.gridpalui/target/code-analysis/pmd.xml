@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.7.0" timestamp="2019-04-26T13:07:04.901">
+<file name="/home/kanok/openhab-master/git/openhab2-addons/addons/binding/org.openhab.binding.gridpalui/src/main/java/org/openhab/binding/gridpalui/ui/ConfigManager.java">
+<violation beginline="51" endline="51" begincolumn="13" endcolumn="31" rule="AvoidPrintStackTrace" ruleset="Best Practices" package="org.openhab.binding.gridpalui.ui" class="ConfigManager" method="GetConfig" externalInfoUrl="https://pmd.github.io/pmd-6.7.0/pmd_rules_java_bestpractices.html#avoidprintstacktrace" priority="1">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+<violation beginline="63" endline="63" begincolumn="13" endcolumn="31" rule="AvoidPrintStackTrace" ruleset="Best Practices" package="org.openhab.binding.gridpalui.ui" class="ConfigManager" method="SetConfig" externalInfoUrl="https://pmd.github.io/pmd-6.7.0/pmd_rules_java_bestpractices.html#avoidprintstacktrace" priority="1">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+<violation beginline="79" endline="79" begincolumn="17" endcolumn="35" rule="AvoidPrintStackTrace" ruleset="Best Practices" package="org.openhab.binding.gridpalui.ui" class="ConfigManager" method="Create" externalInfoUrl="https://pmd.github.io/pmd-6.7.0/pmd_rules_java_bestpractices.html#avoidprintstacktrace" priority="1">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+</file>
+<file name="/home/kanok/openhab-master/git/openhab2-addons/addons/binding/org.openhab.binding.gridpalui/src/main/java/org/openhab/binding/gridpalui/ui/GridpalUIHttpContext.java">
+<violation beginline="49" endline="49" begincolumn="13" endcolumn="31" rule="AvoidPrintStackTrace" ruleset="Best Practices" package="org.openhab.binding.gridpalui.ui" class="GridpalUIHttpContext" method="getResource" externalInfoUrl="https://pmd.github.io/pmd-6.7.0/pmd_rules_java_bestpractices.html#avoidprintstacktrace" priority="1">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+</file>
+</pmd>

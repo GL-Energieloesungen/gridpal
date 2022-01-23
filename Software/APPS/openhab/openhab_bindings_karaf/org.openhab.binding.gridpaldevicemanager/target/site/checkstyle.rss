@@ -1,0 +1,684 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+Licensed to the Apache Software Foundation (ASF) under one
+or more contributor license agreements.  See the NOTICE file
+distributed with this work for additional information
+regarding copyright ownership.  The ASF licenses this file
+to you under the Apache License, Version 2.0 (the
+"License"); you may not use this file except in compliance
+with the License.  You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<rss version="0.91">
+  <channel>
+    <title>gridpalDeviceManager Binding - Checkstyle report</title>
+    <link>${project.url}</link>
+    <description>gridpalDeviceManager Binding - Checkstyle report</description>
+    <language>en-us</language>
+    <copyright>&#169;2019 openHAB.org</copyright>
+    <item>
+      <title>File: 45,
+             Errors: 81,
+             Warnings: 36,
+             Infos: 196
+      </title>
+            <link>${project.url}/checkstyle.html</link>
+      <description>
+        <p>Click <a href="${project.url}/checkstyle.html">here</a> for the full Checkstyle report.</p>
+
+        <table summary="Files" boder="1">
+          <thead>
+            <tr>
+              <th>Files</th>
+              <th style="width:30px;"><abbr title="Info">I</abbr></th>
+              <th style="width:30px;"><abbr title="Warning">W</abbr></th>
+              <th style="width:30px;"><abbr title="Error">E</abbr></th>
+            </tr>
+          </thead>
+          <tbody>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#src.main.java.org.openhab.binding.gridpaldevicemanager.device.wmbus.WMBusConfigParser.java">src/main/java/org/openhab/binding/gridpaldevicemanager/device/wmbus/WMBusConfigParser.java</a>
+                </td>
+                <td>
+                  7
+                </td>
+                <td>
+                  1
+                </td>
+                <td>
+                  2
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#src.main.java.org.openhab.binding.gridpaldevicemanager.device.modbus.ModbusConfigParser.java">src/main/java/org/openhab/binding/gridpaldevicemanager/device/modbus/ModbusConfigParser.java</a>
+                </td>
+                <td>
+                  30
+                </td>
+                <td>
+                  1
+                </td>
+                <td>
+                  2
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#OSGI-INF.org.openhab.binding.gridpaldevicemanager.rest.DeviceResources.xml">OSGI-INF/org.openhab.binding.gridpaldevicemanager.rest.DeviceResources.xml</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#.classpath">.classpath</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#src.main.java.org.openhab.binding.gridpaldevicemanager.device.knx.KnxConstants.java">src/main/java/org/openhab/binding/gridpaldevicemanager/device/knx/KnxConstants.java</a>
+                </td>
+                <td>
+                  2
+                </td>
+                <td>
+                  1
+                </td>
+                <td>
+                  2
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#src.main.java.org.openhab.binding.gridpaldevicemanager.device.knx.KnxConfigKey.java">src/main/java/org/openhab/binding/gridpaldevicemanager/device/knx/KnxConfigKey.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  1
+                </td>
+                <td>
+                  2
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#src.main.java.org.openhab.binding.gridpaldevicemanager.item.ItemManager.java">src/main/java/org/openhab/binding/gridpaldevicemanager/item/ItemManager.java</a>
+                </td>
+                <td>
+                  2
+                </td>
+                <td>
+                  1
+                </td>
+                <td>
+                  2
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#src.main.java.org.openhab.binding.gridpaldevicemanager.device.wmbus.WMBusManager.java">src/main/java/org/openhab/binding/gridpaldevicemanager/device/wmbus/WMBusManager.java</a>
+                </td>
+                <td>
+                  6
+                </td>
+                <td>
+                  1
+                </td>
+                <td>
+                  2
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#src.main.java.org.openhab.binding.gridpaldevicemanager.device.knx.KnxItemsParser.java">src/main/java/org/openhab/binding/gridpaldevicemanager/device/knx/KnxItemsParser.java</a>
+                </td>
+                <td>
+                  5
+                </td>
+                <td>
+                  1
+                </td>
+                <td>
+                  2
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#src.main.java.org.openhab.binding.gridpaldevicemanager.device.knx.KnxItem.java">src/main/java/org/openhab/binding/gridpaldevicemanager/device/knx/KnxItem.java</a>
+                </td>
+                <td>
+                  1
+                </td>
+                <td>
+                  1
+                </td>
+                <td>
+                  2
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#ESH-INF.binding.binding.xml">ESH-INF/binding/binding.xml</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#pom.xml">pom.xml</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#src.main.java.org.openhab.binding.gridpaldevicemanager.device.modbus.ModbusItemsParser.java">src/main/java/org/openhab/binding/gridpaldevicemanager/device/modbus/ModbusItemsParser.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  1
+                </td>
+                <td>
+                  2
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#src.main.java.org.openhab.binding.gridpaldevicemanager.device.utils.Utility.java">src/main/java/org/openhab/binding/gridpaldevicemanager/device/utils/Utility.java</a>
+                </td>
+                <td>
+                  5
+                </td>
+                <td>
+                  1
+                </td>
+                <td>
+                  2
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#src.main.java.org.openhab.binding.gridpaldevicemanager.device.wmbus.WMBusConfigKey.java">src/main/java/org/openhab/binding/gridpaldevicemanager/device/wmbus/WMBusConfigKey.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  1
+                </td>
+                <td>
+                  2
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#src.main.java.org.openhab.binding.gridpaldevicemanager.rest.ConfigResources.java">src/main/java/org/openhab/binding/gridpaldevicemanager/rest/ConfigResources.java</a>
+                </td>
+                <td>
+                  1
+                </td>
+                <td>
+                  1
+                </td>
+                <td>
+                  2
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#build.properties">build.properties</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#src.main.java.org.openhab.binding.gridpaldevicemanager.device.knx.KnxManager.java">src/main/java/org/openhab/binding/gridpaldevicemanager/device/knx/KnxManager.java</a>
+                </td>
+                <td>
+                  6
+                </td>
+                <td>
+                  1
+                </td>
+                <td>
+                  2
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#src.main.java.org.openhab.binding.gridpaldevicemanager.item.ItemsParser.java">src/main/java/org/openhab/binding/gridpaldevicemanager/item/ItemsParser.java</a>
+                </td>
+                <td>
+                  12
+                </td>
+                <td>
+                  1
+                </td>
+                <td>
+                  2
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#src.main.java.org.openhab.binding.gridpaldevicemanager.device.modbus.ModbusConfigKey.java">src/main/java/org/openhab/binding/gridpaldevicemanager/device/modbus/ModbusConfigKey.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  1
+                </td>
+                <td>
+                  2
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#src.main.java.org.openhab.binding.gridpaldevicemanager.device.wmbus.WMBusItemsParser.java">src/main/java/org/openhab/binding/gridpaldevicemanager/device/wmbus/WMBusItemsParser.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  1
+                </td>
+                <td>
+                  2
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#src.main.java.org.openhab.binding.gridpaldevicemanager.device.modbus.ModbusItem.java">src/main/java/org/openhab/binding/gridpaldevicemanager/device/modbus/ModbusItem.java</a>
+                </td>
+                <td>
+                  1
+                </td>
+                <td>
+                  1
+                </td>
+                <td>
+                  2
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#OSGI-INF.org.openhab.binding.gridpaldevicemanager.rest.ConfigResources.xml">OSGI-INF/org.openhab.binding.gridpaldevicemanager.rest.ConfigResources.xml</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#src.main.java.org.openhab.binding.gridpaldevicemanager.device.mbus.MBusConfigKey.java">src/main/java/org/openhab/binding/gridpaldevicemanager/device/mbus/MBusConfigKey.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  1
+                </td>
+                <td>
+                  2
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#META-INF.MANIFEST.MF">META-INF/MANIFEST.MF</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  9
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#src.main.java.org.openhab.binding.gridpaldevicemanager.rest.DeviceResources.java">src/main/java/org/openhab/binding/gridpaldevicemanager/rest/DeviceResources.java</a>
+                </td>
+                <td>
+                  7
+                </td>
+                <td>
+                  1
+                </td>
+                <td>
+                  2
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#src.main.java.org.openhab.binding.gridpaldevicemanager.device.knx.KnxConfigManager.java">src/main/java/org/openhab/binding/gridpaldevicemanager/device/knx/KnxConfigManager.java</a>
+                </td>
+                <td>
+                  7
+                </td>
+                <td>
+                  1
+                </td>
+                <td>
+                  2
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#src.main.java.org.openhab.binding.gridpaldevicemanager.device.knx.KnxConfigParser.java">src/main/java/org/openhab/binding/gridpaldevicemanager/device/knx/KnxConfigParser.java</a>
+                </td>
+                <td>
+                  7
+                </td>
+                <td>
+                  1
+                </td>
+                <td>
+                  2
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#src.main.java.org.openhab.binding.gridpaldevicemanager.manager.ExportManager.java">src/main/java/org/openhab/binding/gridpaldevicemanager/manager/ExportManager.java</a>
+                </td>
+                <td>
+                  14
+                </td>
+                <td>
+                  1
+                </td>
+                <td>
+                  2
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#src.main.java.org.openhab.binding.gridpaldevicemanager.item.Item.java">src/main/java/org/openhab/binding/gridpaldevicemanager/item/Item.java</a>
+                </td>
+                <td>
+                  1
+                </td>
+                <td>
+                  1
+                </td>
+                <td>
+                  2
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#src.main.java.org.openhab.binding.gridpaldevicemanager.device.modbus.ModbusManager.java">src/main/java/org/openhab/binding/gridpaldevicemanager/device/modbus/ModbusManager.java</a>
+                </td>
+                <td>
+                  6
+                </td>
+                <td>
+                  1
+                </td>
+                <td>
+                  2
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#src.main.java.org.openhab.binding.gridpaldevicemanager.device.mbus.MBusConfigManager.java">src/main/java/org/openhab/binding/gridpaldevicemanager/device/mbus/MBusConfigManager.java</a>
+                </td>
+                <td>
+                  7
+                </td>
+                <td>
+                  1
+                </td>
+                <td>
+                  2
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#src.main.java.org.openhab.binding.gridpaldevicemanager.device.mbus.MBusConfigParser.java">src/main/java/org/openhab/binding/gridpaldevicemanager/device/mbus/MBusConfigParser.java</a>
+                </td>
+                <td>
+                  28
+                </td>
+                <td>
+                  1
+                </td>
+                <td>
+                  2
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#src.main.java.org.openhab.binding.gridpaldevicemanager.manager.DeviceManager.java">src/main/java/org/openhab/binding/gridpaldevicemanager/manager/DeviceManager.java</a>
+                </td>
+                <td>
+                  7
+                </td>
+                <td>
+                  1
+                </td>
+                <td>
+                  2
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#src.main.java.org.openhab.binding.gridpaldevicemanager.device.mbus.MBusManager.java">src/main/java/org/openhab/binding/gridpaldevicemanager/device/mbus/MBusManager.java</a>
+                </td>
+                <td>
+                  6
+                </td>
+                <td>
+                  1
+                </td>
+                <td>
+                  2
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#README.md">README.md</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#src.main.java.org.openhab.binding.gridpaldevicemanager.device.mbus.MBusItemsParser.java">src/main/java/org/openhab/binding/gridpaldevicemanager/device/mbus/MBusItemsParser.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  1
+                </td>
+                <td>
+                  2
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#src.main.java.org.openhab.binding.gridpaldevicemanager.device.AbstractConfigParser.java">src/main/java/org/openhab/binding/gridpaldevicemanager/device/AbstractConfigParser.java</a>
+                </td>
+                <td>
+                  4
+                </td>
+                <td>
+                  1
+                </td>
+                <td>
+                  2
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#src.main.java.org.openhab.binding.gridpaldevicemanager.device.modbus.ModbusConfigManager.java">src/main/java/org/openhab/binding/gridpaldevicemanager/device/modbus/ModbusConfigManager.java</a>
+                </td>
+                <td>
+                  8
+                </td>
+                <td>
+                  1
+                </td>
+                <td>
+                  2
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#src.main.java.org.openhab.binding.gridpaldevicemanager.device.modbus.ModbusConstants.java">src/main/java/org/openhab/binding/gridpaldevicemanager/device/modbus/ModbusConstants.java</a>
+                </td>
+                <td>
+                  2
+                </td>
+                <td>
+                  1
+                </td>
+                <td>
+                  2
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#src.main.java.org.openhab.binding.gridpaldevicemanager.device.mbus.MBusConstants.java">src/main/java/org/openhab/binding/gridpaldevicemanager/device/mbus/MBusConstants.java</a>
+                </td>
+                <td>
+                  2
+                </td>
+                <td>
+                  1
+                </td>
+                <td>
+                  2
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#src.main.java.org.openhab.binding.gridpaldevicemanager.device.wmbus.WMBusConstants.java">src/main/java/org/openhab/binding/gridpaldevicemanager/device/wmbus/WMBusConstants.java</a>
+                </td>
+                <td>
+                  2
+                </td>
+                <td>
+                  1
+                </td>
+                <td>
+                  2
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#OSGI-INF..gitignore">OSGI-INF/.gitignore</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#src.main.java.org.openhab.binding.gridpaldevicemanager.manager.ConfigManager.java">src/main/java/org/openhab/binding/gridpaldevicemanager/manager/ConfigManager.java</a>
+                </td>
+                <td>
+                  3
+                </td>
+                <td>
+                  1
+                </td>
+                <td>
+                  2
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="${project.url}/checkstyle.html#src.main.java.org.openhab.binding.gridpaldevicemanager.device.wmbus.WMBusConfigManager.java">src/main/java/org/openhab/binding/gridpaldevicemanager/device/wmbus/WMBusConfigManager.java</a>
+                </td>
+                <td>
+                  7
+                </td>
+                <td>
+                  1
+                </td>
+                <td>
+                  2
+                </td>
+              </tr>
+                      </tbody>
+        </table>
+        
+      </description>
+    </item>
+  </channel>
+</rss>
+

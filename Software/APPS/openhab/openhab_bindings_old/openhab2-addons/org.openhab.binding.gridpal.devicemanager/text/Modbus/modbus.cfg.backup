@@ -1,0 +1,85 @@
+tcp.pqr_slave_0.name=PQR Slave
+tcp.pqr_slave_0.connection=192.168.1.0:8080:8:even:1:rtu:1000:5000
+tcp.pqr_slave_0.id=1
+tcp.pqr_slave_0.manufacturar=PQR Slaver
+tcp.pqr_slave_0.type=holding
+tcp.pqr_slave_0.devicetype=modbus
+tcp.pqr_slave_0.valuetype=int16
+tcp.pqr_slave_0.multiply=0.1
+tcp.pqr_slave_0.unit=Ohm
+tcp.pqr_slave_0.start=32
+tcp.pqr_slave_0.length=100
+tcp.pqr_slave_0.description=L1 Register
+
+
+serial.abba_electronic_device_0.name=Abba Electronic & Device
+serial.abba_electronic_device_0.connection=/dev/ttyUSB0:9600:8:none:1:rtu:1000:5000
+serial.abba_electronic_device_0.id=1000
+serial.abba_electronic_device_0.manufacturar=Abba Industry
+serial.abba_electronic_device_0.type=mega-holding
+serial.abba_electronic_device_0.devicetype=modbus
+serial.abba_electronic_device_0.valuetype=uint16
+serial.abba_electronic_device_0.multiply=0.1
+serial.abba_electronic_device_0.unit=Ohm
+serial.abba_electronic_device_0.start=23340
+serial.abba_electronic_device_0.length=10
+serial.abba_electronic_device_0.description=L2 Register
+
+
+serial.abba_electronic_device_1.name=Abba Electronic & Device
+serial.abba_electronic_device_1.connection=/dev/ttyUSB0:9600:8:none:1:rtu:1000:5000
+serial.abba_electronic_device_1.id=1000
+serial.abba_electronic_device_1.manufacturar=Abba Industry
+serial.abba_electronic_device_1.type=mega-holding
+serial.abba_electronic_device_1.devicetype=modbus
+serial.abba_electronic_device_1.valuetype=int32
+serial.abba_electronic_device_1.multiply=0.1
+serial.abba_electronic_device_1.unit=Ohm
+serial.abba_electronic_device_1.start=10000
+serial.abba_electronic_device_1.length=80
+serial.abba_electronic_device_1.description=L3 Register
+
+
+serial.super_limitless_worker_0.name=Super_Limitless_Worker
+serial.super_limitless_worker_0.connection=/dev/ttyUSB1:19200:8:even:1:rtu:1000:5000
+serial.super_limitless_worker_0.id=1
+serial.super_limitless_worker_0.manufacturar=Super_Technology
+serial.super_limitless_worker_0.type=holding
+serial.super_limitless_worker_0.devicetype=modbus
+serial.super_limitless_worker_0.valuetype=int16
+serial.super_limitless_worker_0.multiply=0.1
+serial.super_limitless_worker_0.unit=Ohm
+serial.super_limitless_worker_0.start=32
+serial.super_limitless_worker_0.length=100
+serial.super_limitless_worker_0.description=L4 Register
+
+
+serial.abba_electronic_device_2_0.name=Abba Electronic & Device 2
+serial.abba_electronic_device_2_0.connection=/dev/ttyUSB0:9600:8:none:1:rtu:1000:5000
+serial.abba_electronic_device_2_0.id=1
+serial.abba_electronic_device_2_0.manufacturar=Abba Industry
+serial.abba_electronic_device_2_0.type=holding
+serial.abba_electronic_device_2_0.devicetype=modbus
+serial.abba_electronic_device_2_0.valuetype=uint16
+serial.abba_electronic_device_2_0.multiply=0.1
+serial.abba_electronic_device_2_0.unit=Ohm
+serial.abba_electronic_device_2_0.start=23340
+serial.abba_electronic_device_2_0.length=10
+serial.abba_electronic_device_2_0.description=L2 Register
+
+
+serial.abba_electronic_device_2_1.name=Abba Electronic & Device 2
+serial.abba_electronic_device_2_1.connection=/dev/ttyUSB0:9600:8:none:1:rtu:1000:5000
+serial.abba_electronic_device_2_1.id=1
+serial.abba_electronic_device_2_1.manufacturar=Abba Industry
+serial.abba_electronic_device_2_1.type=holding
+serial.abba_electronic_device_2_1.devicetype=modbus
+serial.abba_electronic_device_2_1.valuetype=int32
+serial.abba_electronic_device_2_1.multiply=0.1
+serial.abba_electronic_device_2_1.unit=Ohm
+serial.abba_electronic_device_2_1.start=10000
+serial.abba_electronic_device_2_1.length=80
+serial.abba_electronic_device_2_1.description=L3 Register
+
+
+poll=200

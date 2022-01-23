@@ -1,0 +1,17 @@
+<div class="panel panel-default">
+  <div class="panel-heading">Data Viewer
+    <p class="pull-right">Showing {{sInt}} out of {{dataPoints}} </p>
+  </div>
+  <table class="table table-striped">
+    <tr>
+      <th>Index</th>
+      <th>Time Stamp</th>
+      <th>Data</th>
+    </tr>
+    <tr *ngFor="let data of tableData | slice:0:sInt; let i = index">
+      <td>{{i+1}}</td>
+      <td>{{data.time | date: 'medium'}}</td>
+      <td>{{data.state}}</td>
+    </tr>
+  </table>
+</div>

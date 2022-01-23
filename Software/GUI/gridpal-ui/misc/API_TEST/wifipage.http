@@ -1,0 +1,49 @@
+GET http://localhost:8080/rest/wireless/status
+
+###
+
+GET http://localhost:8080/rest/wireless/list
+
+
+###
+
+POST http://localhost:8080/rest/wireless/connect
+Content-Type: application/json
+
+{
+  "ssid": "APL-EXT",
+  "password": "root1234"
+}
+
+###
+
+POST http://localhost:8080/rest/wireless/connect
+Content-Type: application/json
+
+{
+  "ssid": "APL-EXT",
+  "password": "1234"
+}
+
+###
+
+POST http://localhost:8080/rest/wireless/connect
+Content-Type: application/json
+
+{
+  "ssid": "APL-EXT"
+}
+
+###
+
+GET http://localhost:8080/rest/wireless/disconnect
+
+
+###
+
+POST http://localhost:8080/rest/wireless/delete
+Content-Type: application/json
+
+{
+  "name": "APL-EXT"
+}

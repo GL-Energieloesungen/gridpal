@@ -1,0 +1,2 @@
+Number meter_1__L1_to_N_Voltage "[MULTIPLY(0.100):%s Volt]"  (meter_1)  {modbus="meter_1_0:0"}
+Number meter_1__L2_to_N_Voltage "[MULTIPLY(0.100):%s Volt]"  (meter_1)  {modbus="meter_1_1:0"}

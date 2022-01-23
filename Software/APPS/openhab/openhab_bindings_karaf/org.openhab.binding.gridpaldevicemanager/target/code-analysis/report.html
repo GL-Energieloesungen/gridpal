@@ -1,0 +1,4278 @@
+<html xmlns:uml="http://www.eclipse.org/uml2/2.0.0/UML" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:fn="http://www.w3.org/2005/xpath-functions">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+      <title>Analysis Report</title><style type="text/css">
+					body {margin-left: 3%; font-size:10pt;font-family:Arial;color:#000000 ; }					
+					table.details tr th {font-size:10pt;font-family:Arial;font-weight:bold;background:#AC58FA}
+					table.details tr {font-size:10pt;font-family:Arial;font-weight:normal;background:#BEa1Fa}
+					table tbody	tr.alternate {background:#BAF4A7;}
+					table tbody tr.dark {background:#F4F4A7;}
+				</style></head>
+   <body>
+      <h2>Report
+         					 
+         					(2019-03-26+01:00;
+         					 14:07:28.32+01:00)
+         				
+      </h2>
+      <h3>Summary Messages</h3>
+      <table width="90%" border="0" class="details">
+         <tr>
+            <th align="left">category</th>
+            <th align="left">tool</th>
+            <th align="left">priority</th>
+            <th align="left">rule</th>
+            <th align="left">count</th>
+         </tr>
+         <tr>
+            <td colspan="5">design</td>
+         </tr>
+         <tr class="alternate">
+            <td></td>
+            <td>pmd</td>
+            <td align="left">3</td>
+            <td> <a href="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/design.html#NonThreadSafeSingleton">NonThreadSafeSingleton</a></td>
+            <td align="center">1</td>
+         </tr>
+         <tr class="alternate">
+            <td></td>
+            <td>pmd</td>
+            <td align="left">3</td>
+            <td> <a href="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/design.html#UnsynchronizedStaticDateFormatter">UnsynchronizedStaticDateFormatter</a></td>
+            <td align="center">3</td>
+         </tr>
+         <tr>
+            <td colspan="5">empty code</td>
+         </tr>
+         <tr class="alternate">
+            <td></td>
+            <td>pmd</td>
+            <td align="left">3</td>
+            <td> <a href="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/empty.html#EmptyIfStmt">EmptyIfStmt</a></td>
+            <td align="center">4</td>
+         </tr>
+         <tr>
+            <td colspan="5">java logging</td>
+         </tr>
+         <tr class="alternate">
+            <td></td>
+            <td>pmd</td>
+            <td align="left">1</td>
+            <td> <a href="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/logging-java.html#AvoidPrintStackTrace">AvoidPrintStackTrace</a></td>
+            <td align="center">52</td>
+         </tr>
+         <tr>
+            <td colspan="5">strict exceptions</td>
+         </tr>
+         <tr class="alternate">
+            <td></td>
+            <td>pmd</td>
+            <td align="left">2</td>
+            <td> <a href="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/strictexception.html#AvoidCatchingNPE">AvoidCatchingNPE</a></td>
+            <td align="center">2</td>
+         </tr>
+         <tr>
+            <td colspan="5">style</td>
+         </tr>
+         <tr class="alternate">
+            <td></td>
+            <td>checkstyle</td>
+            <td align="left">1</td>
+            <td>PackageExportsNameCheck</td>
+            <td align="center">9</td>
+         </tr>
+         <tr class="alternate">
+            <td></td>
+            <td>checkstyle</td>
+            <td align="left">1</td>
+            <td>ParameterizedRegexpHeaderCheck</td>
+            <td align="center">36</td>
+         </tr>
+         <tr class="alternate">
+            <td></td>
+            <td>checkstyle</td>
+            <td align="left">1</td>
+            <td>AuthorTagCheck</td>
+            <td align="center">36</td>
+         </tr>
+         <tr class="alternate">
+            <td></td>
+            <td>checkstyle</td>
+            <td align="left">2</td>
+            <td>JavadocFilterCheck</td>
+            <td align="center">36</td>
+         </tr>
+         <tr class="alternate">
+            <td></td>
+            <td>checkstyle</td>
+            <td align="left">3</td>
+            <td>MethodNameCheck</td>
+            <td align="center">129</td>
+         </tr>
+         <tr class="alternate">
+            <td></td>
+            <td>checkstyle</td>
+            <td align="left">3</td>
+            <td>ConstantNameCheck</td>
+            <td align="center">35</td>
+         </tr>
+         <tr class="alternate">
+            <td></td>
+            <td>checkstyle</td>
+            <td align="left">3</td>
+            <td>NoEmptyLineSeparatorCheck</td>
+            <td align="center">20</td>
+         </tr>
+         <tr class="alternate">
+            <td></td>
+            <td>checkstyle</td>
+            <td align="left">3</td>
+            <td>LocalVariableNameCheck</td>
+            <td align="center">12</td>
+         </tr>
+         <tr class="dark">
+            <td colspan="4"></td>
+            <td align="center">375</td>
+         </tr>
+      </table>
+      <p></p>
+      <h3>Summary Files</h3>
+      <table width="90%" border="0" class="details">
+         <tr>
+            <th align="left" width="90pt">class file</th>
+            <th align="center" width="90pt">high</th>
+            <th align="center" width="90pt">medium</th>
+            <th align="center" width="90pt">low</th>
+            <th align="center" width="90pt">total</th>
+         </tr>
+         <tr class="alternate">
+            <td><a href="#.binding.gridpaldevicemanager/META-INF/MANIFEST.MF" title=".binding.gridpaldevicemanager/META-INF/MANIFEST.MF">.binding.gridpaldevicemanager/META-INF/MANIFEST.MF</a></td>
+            <td align="center">
+               <div class="p1">9</div>
+            </td>
+            <td align="center">
+               <div class="p2">0</div>
+            </td>
+            <td align="center">
+               <div class="p3">0</div>
+            </td>
+            <td align="center">
+               <div class="p3">9</div>
+            </td>
+         </tr>
+         <tr class="alternate">
+            <td><a href="#org.openhab.binding.gridpaldevicemanager.device.AbstractConfigParser.java" title="org.openhab.binding.gridpaldevicemanager.device.AbstractConfigParser.java">org.openhab.binding.gridpaldevicemanager.device.AbstractConfigParser.java</a></td>
+            <td align="center">
+               <div class="p1">2</div>
+            </td>
+            <td align="center">
+               <div class="p2">1</div>
+            </td>
+            <td align="center">
+               <div class="p3">4</div>
+            </td>
+            <td align="center">
+               <div class="p3">7</div>
+            </td>
+         </tr>
+         <tr class="alternate">
+            <td><a href="#org.openhab.binding.gridpaldevicemanager.device.knx.KnxConfigKey.java" title="org.openhab.binding.gridpaldevicemanager.device.knx.KnxConfigKey.java">org.openhab.binding.gridpaldevicemanager.device.knx.KnxConfigKey.java</a></td>
+            <td align="center">
+               <div class="p1">2</div>
+            </td>
+            <td align="center">
+               <div class="p2">1</div>
+            </td>
+            <td align="center">
+               <div class="p3">0</div>
+            </td>
+            <td align="center">
+               <div class="p3">3</div>
+            </td>
+         </tr>
+         <tr class="alternate">
+            <td><a href="#org.openhab.binding.gridpaldevicemanager.device.knx.KnxConfigManager.java" title="org.openhab.binding.gridpaldevicemanager.device.knx.KnxConfigManager.java">org.openhab.binding.gridpaldevicemanager.device.knx.KnxConfigManager.java</a></td>
+            <td align="center">
+               <div class="p1">6</div>
+            </td>
+            <td align="center">
+               <div class="p2">1</div>
+            </td>
+            <td align="center">
+               <div class="p3">7</div>
+            </td>
+            <td align="center">
+               <div class="p3">14</div>
+            </td>
+         </tr>
+         <tr class="alternate">
+            <td><a href="#org.openhab.binding.gridpaldevicemanager.device.knx.KnxConfigParser.java" title="org.openhab.binding.gridpaldevicemanager.device.knx.KnxConfigParser.java">org.openhab.binding.gridpaldevicemanager.device.knx.KnxConfigParser.java</a></td>
+            <td align="center">
+               <div class="p1">2</div>
+            </td>
+            <td align="center">
+               <div class="p2">1</div>
+            </td>
+            <td align="center">
+               <div class="p3">8</div>
+            </td>
+            <td align="center">
+               <div class="p3">11</div>
+            </td>
+         </tr>
+         <tr class="alternate">
+            <td><a href="#org.openhab.binding.gridpaldevicemanager.device.knx.KnxConstants.java" title="org.openhab.binding.gridpaldevicemanager.device.knx.KnxConstants.java">org.openhab.binding.gridpaldevicemanager.device.knx.KnxConstants.java</a></td>
+            <td align="center">
+               <div class="p1">2</div>
+            </td>
+            <td align="center">
+               <div class="p2">1</div>
+            </td>
+            <td align="center">
+               <div class="p3">2</div>
+            </td>
+            <td align="center">
+               <div class="p3">5</div>
+            </td>
+         </tr>
+         <tr class="alternate">
+            <td><a href="#org.openhab.binding.gridpaldevicemanager.device.knx.KnxItem.java" title="org.openhab.binding.gridpaldevicemanager.device.knx.KnxItem.java">org.openhab.binding.gridpaldevicemanager.device.knx.KnxItem.java</a></td>
+            <td align="center">
+               <div class="p1">2</div>
+            </td>
+            <td align="center">
+               <div class="p2">1</div>
+            </td>
+            <td align="center">
+               <div class="p3">1</div>
+            </td>
+            <td align="center">
+               <div class="p3">4</div>
+            </td>
+         </tr>
+         <tr class="alternate">
+            <td><a href="#org.openhab.binding.gridpaldevicemanager.device.knx.KnxItemsParser.java" title="org.openhab.binding.gridpaldevicemanager.device.knx.KnxItemsParser.java">org.openhab.binding.gridpaldevicemanager.device.knx.KnxItemsParser.java</a></td>
+            <td align="center">
+               <div class="p1">2</div>
+            </td>
+            <td align="center">
+               <div class="p2">1</div>
+            </td>
+            <td align="center">
+               <div class="p3">5</div>
+            </td>
+            <td align="center">
+               <div class="p3">8</div>
+            </td>
+         </tr>
+         <tr class="alternate">
+            <td><a href="#org.openhab.binding.gridpaldevicemanager.device.knx.KnxManager.java" title="org.openhab.binding.gridpaldevicemanager.device.knx.KnxManager.java">org.openhab.binding.gridpaldevicemanager.device.knx.KnxManager.java</a></td>
+            <td align="center">
+               <div class="p1">6</div>
+            </td>
+            <td align="center">
+               <div class="p2">1</div>
+            </td>
+            <td align="center">
+               <div class="p3">6</div>
+            </td>
+            <td align="center">
+               <div class="p3">13</div>
+            </td>
+         </tr>
+         <tr class="alternate">
+            <td><a href="#org.openhab.binding.gridpaldevicemanager.device.mbus.MBusConfigKey.java" title="org.openhab.binding.gridpaldevicemanager.device.mbus.MBusConfigKey.java">org.openhab.binding.gridpaldevicemanager.device.mbus.MBusConfigKey.java</a></td>
+            <td align="center">
+               <div class="p1">2</div>
+            </td>
+            <td align="center">
+               <div class="p2">1</div>
+            </td>
+            <td align="center">
+               <div class="p3">0</div>
+            </td>
+            <td align="center">
+               <div class="p3">3</div>
+            </td>
+         </tr>
+         <tr class="alternate">
+            <td><a href="#org.openhab.binding.gridpaldevicemanager.device.mbus.MBusConfigManager.java" title="org.openhab.binding.gridpaldevicemanager.device.mbus.MBusConfigManager.java">org.openhab.binding.gridpaldevicemanager.device.mbus.MBusConfigManager.java</a></td>
+            <td align="center">
+               <div class="p1">6</div>
+            </td>
+            <td align="center">
+               <div class="p2">1</div>
+            </td>
+            <td align="center">
+               <div class="p3">7</div>
+            </td>
+            <td align="center">
+               <div class="p3">14</div>
+            </td>
+         </tr>
+         <tr class="alternate">
+            <td><a href="#org.openhab.binding.gridpaldevicemanager.device.mbus.MBusConfigParser.java" title="org.openhab.binding.gridpaldevicemanager.device.mbus.MBusConfigParser.java">org.openhab.binding.gridpaldevicemanager.device.mbus.MBusConfigParser.java</a></td>
+            <td align="center">
+               <div class="p1">2</div>
+            </td>
+            <td align="center">
+               <div class="p2">1</div>
+            </td>
+            <td align="center">
+               <div class="p3">29</div>
+            </td>
+            <td align="center">
+               <div class="p3">32</div>
+            </td>
+         </tr>
+         <tr class="alternate">
+            <td><a href="#org.openhab.binding.gridpaldevicemanager.device.mbus.MBusConstants.java" title="org.openhab.binding.gridpaldevicemanager.device.mbus.MBusConstants.java">org.openhab.binding.gridpaldevicemanager.device.mbus.MBusConstants.java</a></td>
+            <td align="center">
+               <div class="p1">2</div>
+            </td>
+            <td align="center">
+               <div class="p2">1</div>
+            </td>
+            <td align="center">
+               <div class="p3">2</div>
+            </td>
+            <td align="center">
+               <div class="p3">5</div>
+            </td>
+         </tr>
+         <tr class="alternate">
+            <td><a href="#org.openhab.binding.gridpaldevicemanager.device.mbus.MBusItemsParser.java" title="org.openhab.binding.gridpaldevicemanager.device.mbus.MBusItemsParser.java">org.openhab.binding.gridpaldevicemanager.device.mbus.MBusItemsParser.java</a></td>
+            <td align="center">
+               <div class="p1">2</div>
+            </td>
+            <td align="center">
+               <div class="p2">1</div>
+            </td>
+            <td align="center">
+               <div class="p3">0</div>
+            </td>
+            <td align="center">
+               <div class="p3">3</div>
+            </td>
+         </tr>
+         <tr class="alternate">
+            <td><a href="#org.openhab.binding.gridpaldevicemanager.device.mbus.MBusManager.java" title="org.openhab.binding.gridpaldevicemanager.device.mbus.MBusManager.java">org.openhab.binding.gridpaldevicemanager.device.mbus.MBusManager.java</a></td>
+            <td align="center">
+               <div class="p1">6</div>
+            </td>
+            <td align="center">
+               <div class="p2">1</div>
+            </td>
+            <td align="center">
+               <div class="p3">6</div>
+            </td>
+            <td align="center">
+               <div class="p3">13</div>
+            </td>
+         </tr>
+         <tr class="alternate">
+            <td><a href="#org.openhab.binding.gridpaldevicemanager.device.modbus.ModbusConfigKey.java" title="org.openhab.binding.gridpaldevicemanager.device.modbus.ModbusConfigKey.java">org.openhab.binding.gridpaldevicemanager.device.modbus.ModbusConfigKey.java</a></td>
+            <td align="center">
+               <div class="p1">2</div>
+            </td>
+            <td align="center">
+               <div class="p2">1</div>
+            </td>
+            <td align="center">
+               <div class="p3">0</div>
+            </td>
+            <td align="center">
+               <div class="p3">3</div>
+            </td>
+         </tr>
+         <tr class="alternate">
+            <td><a href="#org.openhab.binding.gridpaldevicemanager.device.modbus.ModbusConfigManager.java" title="org.openhab.binding.gridpaldevicemanager.device.modbus.ModbusConfigManager.java">org.openhab.binding.gridpaldevicemanager.device.modbus.ModbusConfigManager.java</a></td>
+            <td align="center">
+               <div class="p1">6</div>
+            </td>
+            <td align="center">
+               <div class="p2">1</div>
+            </td>
+            <td align="center">
+               <div class="p3">8</div>
+            </td>
+            <td align="center">
+               <div class="p3">15</div>
+            </td>
+         </tr>
+         <tr class="alternate">
+            <td><a href="#org.openhab.binding.gridpaldevicemanager.device.modbus.ModbusConfigParser.java" title="org.openhab.binding.gridpaldevicemanager.device.modbus.ModbusConfigParser.java">org.openhab.binding.gridpaldevicemanager.device.modbus.ModbusConfigParser.java</a></td>
+            <td align="center">
+               <div class="p1">2</div>
+            </td>
+            <td align="center">
+               <div class="p2">1</div>
+            </td>
+            <td align="center">
+               <div class="p3">31</div>
+            </td>
+            <td align="center">
+               <div class="p3">34</div>
+            </td>
+         </tr>
+         <tr class="alternate">
+            <td><a href="#org.openhab.binding.gridpaldevicemanager.device.modbus.ModbusConstants.java" title="org.openhab.binding.gridpaldevicemanager.device.modbus.ModbusConstants.java">org.openhab.binding.gridpaldevicemanager.device.modbus.ModbusConstants.java</a></td>
+            <td align="center">
+               <div class="p1">2</div>
+            </td>
+            <td align="center">
+               <div class="p2">1</div>
+            </td>
+            <td align="center">
+               <div class="p3">2</div>
+            </td>
+            <td align="center">
+               <div class="p3">5</div>
+            </td>
+         </tr>
+         <tr class="alternate">
+            <td><a href="#org.openhab.binding.gridpaldevicemanager.device.modbus.ModbusItem.java" title="org.openhab.binding.gridpaldevicemanager.device.modbus.ModbusItem.java">org.openhab.binding.gridpaldevicemanager.device.modbus.ModbusItem.java</a></td>
+            <td align="center">
+               <div class="p1">2</div>
+            </td>
+            <td align="center">
+               <div class="p2">1</div>
+            </td>
+            <td align="center">
+               <div class="p3">1</div>
+            </td>
+            <td align="center">
+               <div class="p3">4</div>
+            </td>
+         </tr>
+         <tr class="alternate">
+            <td><a href="#org.openhab.binding.gridpaldevicemanager.device.modbus.ModbusItemsParser.java" title="org.openhab.binding.gridpaldevicemanager.device.modbus.ModbusItemsParser.java">org.openhab.binding.gridpaldevicemanager.device.modbus.ModbusItemsParser.java</a></td>
+            <td align="center">
+               <div class="p1">2</div>
+            </td>
+            <td align="center">
+               <div class="p2">1</div>
+            </td>
+            <td align="center">
+               <div class="p3">0</div>
+            </td>
+            <td align="center">
+               <div class="p3">3</div>
+            </td>
+         </tr>
+         <tr class="alternate">
+            <td><a href="#org.openhab.binding.gridpaldevicemanager.device.modbus.ModbusManager.java" title="org.openhab.binding.gridpaldevicemanager.device.modbus.ModbusManager.java">org.openhab.binding.gridpaldevicemanager.device.modbus.ModbusManager.java</a></td>
+            <td align="center">
+               <div class="p1">6</div>
+            </td>
+            <td align="center">
+               <div class="p2">1</div>
+            </td>
+            <td align="center">
+               <div class="p3">6</div>
+            </td>
+            <td align="center">
+               <div class="p3">13</div>
+            </td>
+         </tr>
+         <tr class="alternate">
+            <td><a href="#org.openhab.binding.gridpaldevicemanager.device.utils.Utility.java" title="org.openhab.binding.gridpaldevicemanager.device.utils.Utility.java">org.openhab.binding.gridpaldevicemanager.device.utils.Utility.java</a></td>
+            <td align="center">
+               <div class="p1">5</div>
+            </td>
+            <td align="center">
+               <div class="p2">1</div>
+            </td>
+            <td align="center">
+               <div class="p3">5</div>
+            </td>
+            <td align="center">
+               <div class="p3">11</div>
+            </td>
+         </tr>
+         <tr class="alternate">
+            <td><a href="#org.openhab.binding.gridpaldevicemanager.device.wmbus.WMBusConfigKey.java" title="org.openhab.binding.gridpaldevicemanager.device.wmbus.WMBusConfigKey.java">org.openhab.binding.gridpaldevicemanager.device.wmbus.WMBusConfigKey.java</a></td>
+            <td align="center">
+               <div class="p1">2</div>
+            </td>
+            <td align="center">
+               <div class="p2">1</div>
+            </td>
+            <td align="center">
+               <div class="p3">0</div>
+            </td>
+            <td align="center">
+               <div class="p3">3</div>
+            </td>
+         </tr>
+         <tr class="alternate">
+            <td><a href="#org.openhab.binding.gridpaldevicemanager.device.wmbus.WMBusConfigManager.java" title="org.openhab.binding.gridpaldevicemanager.device.wmbus.WMBusConfigManager.java">org.openhab.binding.gridpaldevicemanager.device.wmbus.WMBusConfigManager.java</a></td>
+            <td align="center">
+               <div class="p1">6</div>
+            </td>
+            <td align="center">
+               <div class="p2">1</div>
+            </td>
+            <td align="center">
+               <div class="p3">7</div>
+            </td>
+            <td align="center">
+               <div class="p3">14</div>
+            </td>
+         </tr>
+         <tr class="alternate">
+            <td><a href="#org.openhab.binding.gridpaldevicemanager.device.wmbus.WMBusConfigParser.java" title="org.openhab.binding.gridpaldevicemanager.device.wmbus.WMBusConfigParser.java">org.openhab.binding.gridpaldevicemanager.device.wmbus.WMBusConfigParser.java</a></td>
+            <td align="center">
+               <div class="p1">2</div>
+            </td>
+            <td align="center">
+               <div class="p2">1</div>
+            </td>
+            <td align="center">
+               <div class="p3">8</div>
+            </td>
+            <td align="center">
+               <div class="p3">11</div>
+            </td>
+         </tr>
+         <tr class="alternate">
+            <td><a href="#org.openhab.binding.gridpaldevicemanager.device.wmbus.WMBusConstants.java" title="org.openhab.binding.gridpaldevicemanager.device.wmbus.WMBusConstants.java">org.openhab.binding.gridpaldevicemanager.device.wmbus.WMBusConstants.java</a></td>
+            <td align="center">
+               <div class="p1">2</div>
+            </td>
+            <td align="center">
+               <div class="p2">1</div>
+            </td>
+            <td align="center">
+               <div class="p3">2</div>
+            </td>
+            <td align="center">
+               <div class="p3">5</div>
+            </td>
+         </tr>
+         <tr class="alternate">
+            <td><a href="#org.openhab.binding.gridpaldevicemanager.device.wmbus.WMBusItemsParser.java" title="org.openhab.binding.gridpaldevicemanager.device.wmbus.WMBusItemsParser.java">org.openhab.binding.gridpaldevicemanager.device.wmbus.WMBusItemsParser.java</a></td>
+            <td align="center">
+               <div class="p1">2</div>
+            </td>
+            <td align="center">
+               <div class="p2">1</div>
+            </td>
+            <td align="center">
+               <div class="p3">0</div>
+            </td>
+            <td align="center">
+               <div class="p3">3</div>
+            </td>
+         </tr>
+         <tr class="alternate">
+            <td><a href="#org.openhab.binding.gridpaldevicemanager.device.wmbus.WMBusManager.java" title="org.openhab.binding.gridpaldevicemanager.device.wmbus.WMBusManager.java">org.openhab.binding.gridpaldevicemanager.device.wmbus.WMBusManager.java</a></td>
+            <td align="center">
+               <div class="p1">6</div>
+            </td>
+            <td align="center">
+               <div class="p2">1</div>
+            </td>
+            <td align="center">
+               <div class="p3">6</div>
+            </td>
+            <td align="center">
+               <div class="p3">13</div>
+            </td>
+         </tr>
+         <tr class="alternate">
+            <td><a href="#org.openhab.binding.gridpaldevicemanager.item.Item.java" title="org.openhab.binding.gridpaldevicemanager.item.Item.java">org.openhab.binding.gridpaldevicemanager.item.Item.java</a></td>
+            <td align="center">
+               <div class="p1">2</div>
+            </td>
+            <td align="center">
+               <div class="p2">1</div>
+            </td>
+            <td align="center">
+               <div class="p3">1</div>
+            </td>
+            <td align="center">
+               <div class="p3">4</div>
+            </td>
+         </tr>
+         <tr class="alternate">
+            <td><a href="#org.openhab.binding.gridpaldevicemanager.item.ItemManager.java" title="org.openhab.binding.gridpaldevicemanager.item.ItemManager.java">org.openhab.binding.gridpaldevicemanager.item.ItemManager.java</a></td>
+            <td align="center">
+               <div class="p1">3</div>
+            </td>
+            <td align="center">
+               <div class="p2">1</div>
+            </td>
+            <td align="center">
+               <div class="p3">2</div>
+            </td>
+            <td align="center">
+               <div class="p3">6</div>
+            </td>
+         </tr>
+         <tr class="alternate">
+            <td><a href="#org.openhab.binding.gridpaldevicemanager.item.ItemsParser.java" title="org.openhab.binding.gridpaldevicemanager.item.ItemsParser.java">org.openhab.binding.gridpaldevicemanager.item.ItemsParser.java</a></td>
+            <td align="center">
+               <div class="p1">2</div>
+            </td>
+            <td align="center">
+               <div class="p2">1</div>
+            </td>
+            <td align="center">
+               <div class="p3">12</div>
+            </td>
+            <td align="center">
+               <div class="p3">15</div>
+            </td>
+         </tr>
+         <tr class="alternate">
+            <td><a href="#org.openhab.binding.gridpaldevicemanager.manager.ConfigManager.java" title="org.openhab.binding.gridpaldevicemanager.manager.ConfigManager.java">org.openhab.binding.gridpaldevicemanager.manager.ConfigManager.java</a></td>
+            <td align="center">
+               <div class="p1">4</div>
+            </td>
+            <td align="center">
+               <div class="p2">1</div>
+            </td>
+            <td align="center">
+               <div class="p3">4</div>
+            </td>
+            <td align="center">
+               <div class="p3">9</div>
+            </td>
+         </tr>
+         <tr class="alternate">
+            <td><a href="#org.openhab.binding.gridpaldevicemanager.manager.DeviceManager.java" title="org.openhab.binding.gridpaldevicemanager.manager.DeviceManager.java">org.openhab.binding.gridpaldevicemanager.manager.DeviceManager.java</a></td>
+            <td align="center">
+               <div class="p1">3</div>
+            </td>
+            <td align="center">
+               <div class="p2">1</div>
+            </td>
+            <td align="center">
+               <div class="p3">7</div>
+            </td>
+            <td align="center">
+               <div class="p3">11</div>
+            </td>
+         </tr>
+         <tr class="alternate">
+            <td><a href="#org.openhab.binding.gridpaldevicemanager.manager.ExportManager.java" title="org.openhab.binding.gridpaldevicemanager.manager.ExportManager.java">org.openhab.binding.gridpaldevicemanager.manager.ExportManager.java</a></td>
+            <td align="center">
+               <div class="p1">7</div>
+            </td>
+            <td align="center">
+               <div class="p2">1</div>
+            </td>
+            <td align="center">
+               <div class="p3">17</div>
+            </td>
+            <td align="center">
+               <div class="p3">25</div>
+            </td>
+         </tr>
+         <tr class="alternate">
+            <td><a href="#org.openhab.binding.gridpaldevicemanager.rest.ConfigResources.java" title="org.openhab.binding.gridpaldevicemanager.rest.ConfigResources.java">org.openhab.binding.gridpaldevicemanager.rest.ConfigResources.java</a></td>
+            <td align="center">
+               <div class="p1">3</div>
+            </td>
+            <td align="center">
+               <div class="p2">1</div>
+            </td>
+            <td align="center">
+               <div class="p3">1</div>
+            </td>
+            <td align="center">
+               <div class="p3">5</div>
+            </td>
+         </tr>
+         <tr class="alternate">
+            <td><a href="#org.openhab.binding.gridpaldevicemanager.rest.DeviceResources.java" title="org.openhab.binding.gridpaldevicemanager.rest.DeviceResources.java">org.openhab.binding.gridpaldevicemanager.rest.DeviceResources.java</a></td>
+            <td align="center">
+               <div class="p1">9</div>
+            </td>
+            <td align="center">
+               <div class="p2">3</div>
+            </td>
+            <td align="center">
+               <div class="p3">7</div>
+            </td>
+            <td align="center">
+               <div class="p3">19</div>
+            </td>
+         </tr>
+         <tr class="dark">
+            <td></td>
+            <td align="center">
+               <div class="p1">133</div>
+            </td>
+            <td align="center">
+               <div class="p2">38</div>
+            </td>
+            <td align="center">
+               <div class="p3">204</div>
+            </td>
+            <td align="center">
+               <div class="p3">375</div>
+            </td>
+         </tr>
+      </table>
+      <p></p>
+      <h3>Details by Class</h3>
+      <table width="90%" border="0" class="details">
+         <th align="left" colspan="6"><a name=".binding.gridpaldevicemanager/META-INF/MANIFEST.MF">.binding.gridpaldevicemanager/META-INF/MANIFEST.MF</a></th>
+         <tr>
+            <th align="left" width="80pt">tool</th>
+            <th align="left" width="50pt">priority</th>
+            <th align="left" width="30pt">line</th>
+            <th align="left" width="80pt">category</th>
+            <th align="left" width="380pt">rule</th>
+            <th align="left">message</th>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>1</td>
+            <td>0</td>
+            <td>style</td>
+            <td>PackageExportsNameCheck</td>
+            <td>The package org.openhab.binding.gridpaldevicemanager.device should be marked as "internal" if it is not exported.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>1</td>
+            <td>0</td>
+            <td>style</td>
+            <td>PackageExportsNameCheck</td>
+            <td>The package org.openhab.binding.gridpaldevicemanager.device.knx should be marked as "internal" if it is not exported.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>1</td>
+            <td>0</td>
+            <td>style</td>
+            <td>PackageExportsNameCheck</td>
+            <td>The package org.openhab.binding.gridpaldevicemanager.device.mbus should be marked as "internal" if it is not exported.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>1</td>
+            <td>0</td>
+            <td>style</td>
+            <td>PackageExportsNameCheck</td>
+            <td>The package org.openhab.binding.gridpaldevicemanager.device.modbus should be marked as "internal" if it is not exported.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>1</td>
+            <td>0</td>
+            <td>style</td>
+            <td>PackageExportsNameCheck</td>
+            <td>The package org.openhab.binding.gridpaldevicemanager.device.utils should be marked as "internal" if it is not exported.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>1</td>
+            <td>0</td>
+            <td>style</td>
+            <td>PackageExportsNameCheck</td>
+            <td>The package org.openhab.binding.gridpaldevicemanager.device.wmbus should be marked as "internal" if it is not exported.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>1</td>
+            <td>0</td>
+            <td>style</td>
+            <td>PackageExportsNameCheck</td>
+            <td>The package org.openhab.binding.gridpaldevicemanager.item should be marked as "internal" if it is not exported.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>1</td>
+            <td>0</td>
+            <td>style</td>
+            <td>PackageExportsNameCheck</td>
+            <td>The package org.openhab.binding.gridpaldevicemanager.manager should be marked as "internal" if it is not exported.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>1</td>
+            <td>0</td>
+            <td>style</td>
+            <td>PackageExportsNameCheck</td>
+            <td>The package org.openhab.binding.gridpaldevicemanager.rest should be marked as "internal" if it is not exported.</td>
+         </tr>
+      </table><br><table width="90%" border="0" class="details">
+         <th align="left" colspan="6"><a name="org.openhab.binding.gridpaldevicemanager.device.AbstractConfigParser.java">org.openhab.binding.gridpaldevicemanager.device.AbstractConfigParser.java</a></th>
+         <tr>
+            <th align="left" width="80pt">tool</th>
+            <th align="left" width="50pt">priority</th>
+            <th align="left" width="30pt">line</th>
+            <th align="left" width="80pt">category</th>
+            <th align="left" width="380pt">rule</th>
+            <th align="left">message</th>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>1</td>
+            <td>1</td>
+            <td>style</td>
+            <td>ParameterizedRegexpHeaderCheck</td>
+            <td>Header is missing</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>1</td>
+            <td>9</td>
+            <td>style</td>
+            <td>AuthorTagCheck</td>
+            <td>An author tag is missing</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>2</td>
+            <td>9</td>
+            <td>style</td>
+            <td>JavadocFilterCheck</td>
+            <td>Missing Javadoc comment.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>10</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'ToJSON' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>12</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'ToConfig' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>14</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'GetValidSlaveName' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>19</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'ParseInterfaceType' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+      </table><br><table width="90%" border="0" class="details">
+         <th align="left" colspan="6"><a name="org.openhab.binding.gridpaldevicemanager.device.knx.KnxConfigKey.java">org.openhab.binding.gridpaldevicemanager.device.knx.KnxConfigKey.java</a></th>
+         <tr>
+            <th align="left" width="80pt">tool</th>
+            <th align="left" width="50pt">priority</th>
+            <th align="left" width="30pt">line</th>
+            <th align="left" width="80pt">category</th>
+            <th align="left" width="380pt">rule</th>
+            <th align="left">message</th>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>1</td>
+            <td>1</td>
+            <td>style</td>
+            <td>ParameterizedRegexpHeaderCheck</td>
+            <td>Header is missing</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>1</td>
+            <td>4</td>
+            <td>style</td>
+            <td>AuthorTagCheck</td>
+            <td>An author tag is missing</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>2</td>
+            <td>4</td>
+            <td>style</td>
+            <td>JavadocFilterCheck</td>
+            <td>Missing Javadoc comment.</td>
+         </tr>
+      </table><br><table width="90%" border="0" class="details">
+         <th align="left" colspan="6"><a name="org.openhab.binding.gridpaldevicemanager.device.knx.KnxConfigManager.java">org.openhab.binding.gridpaldevicemanager.device.knx.KnxConfigManager.java</a></th>
+         <tr>
+            <th align="left" width="80pt">tool</th>
+            <th align="left" width="50pt">priority</th>
+            <th align="left" width="30pt">line</th>
+            <th align="left" width="80pt">category</th>
+            <th align="left" width="380pt">rule</th>
+            <th align="left">message</th>
+         </tr>
+         <tr class="alternate">
+            <td>pmd</td>
+            <td>1</td>
+            <td>68</td>
+            <td>java logging</td>
+            <td>AvoidPrintStackTrace</td>
+            <td>
+               Avoid printStackTrace(); use a logger call instead.
+               
+            </td>
+         </tr>
+         <tr class="alternate">
+            <td>pmd</td>
+            <td>1</td>
+            <td>95</td>
+            <td>java logging</td>
+            <td>AvoidPrintStackTrace</td>
+            <td>
+               Avoid printStackTrace(); use a logger call instead.
+               
+            </td>
+         </tr>
+         <tr class="alternate">
+            <td>pmd</td>
+            <td>1</td>
+            <td>124</td>
+            <td>java logging</td>
+            <td>AvoidPrintStackTrace</td>
+            <td>
+               Avoid printStackTrace(); use a logger call instead.
+               
+            </td>
+         </tr>
+         <tr class="alternate">
+            <td>pmd</td>
+            <td>1</td>
+            <td>141</td>
+            <td>java logging</td>
+            <td>AvoidPrintStackTrace</td>
+            <td>
+               Avoid printStackTrace(); use a logger call instead.
+               
+            </td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>1</td>
+            <td>1</td>
+            <td>style</td>
+            <td>ParameterizedRegexpHeaderCheck</td>
+            <td>Header is missing</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>1</td>
+            <td>13</td>
+            <td>style</td>
+            <td>AuthorTagCheck</td>
+            <td>An author tag is missing</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>2</td>
+            <td>13</td>
+            <td>style</td>
+            <td>JavadocFilterCheck</td>
+            <td>Missing Javadoc comment.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>22</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'GetDevices' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>26</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'GetDevice' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>42</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'UpdateDevice' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>74</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'AddDevice' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>101</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'RemoveDevice' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>130</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'RemoveDevices' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>147</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'GetConfig' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+      </table><br><table width="90%" border="0" class="details">
+         <th align="left" colspan="6"><a name="org.openhab.binding.gridpaldevicemanager.device.knx.KnxConfigParser.java">org.openhab.binding.gridpaldevicemanager.device.knx.KnxConfigParser.java</a></th>
+         <tr>
+            <th align="left" width="80pt">tool</th>
+            <th align="left" width="50pt">priority</th>
+            <th align="left" width="30pt">line</th>
+            <th align="left" width="80pt">category</th>
+            <th align="left" width="380pt">rule</th>
+            <th align="left">message</th>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>1</td>
+            <td>1</td>
+            <td>style</td>
+            <td>ParameterizedRegexpHeaderCheck</td>
+            <td>Header is missing</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>1</td>
+            <td>17</td>
+            <td>style</td>
+            <td>AuthorTagCheck</td>
+            <td>An author tag is missing</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>2</td>
+            <td>17</td>
+            <td>style</td>
+            <td>JavadocFilterCheck</td>
+            <td>Missing Javadoc comment.</td>
+         </tr>
+         <tr class="alternate">
+            <td>pmd</td>
+            <td>3</td>
+            <td>101</td>
+            <td>empty code</td>
+            <td>EmptyIfStmt</td>
+            <td>
+               Avoid empty if statements
+               
+            </td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>57</td>
+            <td>style</td>
+            <td>NoEmptyLineSeparatorCheck</td>
+            <td>Remove empty line after opening brace</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>102</td>
+            <td>style</td>
+            <td>NoEmptyLineSeparatorCheck</td>
+            <td>Remove empty line after opening brace</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>137</td>
+            <td>style</td>
+            <td>NoEmptyLineSeparatorCheck</td>
+            <td>Remove empty line before closing brace</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>140</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'IsValidJsonKey' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>146</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'IsValidConfigKey' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>152</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'Merge' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>153</td>
+            <td>style</td>
+            <td>NoEmptyLineSeparatorCheck</td>
+            <td>Remove empty line after opening brace</td>
+         </tr>
+      </table><br><table width="90%" border="0" class="details">
+         <th align="left" colspan="6"><a name="org.openhab.binding.gridpaldevicemanager.device.knx.KnxConstants.java">org.openhab.binding.gridpaldevicemanager.device.knx.KnxConstants.java</a></th>
+         <tr>
+            <th align="left" width="80pt">tool</th>
+            <th align="left" width="50pt">priority</th>
+            <th align="left" width="30pt">line</th>
+            <th align="left" width="80pt">category</th>
+            <th align="left" width="380pt">rule</th>
+            <th align="left">message</th>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>1</td>
+            <td>1</td>
+            <td>style</td>
+            <td>ParameterizedRegexpHeaderCheck</td>
+            <td>Header is missing</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>1</td>
+            <td>4</td>
+            <td>style</td>
+            <td>AuthorTagCheck</td>
+            <td>An author tag is missing</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>2</td>
+            <td>4</td>
+            <td>style</td>
+            <td>JavadocFilterCheck</td>
+            <td>Missing Javadoc comment.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>6</td>
+            <td>style</td>
+            <td>ConstantNameCheck</td>
+            <td>Name 'configPath' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>7</td>
+            <td>style</td>
+            <td>ConstantNameCheck</td>
+            <td>Name 'itemsPath' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.</td>
+         </tr>
+      </table><br><table width="90%" border="0" class="details">
+         <th align="left" colspan="6"><a name="org.openhab.binding.gridpaldevicemanager.device.knx.KnxItem.java">org.openhab.binding.gridpaldevicemanager.device.knx.KnxItem.java</a></th>
+         <tr>
+            <th align="left" width="80pt">tool</th>
+            <th align="left" width="50pt">priority</th>
+            <th align="left" width="30pt">line</th>
+            <th align="left" width="80pt">category</th>
+            <th align="left" width="380pt">rule</th>
+            <th align="left">message</th>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>1</td>
+            <td>1</td>
+            <td>style</td>
+            <td>ParameterizedRegexpHeaderCheck</td>
+            <td>Header is missing</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>1</td>
+            <td>5</td>
+            <td>style</td>
+            <td>AuthorTagCheck</td>
+            <td>An author tag is missing</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>2</td>
+            <td>5</td>
+            <td>style</td>
+            <td>JavadocFilterCheck</td>
+            <td>Missing Javadoc comment.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>14</td>
+            <td>style</td>
+            <td>NoEmptyLineSeparatorCheck</td>
+            <td>Remove empty line after opening brace</td>
+         </tr>
+      </table><br><table width="90%" border="0" class="details">
+         <th align="left" colspan="6"><a name="org.openhab.binding.gridpaldevicemanager.device.knx.KnxItemsParser.java">org.openhab.binding.gridpaldevicemanager.device.knx.KnxItemsParser.java</a></th>
+         <tr>
+            <th align="left" width="80pt">tool</th>
+            <th align="left" width="50pt">priority</th>
+            <th align="left" width="30pt">line</th>
+            <th align="left" width="80pt">category</th>
+            <th align="left" width="380pt">rule</th>
+            <th align="left">message</th>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>1</td>
+            <td>1</td>
+            <td>style</td>
+            <td>ParameterizedRegexpHeaderCheck</td>
+            <td>Header is missing</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>1</td>
+            <td>19</td>
+            <td>style</td>
+            <td>AuthorTagCheck</td>
+            <td>An author tag is missing</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>2</td>
+            <td>19</td>
+            <td>style</td>
+            <td>JavadocFilterCheck</td>
+            <td>Missing Javadoc comment.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>20</td>
+            <td>style</td>
+            <td>ConstantNameCheck</td>
+            <td>Name 'patternAutoRefresh' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>21</td>
+            <td>style</td>
+            <td>ConstantNameCheck</td>
+            <td>Name 'patternAddress' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>22</td>
+            <td>style</td>
+            <td>ConstantNameCheck</td>
+            <td>Name 'patternKnxConfig' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>30</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'ParseConfig' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>50</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'ParseConfig' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+      </table><br><table width="90%" border="0" class="details">
+         <th align="left" colspan="6"><a name="org.openhab.binding.gridpaldevicemanager.device.knx.KnxManager.java">org.openhab.binding.gridpaldevicemanager.device.knx.KnxManager.java</a></th>
+         <tr>
+            <th align="left" width="80pt">tool</th>
+            <th align="left" width="50pt">priority</th>
+            <th align="left" width="30pt">line</th>
+            <th align="left" width="80pt">category</th>
+            <th align="left" width="380pt">rule</th>
+            <th align="left">message</th>
+         </tr>
+         <tr class="alternate">
+            <td>pmd</td>
+            <td>1</td>
+            <td>36</td>
+            <td>java logging</td>
+            <td>AvoidPrintStackTrace</td>
+            <td>
+               Avoid printStackTrace(); use a logger call instead.
+               
+            </td>
+         </tr>
+         <tr class="alternate">
+            <td>pmd</td>
+            <td>1</td>
+            <td>46</td>
+            <td>java logging</td>
+            <td>AvoidPrintStackTrace</td>
+            <td>
+               Avoid printStackTrace(); use a logger call instead.
+               
+            </td>
+         </tr>
+         <tr class="alternate">
+            <td>pmd</td>
+            <td>1</td>
+            <td>56</td>
+            <td>java logging</td>
+            <td>AvoidPrintStackTrace</td>
+            <td>
+               Avoid printStackTrace(); use a logger call instead.
+               
+            </td>
+         </tr>
+         <tr class="alternate">
+            <td>pmd</td>
+            <td>1</td>
+            <td>66</td>
+            <td>java logging</td>
+            <td>AvoidPrintStackTrace</td>
+            <td>
+               Avoid printStackTrace(); use a logger call instead.
+               
+            </td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>1</td>
+            <td>1</td>
+            <td>style</td>
+            <td>ParameterizedRegexpHeaderCheck</td>
+            <td>Header is missing</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>1</td>
+            <td>10</td>
+            <td>style</td>
+            <td>AuthorTagCheck</td>
+            <td>An author tag is missing</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>2</td>
+            <td>10</td>
+            <td>style</td>
+            <td>JavadocFilterCheck</td>
+            <td>Missing Javadoc comment.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>24</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'GetDevices' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>28</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'GetDevice' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>32</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'AddDevice' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>42</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'RemoveDevice' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>52</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'RemoveDevices' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>62</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'UpdateDevice' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+      </table><br><table width="90%" border="0" class="details">
+         <th align="left" colspan="6"><a name="org.openhab.binding.gridpaldevicemanager.device.mbus.MBusConfigKey.java">org.openhab.binding.gridpaldevicemanager.device.mbus.MBusConfigKey.java</a></th>
+         <tr>
+            <th align="left" width="80pt">tool</th>
+            <th align="left" width="50pt">priority</th>
+            <th align="left" width="30pt">line</th>
+            <th align="left" width="80pt">category</th>
+            <th align="left" width="380pt">rule</th>
+            <th align="left">message</th>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>1</td>
+            <td>1</td>
+            <td>style</td>
+            <td>ParameterizedRegexpHeaderCheck</td>
+            <td>Header is missing</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>1</td>
+            <td>4</td>
+            <td>style</td>
+            <td>AuthorTagCheck</td>
+            <td>An author tag is missing</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>2</td>
+            <td>4</td>
+            <td>style</td>
+            <td>JavadocFilterCheck</td>
+            <td>Missing Javadoc comment.</td>
+         </tr>
+      </table><br><table width="90%" border="0" class="details">
+         <th align="left" colspan="6"><a name="org.openhab.binding.gridpaldevicemanager.device.mbus.MBusConfigManager.java">org.openhab.binding.gridpaldevicemanager.device.mbus.MBusConfigManager.java</a></th>
+         <tr>
+            <th align="left" width="80pt">tool</th>
+            <th align="left" width="50pt">priority</th>
+            <th align="left" width="30pt">line</th>
+            <th align="left" width="80pt">category</th>
+            <th align="left" width="380pt">rule</th>
+            <th align="left">message</th>
+         </tr>
+         <tr class="alternate">
+            <td>pmd</td>
+            <td>1</td>
+            <td>68</td>
+            <td>java logging</td>
+            <td>AvoidPrintStackTrace</td>
+            <td>
+               Avoid printStackTrace(); use a logger call instead.
+               
+            </td>
+         </tr>
+         <tr class="alternate">
+            <td>pmd</td>
+            <td>1</td>
+            <td>106</td>
+            <td>java logging</td>
+            <td>AvoidPrintStackTrace</td>
+            <td>
+               Avoid printStackTrace(); use a logger call instead.
+               
+            </td>
+         </tr>
+         <tr class="alternate">
+            <td>pmd</td>
+            <td>1</td>
+            <td>135</td>
+            <td>java logging</td>
+            <td>AvoidPrintStackTrace</td>
+            <td>
+               Avoid printStackTrace(); use a logger call instead.
+               
+            </td>
+         </tr>
+         <tr class="alternate">
+            <td>pmd</td>
+            <td>1</td>
+            <td>152</td>
+            <td>java logging</td>
+            <td>AvoidPrintStackTrace</td>
+            <td>
+               Avoid printStackTrace(); use a logger call instead.
+               
+            </td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>1</td>
+            <td>1</td>
+            <td>style</td>
+            <td>ParameterizedRegexpHeaderCheck</td>
+            <td>Header is missing</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>1</td>
+            <td>13</td>
+            <td>style</td>
+            <td>AuthorTagCheck</td>
+            <td>An author tag is missing</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>2</td>
+            <td>13</td>
+            <td>style</td>
+            <td>JavadocFilterCheck</td>
+            <td>Missing Javadoc comment.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>22</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'GetDevices' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>26</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'GetDevice' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>42</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'UpdateDevice' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>74</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'AddDevice' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>112</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'RemoveDevice' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>141</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'RemoveDevices' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>158</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'GetConfig' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+      </table><br><table width="90%" border="0" class="details">
+         <th align="left" colspan="6"><a name="org.openhab.binding.gridpaldevicemanager.device.mbus.MBusConfigParser.java">org.openhab.binding.gridpaldevicemanager.device.mbus.MBusConfigParser.java</a></th>
+         <tr>
+            <th align="left" width="80pt">tool</th>
+            <th align="left" width="50pt">priority</th>
+            <th align="left" width="30pt">line</th>
+            <th align="left" width="80pt">category</th>
+            <th align="left" width="380pt">rule</th>
+            <th align="left">message</th>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>1</td>
+            <td>1</td>
+            <td>style</td>
+            <td>ParameterizedRegexpHeaderCheck</td>
+            <td>Header is missing</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>1</td>
+            <td>16</td>
+            <td>style</td>
+            <td>AuthorTagCheck</td>
+            <td>An author tag is missing</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>2</td>
+            <td>16</td>
+            <td>style</td>
+            <td>JavadocFilterCheck</td>
+            <td>Missing Javadoc comment.</td>
+         </tr>
+         <tr class="alternate">
+            <td>pmd</td>
+            <td>3</td>
+            <td>145</td>
+            <td>empty code</td>
+            <td>EmptyIfStmt</td>
+            <td>
+               Avoid empty if statements
+               
+            </td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>17</td>
+            <td>style</td>
+            <td>ConstantNameCheck</td>
+            <td>Name 'globalParameters' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>18</td>
+            <td>style</td>
+            <td>ConstantNameCheck</td>
+            <td>Name 'globalParametersExtra' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>20</td>
+            <td>style</td>
+            <td>ConstantNameCheck</td>
+            <td>Name 'slaveTypes' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>22</td>
+            <td>style</td>
+            <td>ConstantNameCheck</td>
+            <td>Name 'slaveParametersMandatory' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>25</td>
+            <td>style</td>
+            <td>ConstantNameCheck</td>
+            <td>Name 'slaveParametersOptional' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>27</td>
+            <td>style</td>
+            <td>ConstantNameCheck</td>
+            <td>Name 'slaveParametersExtra' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>89</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'Merge' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>146</td>
+            <td>style</td>
+            <td>NoEmptyLineSeparatorCheck</td>
+            <td>Remove empty line after opening brace</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>169</td>
+            <td>style</td>
+            <td>NoEmptyLineSeparatorCheck</td>
+            <td>Remove empty line before closing brace</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>171</td>
+            <td>style</td>
+            <td>NoEmptyLineSeparatorCheck</td>
+            <td>Remove empty line after opening brace</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>177</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'IsGlobalParameter' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>178</td>
+            <td>style</td>
+            <td>LocalVariableNameCheck</td>
+            <td>Name '_key' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>184</td>
+            <td>style</td>
+            <td>LocalVariableNameCheck</td>
+            <td>Name '_key' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>193</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'IsSlaveParameter' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>194</td>
+            <td>style</td>
+            <td>LocalVariableNameCheck</td>
+            <td>Name '_key' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>199</td>
+            <td>style</td>
+            <td>LocalVariableNameCheck</td>
+            <td>Name '_key' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>205</td>
+            <td>style</td>
+            <td>LocalVariableNameCheck</td>
+            <td>Name '_key' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>214</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'IsValidSlaveType' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>215</td>
+            <td>style</td>
+            <td>LocalVariableNameCheck</td>
+            <td>Name '_type' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>224</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'GetSlavesByType' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>238</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'GetSlaveParametersByName' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>253</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'GetSlaveJSON' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>281</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'GetJSON' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>295</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'GetGlobalParameters' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>307</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'RemoveSlaveParametersByName' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>321</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'GetSlaveType' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>333</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'GetSlaveName' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>351</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'GetSlavesByName' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+      </table><br><table width="90%" border="0" class="details">
+         <th align="left" colspan="6"><a name="org.openhab.binding.gridpaldevicemanager.device.mbus.MBusConstants.java">org.openhab.binding.gridpaldevicemanager.device.mbus.MBusConstants.java</a></th>
+         <tr>
+            <th align="left" width="80pt">tool</th>
+            <th align="left" width="50pt">priority</th>
+            <th align="left" width="30pt">line</th>
+            <th align="left" width="80pt">category</th>
+            <th align="left" width="380pt">rule</th>
+            <th align="left">message</th>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>1</td>
+            <td>1</td>
+            <td>style</td>
+            <td>ParameterizedRegexpHeaderCheck</td>
+            <td>Header is missing</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>1</td>
+            <td>4</td>
+            <td>style</td>
+            <td>AuthorTagCheck</td>
+            <td>An author tag is missing</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>2</td>
+            <td>4</td>
+            <td>style</td>
+            <td>JavadocFilterCheck</td>
+            <td>Missing Javadoc comment.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>6</td>
+            <td>style</td>
+            <td>ConstantNameCheck</td>
+            <td>Name 'configPath' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>7</td>
+            <td>style</td>
+            <td>ConstantNameCheck</td>
+            <td>Name 'itemsPath' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.</td>
+         </tr>
+      </table><br><table width="90%" border="0" class="details">
+         <th align="left" colspan="6"><a name="org.openhab.binding.gridpaldevicemanager.device.mbus.MBusItemsParser.java">org.openhab.binding.gridpaldevicemanager.device.mbus.MBusItemsParser.java</a></th>
+         <tr>
+            <th align="left" width="80pt">tool</th>
+            <th align="left" width="50pt">priority</th>
+            <th align="left" width="30pt">line</th>
+            <th align="left" width="80pt">category</th>
+            <th align="left" width="380pt">rule</th>
+            <th align="left">message</th>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>1</td>
+            <td>1</td>
+            <td>style</td>
+            <td>ParameterizedRegexpHeaderCheck</td>
+            <td>Header is missing</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>1</td>
+            <td>16</td>
+            <td>style</td>
+            <td>AuthorTagCheck</td>
+            <td>An author tag is missing</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>2</td>
+            <td>16</td>
+            <td>style</td>
+            <td>JavadocFilterCheck</td>
+            <td>Missing Javadoc comment.</td>
+         </tr>
+      </table><br><table width="90%" border="0" class="details">
+         <th align="left" colspan="6"><a name="org.openhab.binding.gridpaldevicemanager.device.mbus.MBusManager.java">org.openhab.binding.gridpaldevicemanager.device.mbus.MBusManager.java</a></th>
+         <tr>
+            <th align="left" width="80pt">tool</th>
+            <th align="left" width="50pt">priority</th>
+            <th align="left" width="30pt">line</th>
+            <th align="left" width="80pt">category</th>
+            <th align="left" width="380pt">rule</th>
+            <th align="left">message</th>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>1</td>
+            <td>1</td>
+            <td>style</td>
+            <td>ParameterizedRegexpHeaderCheck</td>
+            <td>Header is missing</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>1</td>
+            <td>11</td>
+            <td>style</td>
+            <td>AuthorTagCheck</td>
+            <td>An author tag is missing</td>
+         </tr>
+         <tr class="alternate">
+            <td>pmd</td>
+            <td>1</td>
+            <td>37</td>
+            <td>java logging</td>
+            <td>AvoidPrintStackTrace</td>
+            <td>
+               Avoid printStackTrace(); use a logger call instead.
+               
+            </td>
+         </tr>
+         <tr class="alternate">
+            <td>pmd</td>
+            <td>1</td>
+            <td>47</td>
+            <td>java logging</td>
+            <td>AvoidPrintStackTrace</td>
+            <td>
+               Avoid printStackTrace(); use a logger call instead.
+               
+            </td>
+         </tr>
+         <tr class="alternate">
+            <td>pmd</td>
+            <td>1</td>
+            <td>57</td>
+            <td>java logging</td>
+            <td>AvoidPrintStackTrace</td>
+            <td>
+               Avoid printStackTrace(); use a logger call instead.
+               
+            </td>
+         </tr>
+         <tr class="alternate">
+            <td>pmd</td>
+            <td>1</td>
+            <td>67</td>
+            <td>java logging</td>
+            <td>AvoidPrintStackTrace</td>
+            <td>
+               Avoid printStackTrace(); use a logger call instead.
+               
+            </td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>2</td>
+            <td>11</td>
+            <td>style</td>
+            <td>JavadocFilterCheck</td>
+            <td>Missing Javadoc comment.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>25</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'GetDevices' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>29</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'GetDevice' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>33</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'AddDevice' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>43</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'RemoveDevice' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>53</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'RemoveDevices' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>63</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'UpdateDevice' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+      </table><br><table width="90%" border="0" class="details">
+         <th align="left" colspan="6"><a name="org.openhab.binding.gridpaldevicemanager.device.modbus.ModbusConfigKey.java">org.openhab.binding.gridpaldevicemanager.device.modbus.ModbusConfigKey.java</a></th>
+         <tr>
+            <th align="left" width="80pt">tool</th>
+            <th align="left" width="50pt">priority</th>
+            <th align="left" width="30pt">line</th>
+            <th align="left" width="80pt">category</th>
+            <th align="left" width="380pt">rule</th>
+            <th align="left">message</th>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>1</td>
+            <td>1</td>
+            <td>style</td>
+            <td>ParameterizedRegexpHeaderCheck</td>
+            <td>Header is missing</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>1</td>
+            <td>4</td>
+            <td>style</td>
+            <td>AuthorTagCheck</td>
+            <td>An author tag is missing</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>2</td>
+            <td>4</td>
+            <td>style</td>
+            <td>JavadocFilterCheck</td>
+            <td>Missing Javadoc comment.</td>
+         </tr>
+      </table><br><table width="90%" border="0" class="details">
+         <th align="left" colspan="6"><a name="org.openhab.binding.gridpaldevicemanager.device.modbus.ModbusConfigManager.java">org.openhab.binding.gridpaldevicemanager.device.modbus.ModbusConfigManager.java</a></th>
+         <tr>
+            <th align="left" width="80pt">tool</th>
+            <th align="left" width="50pt">priority</th>
+            <th align="left" width="30pt">line</th>
+            <th align="left" width="80pt">category</th>
+            <th align="left" width="380pt">rule</th>
+            <th align="left">message</th>
+         </tr>
+         <tr class="alternate">
+            <td>pmd</td>
+            <td>1</td>
+            <td>75</td>
+            <td>java logging</td>
+            <td>AvoidPrintStackTrace</td>
+            <td>
+               Avoid printStackTrace(); use a logger call instead.
+               
+            </td>
+         </tr>
+         <tr class="alternate">
+            <td>pmd</td>
+            <td>1</td>
+            <td>104</td>
+            <td>java logging</td>
+            <td>AvoidPrintStackTrace</td>
+            <td>
+               Avoid printStackTrace(); use a logger call instead.
+               
+            </td>
+         </tr>
+         <tr class="alternate">
+            <td>pmd</td>
+            <td>1</td>
+            <td>135</td>
+            <td>java logging</td>
+            <td>AvoidPrintStackTrace</td>
+            <td>
+               Avoid printStackTrace(); use a logger call instead.
+               
+            </td>
+         </tr>
+         <tr class="alternate">
+            <td>pmd</td>
+            <td>1</td>
+            <td>154</td>
+            <td>java logging</td>
+            <td>AvoidPrintStackTrace</td>
+            <td>
+               Avoid printStackTrace(); use a logger call instead.
+               
+            </td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>1</td>
+            <td>1</td>
+            <td>style</td>
+            <td>ParameterizedRegexpHeaderCheck</td>
+            <td>Header is missing</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>1</td>
+            <td>14</td>
+            <td>style</td>
+            <td>AuthorTagCheck</td>
+            <td>An author tag is missing</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>2</td>
+            <td>14</td>
+            <td>style</td>
+            <td>JavadocFilterCheck</td>
+            <td>Missing Javadoc comment.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>27</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'GetDevices' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>31</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'GetDevice' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>47</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'UpdateDevice' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>81</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'AddDevice' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>110</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'RemoveDevice' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>141</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'RemoveDevices' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>160</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'GetConfig' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>164</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'DeleteConfigFromOSGiRuntime' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+      </table><br><table width="90%" border="0" class="details">
+         <th align="left" colspan="6"><a name="org.openhab.binding.gridpaldevicemanager.device.modbus.ModbusConfigParser.java">org.openhab.binding.gridpaldevicemanager.device.modbus.ModbusConfigParser.java</a></th>
+         <tr>
+            <th align="left" width="80pt">tool</th>
+            <th align="left" width="50pt">priority</th>
+            <th align="left" width="30pt">line</th>
+            <th align="left" width="80pt">category</th>
+            <th align="left" width="380pt">rule</th>
+            <th align="left">message</th>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>1</td>
+            <td>1</td>
+            <td>style</td>
+            <td>ParameterizedRegexpHeaderCheck</td>
+            <td>Header is missing</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>1</td>
+            <td>16</td>
+            <td>style</td>
+            <td>AuthorTagCheck</td>
+            <td>An author tag is missing</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>2</td>
+            <td>16</td>
+            <td>style</td>
+            <td>JavadocFilterCheck</td>
+            <td>Missing Javadoc comment.</td>
+         </tr>
+         <tr class="alternate">
+            <td>pmd</td>
+            <td>3</td>
+            <td>146</td>
+            <td>empty code</td>
+            <td>EmptyIfStmt</td>
+            <td>
+               Avoid empty if statements
+               
+            </td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>17</td>
+            <td>style</td>
+            <td>ConstantNameCheck</td>
+            <td>Name 'globalParameters' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>18</td>
+            <td>style</td>
+            <td>ConstantNameCheck</td>
+            <td>Name 'globalParametersExtra' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>20</td>
+            <td>style</td>
+            <td>ConstantNameCheck</td>
+            <td>Name 'slaveTypes' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>22</td>
+            <td>style</td>
+            <td>ConstantNameCheck</td>
+            <td>Name 'slaveParametersMandatory' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>25</td>
+            <td>style</td>
+            <td>ConstantNameCheck</td>
+            <td>Name 'slaveParametersOptional' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>29</td>
+            <td>style</td>
+            <td>ConstantNameCheck</td>
+            <td>Name 'slaveParametersExtra' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>35</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'ToJSON' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>91</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'Merge' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>112</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'ToConfig' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>147</td>
+            <td>style</td>
+            <td>NoEmptyLineSeparatorCheck</td>
+            <td>Remove empty line after opening brace</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>170</td>
+            <td>style</td>
+            <td>NoEmptyLineSeparatorCheck</td>
+            <td>Remove empty line before closing brace</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>172</td>
+            <td>style</td>
+            <td>NoEmptyLineSeparatorCheck</td>
+            <td>Remove empty line after opening brace</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>178</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'IsGlobalParameter' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>179</td>
+            <td>style</td>
+            <td>LocalVariableNameCheck</td>
+            <td>Name '_key' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>185</td>
+            <td>style</td>
+            <td>LocalVariableNameCheck</td>
+            <td>Name '_key' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>194</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'IsSlaveParameter' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>195</td>
+            <td>style</td>
+            <td>LocalVariableNameCheck</td>
+            <td>Name '_key' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>200</td>
+            <td>style</td>
+            <td>LocalVariableNameCheck</td>
+            <td>Name '_key' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>206</td>
+            <td>style</td>
+            <td>LocalVariableNameCheck</td>
+            <td>Name '_key' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>215</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'IsValidSlaveType' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>216</td>
+            <td>style</td>
+            <td>LocalVariableNameCheck</td>
+            <td>Name '_type' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>225</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'GetSlavesByType' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>239</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'GetSlaveParametersByName' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>254</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'GetSlaveJSON' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>284</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'GetJSON' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>298</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'GetGlobalParameters' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>310</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'RemoveSlaveParametersByName' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>324</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'GetSlaveType' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>336</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'GetSlaveName' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>354</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'GetSlavesByName' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+      </table><br><table width="90%" border="0" class="details">
+         <th align="left" colspan="6"><a name="org.openhab.binding.gridpaldevicemanager.device.modbus.ModbusConstants.java">org.openhab.binding.gridpaldevicemanager.device.modbus.ModbusConstants.java</a></th>
+         <tr>
+            <th align="left" width="80pt">tool</th>
+            <th align="left" width="50pt">priority</th>
+            <th align="left" width="30pt">line</th>
+            <th align="left" width="80pt">category</th>
+            <th align="left" width="380pt">rule</th>
+            <th align="left">message</th>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>1</td>
+            <td>1</td>
+            <td>style</td>
+            <td>ParameterizedRegexpHeaderCheck</td>
+            <td>Header is missing</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>1</td>
+            <td>4</td>
+            <td>style</td>
+            <td>AuthorTagCheck</td>
+            <td>An author tag is missing</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>2</td>
+            <td>4</td>
+            <td>style</td>
+            <td>JavadocFilterCheck</td>
+            <td>Missing Javadoc comment.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>5</td>
+            <td>style</td>
+            <td>ConstantNameCheck</td>
+            <td>Name 'configPath' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>6</td>
+            <td>style</td>
+            <td>ConstantNameCheck</td>
+            <td>Name 'itemsPath' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.</td>
+         </tr>
+      </table><br><table width="90%" border="0" class="details">
+         <th align="left" colspan="6"><a name="org.openhab.binding.gridpaldevicemanager.device.modbus.ModbusItem.java">org.openhab.binding.gridpaldevicemanager.device.modbus.ModbusItem.java</a></th>
+         <tr>
+            <th align="left" width="80pt">tool</th>
+            <th align="left" width="50pt">priority</th>
+            <th align="left" width="30pt">line</th>
+            <th align="left" width="80pt">category</th>
+            <th align="left" width="380pt">rule</th>
+            <th align="left">message</th>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>1</td>
+            <td>1</td>
+            <td>style</td>
+            <td>ParameterizedRegexpHeaderCheck</td>
+            <td>Header is missing</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>1</td>
+            <td>6</td>
+            <td>style</td>
+            <td>AuthorTagCheck</td>
+            <td>An author tag is missing</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>2</td>
+            <td>6</td>
+            <td>style</td>
+            <td>JavadocFilterCheck</td>
+            <td>Missing Javadoc comment.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>12</td>
+            <td>style</td>
+            <td>NoEmptyLineSeparatorCheck</td>
+            <td>Remove empty line after opening brace</td>
+         </tr>
+      </table><br><table width="90%" border="0" class="details">
+         <th align="left" colspan="6"><a name="org.openhab.binding.gridpaldevicemanager.device.modbus.ModbusItemsParser.java">org.openhab.binding.gridpaldevicemanager.device.modbus.ModbusItemsParser.java</a></th>
+         <tr>
+            <th align="left" width="80pt">tool</th>
+            <th align="left" width="50pt">priority</th>
+            <th align="left" width="30pt">line</th>
+            <th align="left" width="80pt">category</th>
+            <th align="left" width="380pt">rule</th>
+            <th align="left">message</th>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>1</td>
+            <td>1</td>
+            <td>style</td>
+            <td>ParameterizedRegexpHeaderCheck</td>
+            <td>Header is missing</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>1</td>
+            <td>16</td>
+            <td>style</td>
+            <td>AuthorTagCheck</td>
+            <td>An author tag is missing</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>2</td>
+            <td>16</td>
+            <td>style</td>
+            <td>JavadocFilterCheck</td>
+            <td>Missing Javadoc comment.</td>
+         </tr>
+      </table><br><table width="90%" border="0" class="details">
+         <th align="left" colspan="6"><a name="org.openhab.binding.gridpaldevicemanager.device.modbus.ModbusManager.java">org.openhab.binding.gridpaldevicemanager.device.modbus.ModbusManager.java</a></th>
+         <tr>
+            <th align="left" width="80pt">tool</th>
+            <th align="left" width="50pt">priority</th>
+            <th align="left" width="30pt">line</th>
+            <th align="left" width="80pt">category</th>
+            <th align="left" width="380pt">rule</th>
+            <th align="left">message</th>
+         </tr>
+         <tr class="alternate">
+            <td>pmd</td>
+            <td>1</td>
+            <td>37</td>
+            <td>java logging</td>
+            <td>AvoidPrintStackTrace</td>
+            <td>
+               Avoid printStackTrace(); use a logger call instead.
+               
+            </td>
+         </tr>
+         <tr class="alternate">
+            <td>pmd</td>
+            <td>1</td>
+            <td>47</td>
+            <td>java logging</td>
+            <td>AvoidPrintStackTrace</td>
+            <td>
+               Avoid printStackTrace(); use a logger call instead.
+               
+            </td>
+         </tr>
+         <tr class="alternate">
+            <td>pmd</td>
+            <td>1</td>
+            <td>57</td>
+            <td>java logging</td>
+            <td>AvoidPrintStackTrace</td>
+            <td>
+               Avoid printStackTrace(); use a logger call instead.
+               
+            </td>
+         </tr>
+         <tr class="alternate">
+            <td>pmd</td>
+            <td>1</td>
+            <td>67</td>
+            <td>java logging</td>
+            <td>AvoidPrintStackTrace</td>
+            <td>
+               Avoid printStackTrace(); use a logger call instead.
+               
+            </td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>1</td>
+            <td>1</td>
+            <td>style</td>
+            <td>ParameterizedRegexpHeaderCheck</td>
+            <td>Header is missing</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>1</td>
+            <td>11</td>
+            <td>style</td>
+            <td>AuthorTagCheck</td>
+            <td>An author tag is missing</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>2</td>
+            <td>11</td>
+            <td>style</td>
+            <td>JavadocFilterCheck</td>
+            <td>Missing Javadoc comment.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>25</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'GetDevices' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>29</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'GetDevice' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>33</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'AddDevice' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>43</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'RemoveDevice' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>53</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'RemoveDevices' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>63</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'UpdateDevice' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+      </table><br><table width="90%" border="0" class="details">
+         <th align="left" colspan="6"><a name="org.openhab.binding.gridpaldevicemanager.device.utils.Utility.java">org.openhab.binding.gridpaldevicemanager.device.utils.Utility.java</a></th>
+         <tr>
+            <th align="left" width="80pt">tool</th>
+            <th align="left" width="50pt">priority</th>
+            <th align="left" width="30pt">line</th>
+            <th align="left" width="80pt">category</th>
+            <th align="left" width="380pt">rule</th>
+            <th align="left">message</th>
+         </tr>
+         <tr class="alternate">
+            <td>pmd</td>
+            <td>1</td>
+            <td>27</td>
+            <td>java logging</td>
+            <td>AvoidPrintStackTrace</td>
+            <td>
+               Avoid printStackTrace(); use a logger call instead.
+               
+            </td>
+         </tr>
+         <tr class="alternate">
+            <td>pmd</td>
+            <td>1</td>
+            <td>50</td>
+            <td>java logging</td>
+            <td>AvoidPrintStackTrace</td>
+            <td>
+               Avoid printStackTrace(); use a logger call instead.
+               
+            </td>
+         </tr>
+         <tr class="alternate">
+            <td>pmd</td>
+            <td>1</td>
+            <td>61</td>
+            <td>java logging</td>
+            <td>AvoidPrintStackTrace</td>
+            <td>
+               Avoid printStackTrace(); use a logger call instead.
+               
+            </td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>1</td>
+            <td>1</td>
+            <td>style</td>
+            <td>ParameterizedRegexpHeaderCheck</td>
+            <td>Header is missing</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>1</td>
+            <td>11</td>
+            <td>style</td>
+            <td>AuthorTagCheck</td>
+            <td>An author tag is missing</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>2</td>
+            <td>11</td>
+            <td>style</td>
+            <td>JavadocFilterCheck</td>
+            <td>Missing Javadoc comment.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>12</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'Read' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>21</td>
+            <td>style</td>
+            <td>NoEmptyLineSeparatorCheck</td>
+            <td>Remove empty line after opening brace</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>33</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'Read' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>37</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'Write' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>54</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'Write' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+      </table><br><table width="90%" border="0" class="details">
+         <th align="left" colspan="6"><a name="org.openhab.binding.gridpaldevicemanager.device.wmbus.WMBusConfigKey.java">org.openhab.binding.gridpaldevicemanager.device.wmbus.WMBusConfigKey.java</a></th>
+         <tr>
+            <th align="left" width="80pt">tool</th>
+            <th align="left" width="50pt">priority</th>
+            <th align="left" width="30pt">line</th>
+            <th align="left" width="80pt">category</th>
+            <th align="left" width="380pt">rule</th>
+            <th align="left">message</th>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>1</td>
+            <td>1</td>
+            <td>style</td>
+            <td>ParameterizedRegexpHeaderCheck</td>
+            <td>Header is missing</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>1</td>
+            <td>4</td>
+            <td>style</td>
+            <td>AuthorTagCheck</td>
+            <td>An author tag is missing</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>2</td>
+            <td>4</td>
+            <td>style</td>
+            <td>JavadocFilterCheck</td>
+            <td>Missing Javadoc comment.</td>
+         </tr>
+      </table><br><table width="90%" border="0" class="details">
+         <th align="left" colspan="6"><a name="org.openhab.binding.gridpaldevicemanager.device.wmbus.WMBusConfigManager.java">org.openhab.binding.gridpaldevicemanager.device.wmbus.WMBusConfigManager.java</a></th>
+         <tr>
+            <th align="left" width="80pt">tool</th>
+            <th align="left" width="50pt">priority</th>
+            <th align="left" width="30pt">line</th>
+            <th align="left" width="80pt">category</th>
+            <th align="left" width="380pt">rule</th>
+            <th align="left">message</th>
+         </tr>
+         <tr class="alternate">
+            <td>pmd</td>
+            <td>1</td>
+            <td>68</td>
+            <td>java logging</td>
+            <td>AvoidPrintStackTrace</td>
+            <td>
+               Avoid printStackTrace(); use a logger call instead.
+               
+            </td>
+         </tr>
+         <tr class="alternate">
+            <td>pmd</td>
+            <td>1</td>
+            <td>95</td>
+            <td>java logging</td>
+            <td>AvoidPrintStackTrace</td>
+            <td>
+               Avoid printStackTrace(); use a logger call instead.
+               
+            </td>
+         </tr>
+         <tr class="alternate">
+            <td>pmd</td>
+            <td>1</td>
+            <td>124</td>
+            <td>java logging</td>
+            <td>AvoidPrintStackTrace</td>
+            <td>
+               Avoid printStackTrace(); use a logger call instead.
+               
+            </td>
+         </tr>
+         <tr class="alternate">
+            <td>pmd</td>
+            <td>1</td>
+            <td>141</td>
+            <td>java logging</td>
+            <td>AvoidPrintStackTrace</td>
+            <td>
+               Avoid printStackTrace(); use a logger call instead.
+               
+            </td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>1</td>
+            <td>1</td>
+            <td>style</td>
+            <td>ParameterizedRegexpHeaderCheck</td>
+            <td>Header is missing</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>1</td>
+            <td>13</td>
+            <td>style</td>
+            <td>AuthorTagCheck</td>
+            <td>An author tag is missing</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>2</td>
+            <td>13</td>
+            <td>style</td>
+            <td>JavadocFilterCheck</td>
+            <td>Missing Javadoc comment.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>22</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'GetDevices' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>26</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'GetDevice' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>42</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'UpdateDevice' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>74</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'AddDevice' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>101</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'RemoveDevice' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>130</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'RemoveDevices' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>147</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'GetConfig' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+      </table><br><table width="90%" border="0" class="details">
+         <th align="left" colspan="6"><a name="org.openhab.binding.gridpaldevicemanager.device.wmbus.WMBusConfigParser.java">org.openhab.binding.gridpaldevicemanager.device.wmbus.WMBusConfigParser.java</a></th>
+         <tr>
+            <th align="left" width="80pt">tool</th>
+            <th align="left" width="50pt">priority</th>
+            <th align="left" width="30pt">line</th>
+            <th align="left" width="80pt">category</th>
+            <th align="left" width="380pt">rule</th>
+            <th align="left">message</th>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>1</td>
+            <td>1</td>
+            <td>style</td>
+            <td>ParameterizedRegexpHeaderCheck</td>
+            <td>Header is missing</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>1</td>
+            <td>18</td>
+            <td>style</td>
+            <td>AuthorTagCheck</td>
+            <td>An author tag is missing</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>2</td>
+            <td>18</td>
+            <td>style</td>
+            <td>JavadocFilterCheck</td>
+            <td>Missing Javadoc comment.</td>
+         </tr>
+         <tr class="alternate">
+            <td>pmd</td>
+            <td>3</td>
+            <td>110</td>
+            <td>empty code</td>
+            <td>EmptyIfStmt</td>
+            <td>
+               Avoid empty if statements
+               
+            </td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>62</td>
+            <td>style</td>
+            <td>NoEmptyLineSeparatorCheck</td>
+            <td>Remove empty line after opening brace</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>111</td>
+            <td>style</td>
+            <td>NoEmptyLineSeparatorCheck</td>
+            <td>Remove empty line after opening brace</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>138</td>
+            <td>style</td>
+            <td>NoEmptyLineSeparatorCheck</td>
+            <td>Remove empty line before closing brace</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>141</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'IsValidJsonKey' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>147</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'IsValidConfigKey' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>153</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'Merge' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>154</td>
+            <td>style</td>
+            <td>NoEmptyLineSeparatorCheck</td>
+            <td>Remove empty line after opening brace</td>
+         </tr>
+      </table><br><table width="90%" border="0" class="details">
+         <th align="left" colspan="6"><a name="org.openhab.binding.gridpaldevicemanager.device.wmbus.WMBusConstants.java">org.openhab.binding.gridpaldevicemanager.device.wmbus.WMBusConstants.java</a></th>
+         <tr>
+            <th align="left" width="80pt">tool</th>
+            <th align="left" width="50pt">priority</th>
+            <th align="left" width="30pt">line</th>
+            <th align="left" width="80pt">category</th>
+            <th align="left" width="380pt">rule</th>
+            <th align="left">message</th>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>1</td>
+            <td>1</td>
+            <td>style</td>
+            <td>ParameterizedRegexpHeaderCheck</td>
+            <td>Header is missing</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>1</td>
+            <td>4</td>
+            <td>style</td>
+            <td>AuthorTagCheck</td>
+            <td>An author tag is missing</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>2</td>
+            <td>4</td>
+            <td>style</td>
+            <td>JavadocFilterCheck</td>
+            <td>Missing Javadoc comment.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>6</td>
+            <td>style</td>
+            <td>ConstantNameCheck</td>
+            <td>Name 'configPath' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>7</td>
+            <td>style</td>
+            <td>ConstantNameCheck</td>
+            <td>Name 'itemsPath' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.</td>
+         </tr>
+      </table><br><table width="90%" border="0" class="details">
+         <th align="left" colspan="6"><a name="org.openhab.binding.gridpaldevicemanager.device.wmbus.WMBusItemsParser.java">org.openhab.binding.gridpaldevicemanager.device.wmbus.WMBusItemsParser.java</a></th>
+         <tr>
+            <th align="left" width="80pt">tool</th>
+            <th align="left" width="50pt">priority</th>
+            <th align="left" width="30pt">line</th>
+            <th align="left" width="80pt">category</th>
+            <th align="left" width="380pt">rule</th>
+            <th align="left">message</th>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>1</td>
+            <td>1</td>
+            <td>style</td>
+            <td>ParameterizedRegexpHeaderCheck</td>
+            <td>Header is missing</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>1</td>
+            <td>16</td>
+            <td>style</td>
+            <td>AuthorTagCheck</td>
+            <td>An author tag is missing</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>2</td>
+            <td>16</td>
+            <td>style</td>
+            <td>JavadocFilterCheck</td>
+            <td>Missing Javadoc comment.</td>
+         </tr>
+      </table><br><table width="90%" border="0" class="details">
+         <th align="left" colspan="6"><a name="org.openhab.binding.gridpaldevicemanager.device.wmbus.WMBusManager.java">org.openhab.binding.gridpaldevicemanager.device.wmbus.WMBusManager.java</a></th>
+         <tr>
+            <th align="left" width="80pt">tool</th>
+            <th align="left" width="50pt">priority</th>
+            <th align="left" width="30pt">line</th>
+            <th align="left" width="80pt">category</th>
+            <th align="left" width="380pt">rule</th>
+            <th align="left">message</th>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>1</td>
+            <td>1</td>
+            <td>style</td>
+            <td>ParameterizedRegexpHeaderCheck</td>
+            <td>Header is missing</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>1</td>
+            <td>11</td>
+            <td>style</td>
+            <td>AuthorTagCheck</td>
+            <td>An author tag is missing</td>
+         </tr>
+         <tr class="alternate">
+            <td>pmd</td>
+            <td>1</td>
+            <td>37</td>
+            <td>java logging</td>
+            <td>AvoidPrintStackTrace</td>
+            <td>
+               Avoid printStackTrace(); use a logger call instead.
+               
+            </td>
+         </tr>
+         <tr class="alternate">
+            <td>pmd</td>
+            <td>1</td>
+            <td>47</td>
+            <td>java logging</td>
+            <td>AvoidPrintStackTrace</td>
+            <td>
+               Avoid printStackTrace(); use a logger call instead.
+               
+            </td>
+         </tr>
+         <tr class="alternate">
+            <td>pmd</td>
+            <td>1</td>
+            <td>57</td>
+            <td>java logging</td>
+            <td>AvoidPrintStackTrace</td>
+            <td>
+               Avoid printStackTrace(); use a logger call instead.
+               
+            </td>
+         </tr>
+         <tr class="alternate">
+            <td>pmd</td>
+            <td>1</td>
+            <td>67</td>
+            <td>java logging</td>
+            <td>AvoidPrintStackTrace</td>
+            <td>
+               Avoid printStackTrace(); use a logger call instead.
+               
+            </td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>2</td>
+            <td>11</td>
+            <td>style</td>
+            <td>JavadocFilterCheck</td>
+            <td>Missing Javadoc comment.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>25</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'GetDevices' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>29</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'GetDevice' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>33</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'AddDevice' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>43</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'RemoveDevice' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>53</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'RemoveDevices' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>63</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'UpdateDevice' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+      </table><br><table width="90%" border="0" class="details">
+         <th align="left" colspan="6"><a name="org.openhab.binding.gridpaldevicemanager.item.Item.java">org.openhab.binding.gridpaldevicemanager.item.Item.java</a></th>
+         <tr>
+            <th align="left" width="80pt">tool</th>
+            <th align="left" width="50pt">priority</th>
+            <th align="left" width="30pt">line</th>
+            <th align="left" width="80pt">category</th>
+            <th align="left" width="380pt">rule</th>
+            <th align="left">message</th>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>1</td>
+            <td>1</td>
+            <td>style</td>
+            <td>ParameterizedRegexpHeaderCheck</td>
+            <td>Header is missing</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>1</td>
+            <td>6</td>
+            <td>style</td>
+            <td>AuthorTagCheck</td>
+            <td>An author tag is missing</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>2</td>
+            <td>6</td>
+            <td>style</td>
+            <td>JavadocFilterCheck</td>
+            <td>Missing Javadoc comment.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>22</td>
+            <td>style</td>
+            <td>NoEmptyLineSeparatorCheck</td>
+            <td>Remove empty line after opening brace</td>
+         </tr>
+      </table><br><table width="90%" border="0" class="details">
+         <th align="left" colspan="6"><a name="org.openhab.binding.gridpaldevicemanager.item.ItemManager.java">org.openhab.binding.gridpaldevicemanager.item.ItemManager.java</a></th>
+         <tr>
+            <th align="left" width="80pt">tool</th>
+            <th align="left" width="50pt">priority</th>
+            <th align="left" width="30pt">line</th>
+            <th align="left" width="80pt">category</th>
+            <th align="left" width="380pt">rule</th>
+            <th align="left">message</th>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>1</td>
+            <td>1</td>
+            <td>style</td>
+            <td>ParameterizedRegexpHeaderCheck</td>
+            <td>Header is missing</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>1</td>
+            <td>11</td>
+            <td>style</td>
+            <td>AuthorTagCheck</td>
+            <td>An author tag is missing</td>
+         </tr>
+         <tr class="alternate">
+            <td>pmd</td>
+            <td>1</td>
+            <td>37</td>
+            <td>java logging</td>
+            <td>AvoidPrintStackTrace</td>
+            <td>
+               Avoid printStackTrace(); use a logger call instead.
+               
+            </td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>2</td>
+            <td>11</td>
+            <td>style</td>
+            <td>JavadocFilterCheck</td>
+            <td>Missing Javadoc comment.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>20</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'Put' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>43</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'Put' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+      </table><br><table width="90%" border="0" class="details">
+         <th align="left" colspan="6"><a name="org.openhab.binding.gridpaldevicemanager.item.ItemsParser.java">org.openhab.binding.gridpaldevicemanager.item.ItemsParser.java</a></th>
+         <tr>
+            <th align="left" width="80pt">tool</th>
+            <th align="left" width="50pt">priority</th>
+            <th align="left" width="30pt">line</th>
+            <th align="left" width="80pt">category</th>
+            <th align="left" width="380pt">rule</th>
+            <th align="left">message</th>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>1</td>
+            <td>1</td>
+            <td>style</td>
+            <td>ParameterizedRegexpHeaderCheck</td>
+            <td>Header is missing</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>1</td>
+            <td>15</td>
+            <td>style</td>
+            <td>AuthorTagCheck</td>
+            <td>An author tag is missing</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>2</td>
+            <td>15</td>
+            <td>style</td>
+            <td>JavadocFilterCheck</td>
+            <td>Missing Javadoc comment.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>16</td>
+            <td>style</td>
+            <td>ConstantNameCheck</td>
+            <td>Name 'patternBinding' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>17</td>
+            <td>style</td>
+            <td>ConstantNameCheck</td>
+            <td>Name 'patternBindingConfig' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>19</td>
+            <td>style</td>
+            <td>ConstantNameCheck</td>
+            <td>Name 'patternGroups' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>20</td>
+            <td>style</td>
+            <td>ConstantNameCheck</td>
+            <td>Name 'patternTags' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>21</td>
+            <td>style</td>
+            <td>ConstantNameCheck</td>
+            <td>Name 'patternIcon' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>24</td>
+            <td>style</td>
+            <td>ConstantNameCheck</td>
+            <td>Name 'patternLabelStateFormat' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>27</td>
+            <td>style</td>
+            <td>ConstantNameCheck</td>
+            <td>Name 'patternStateFormat' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>28</td>
+            <td>style</td>
+            <td>ConstantNameCheck</td>
+            <td>Name 'patternTypeName' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>35</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'Parse' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>102</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'Parse' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>112</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'Parse' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>114</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'Parse' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+      </table><br><table width="90%" border="0" class="details">
+         <th align="left" colspan="6"><a name="org.openhab.binding.gridpaldevicemanager.manager.ConfigManager.java">org.openhab.binding.gridpaldevicemanager.manager.ConfigManager.java</a></th>
+         <tr>
+            <th align="left" width="80pt">tool</th>
+            <th align="left" width="50pt">priority</th>
+            <th align="left" width="30pt">line</th>
+            <th align="left" width="80pt">category</th>
+            <th align="left" width="380pt">rule</th>
+            <th align="left">message</th>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>1</td>
+            <td>1</td>
+            <td>style</td>
+            <td>ParameterizedRegexpHeaderCheck</td>
+            <td>Header is missing</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>1</td>
+            <td>10</td>
+            <td>style</td>
+            <td>AuthorTagCheck</td>
+            <td>An author tag is missing</td>
+         </tr>
+         <tr class="alternate">
+            <td>pmd</td>
+            <td>1</td>
+            <td>33</td>
+            <td>java logging</td>
+            <td>AvoidPrintStackTrace</td>
+            <td>
+               Avoid printStackTrace(); use a logger call instead.
+               
+            </td>
+         </tr>
+         <tr class="alternate">
+            <td>pmd</td>
+            <td>1</td>
+            <td>43</td>
+            <td>java logging</td>
+            <td>AvoidPrintStackTrace</td>
+            <td>
+               Avoid printStackTrace(); use a logger call instead.
+               
+            </td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>2</td>
+            <td>10</td>
+            <td>style</td>
+            <td>JavadocFilterCheck</td>
+            <td>Missing Javadoc comment.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>26</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'Delete' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>49</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'GetConfigurationAdmin' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>54</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'GetInstance' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>pmd</td>
+            <td>3</td>
+            <td>55</td>
+            <td>design</td>
+            <td>NonThreadSafeSingleton</td>
+            <td>
+               Singleton is not thread safe
+               
+            </td>
+         </tr>
+      </table><br><table width="90%" border="0" class="details">
+         <th align="left" colspan="6"><a name="org.openhab.binding.gridpaldevicemanager.manager.DeviceManager.java">org.openhab.binding.gridpaldevicemanager.manager.DeviceManager.java</a></th>
+         <tr>
+            <th align="left" width="80pt">tool</th>
+            <th align="left" width="50pt">priority</th>
+            <th align="left" width="30pt">line</th>
+            <th align="left" width="80pt">category</th>
+            <th align="left" width="380pt">rule</th>
+            <th align="left">message</th>
+         </tr>
+         <tr class="alternate">
+            <td>pmd</td>
+            <td>1</td>
+            <td>104</td>
+            <td>java logging</td>
+            <td>AvoidPrintStackTrace</td>
+            <td>
+               Avoid printStackTrace(); use a logger call instead.
+               
+            </td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>1</td>
+            <td>1</td>
+            <td>style</td>
+            <td>ParameterizedRegexpHeaderCheck</td>
+            <td>Header is missing</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>1</td>
+            <td>15</td>
+            <td>style</td>
+            <td>AuthorTagCheck</td>
+            <td>An author tag is missing</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>2</td>
+            <td>15</td>
+            <td>style</td>
+            <td>JavadocFilterCheck</td>
+            <td>Missing Javadoc comment.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>22</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'GetDevices' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>52</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'GetDevice' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>66</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'AddDevice' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>85</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'RemoveDevice' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>90</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'RemoveDevices' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>95</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'UpdateDevice' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>100</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'ExportDevice' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+      </table><br><table width="90%" border="0" class="details">
+         <th align="left" colspan="6"><a name="org.openhab.binding.gridpaldevicemanager.manager.ExportManager.java">org.openhab.binding.gridpaldevicemanager.manager.ExportManager.java</a></th>
+         <tr>
+            <th align="left" width="80pt">tool</th>
+            <th align="left" width="50pt">priority</th>
+            <th align="left" width="30pt">line</th>
+            <th align="left" width="80pt">category</th>
+            <th align="left" width="380pt">rule</th>
+            <th align="left">message</th>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>1</td>
+            <td>1</td>
+            <td>style</td>
+            <td>ParameterizedRegexpHeaderCheck</td>
+            <td>Header is missing</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>1</td>
+            <td>25</td>
+            <td>style</td>
+            <td>AuthorTagCheck</td>
+            <td>An author tag is missing</td>
+         </tr>
+         <tr class="alternate">
+            <td>pmd</td>
+            <td>1</td>
+            <td>55</td>
+            <td>java logging</td>
+            <td>AvoidPrintStackTrace</td>
+            <td>
+               Avoid printStackTrace(); use a logger call instead.
+               
+            </td>
+         </tr>
+         <tr class="alternate">
+            <td>pmd</td>
+            <td>1</td>
+            <td>77</td>
+            <td>java logging</td>
+            <td>AvoidPrintStackTrace</td>
+            <td>
+               Avoid printStackTrace(); use a logger call instead.
+               
+            </td>
+         </tr>
+         <tr class="alternate">
+            <td>pmd</td>
+            <td>1</td>
+            <td>118</td>
+            <td>java logging</td>
+            <td>AvoidPrintStackTrace</td>
+            <td>
+               Avoid printStackTrace(); use a logger call instead.
+               
+            </td>
+         </tr>
+         <tr class="alternate">
+            <td>pmd</td>
+            <td>1</td>
+            <td>177</td>
+            <td>java logging</td>
+            <td>AvoidPrintStackTrace</td>
+            <td>
+               Avoid printStackTrace(); use a logger call instead.
+               
+            </td>
+         </tr>
+         <tr class="alternate">
+            <td>pmd</td>
+            <td>1</td>
+            <td>213</td>
+            <td>java logging</td>
+            <td>AvoidPrintStackTrace</td>
+            <td>
+               Avoid printStackTrace(); use a logger call instead.
+               
+            </td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>2</td>
+            <td>25</td>
+            <td>style</td>
+            <td>JavadocFilterCheck</td>
+            <td>Missing Javadoc comment.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>26</td>
+            <td>style</td>
+            <td>ConstantNameCheck</td>
+            <td>Name 'persistenceURL' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>34</td>
+            <td>style</td>
+            <td>ConstantNameCheck</td>
+            <td>Name 'sqlDateTimeFormat' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>35</td>
+            <td>style</td>
+            <td>ConstantNameCheck</td>
+            <td>Name 'openhabPersistenceDateFormat' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>36</td>
+            <td>style</td>
+            <td>ConstantNameCheck</td>
+            <td>Name 'openhabPersistenceTimeFormat' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>41</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'Connect' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>46</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'Connect' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>51</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'Disconnect' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>59</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'Disconnect' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>63</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'GetItemId' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>85</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'GetItemData' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>126</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'GetItemDataFromPersistance' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>127</td>
+            <td>style</td>
+            <td>NoEmptyLineSeparatorCheck</td>
+            <td>Remove empty line after opening brace</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>175</td>
+            <td>style</td>
+            <td>NoEmptyLineSeparatorCheck</td>
+            <td>Remove empty line before closing brace</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>183</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'ParseCredentials' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>pmd</td>
+            <td>3</td>
+            <td>132</td>
+            <td>design</td>
+            <td>UnsynchronizedStaticDateFormatter</td>
+            <td>
+               Static DateFormatter objects should be accessed in a synchronized manner
+               
+            </td>
+         </tr>
+         <tr class="alternate">
+            <td>pmd</td>
+            <td>3</td>
+            <td>133</td>
+            <td>design</td>
+            <td>UnsynchronizedStaticDateFormatter</td>
+            <td>
+               Static DateFormatter objects should be accessed in a synchronized manner
+               
+            </td>
+         </tr>
+         <tr class="alternate">
+            <td>pmd</td>
+            <td>3</td>
+            <td>166</td>
+            <td>design</td>
+            <td>UnsynchronizedStaticDateFormatter</td>
+            <td>
+               Static DateFormatter objects should be accessed in a synchronized manner
+               
+            </td>
+         </tr>
+      </table><br><table width="90%" border="0" class="details">
+         <th align="left" colspan="6"><a name="org.openhab.binding.gridpaldevicemanager.rest.ConfigResources.java">org.openhab.binding.gridpaldevicemanager.rest.ConfigResources.java</a></th>
+         <tr>
+            <th align="left" width="80pt">tool</th>
+            <th align="left" width="50pt">priority</th>
+            <th align="left" width="30pt">line</th>
+            <th align="left" width="80pt">category</th>
+            <th align="left" width="380pt">rule</th>
+            <th align="left">message</th>
+         </tr>
+         <tr class="alternate">
+            <td>pmd</td>
+            <td>1</td>
+            <td>48</td>
+            <td>java logging</td>
+            <td>AvoidPrintStackTrace</td>
+            <td>
+               Avoid printStackTrace(); use a logger call instead.
+               
+            </td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>1</td>
+            <td>1</td>
+            <td>style</td>
+            <td>ParameterizedRegexpHeaderCheck</td>
+            <td>Header is missing</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>1</td>
+            <td>21</td>
+            <td>style</td>
+            <td>AuthorTagCheck</td>
+            <td>An author tag is missing</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>2</td>
+            <td>21</td>
+            <td>style</td>
+            <td>JavadocFilterCheck</td>
+            <td>Missing Javadoc comment.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>40</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'DeleteConfig' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+      </table><br><table width="90%" border="0" class="details">
+         <th align="left" colspan="6"><a name="org.openhab.binding.gridpaldevicemanager.rest.DeviceResources.java">org.openhab.binding.gridpaldevicemanager.rest.DeviceResources.java</a></th>
+         <tr>
+            <th align="left" width="80pt">tool</th>
+            <th align="left" width="50pt">priority</th>
+            <th align="left" width="30pt">line</th>
+            <th align="left" width="80pt">category</th>
+            <th align="left" width="380pt">rule</th>
+            <th align="left">message</th>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>1</td>
+            <td>1</td>
+            <td>style</td>
+            <td>ParameterizedRegexpHeaderCheck</td>
+            <td>Header is missing</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>1</td>
+            <td>29</td>
+            <td>style</td>
+            <td>AuthorTagCheck</td>
+            <td>An author tag is missing</td>
+         </tr>
+         <tr class="alternate">
+            <td>pmd</td>
+            <td>1</td>
+            <td>59</td>
+            <td>java logging</td>
+            <td>AvoidPrintStackTrace</td>
+            <td>
+               Avoid printStackTrace(); use a logger call instead.
+               
+            </td>
+         </tr>
+         <tr class="alternate">
+            <td>pmd</td>
+            <td>1</td>
+            <td>79</td>
+            <td>java logging</td>
+            <td>AvoidPrintStackTrace</td>
+            <td>
+               Avoid printStackTrace(); use a logger call instead.
+               
+            </td>
+         </tr>
+         <tr class="alternate">
+            <td>pmd</td>
+            <td>1</td>
+            <td>101</td>
+            <td>java logging</td>
+            <td>AvoidPrintStackTrace</td>
+            <td>
+               Avoid printStackTrace(); use a logger call instead.
+               
+            </td>
+         </tr>
+         <tr class="alternate">
+            <td>pmd</td>
+            <td>1</td>
+            <td>123</td>
+            <td>java logging</td>
+            <td>AvoidPrintStackTrace</td>
+            <td>
+               Avoid printStackTrace(); use a logger call instead.
+               
+            </td>
+         </tr>
+         <tr class="alternate">
+            <td>pmd</td>
+            <td>1</td>
+            <td>141</td>
+            <td>java logging</td>
+            <td>AvoidPrintStackTrace</td>
+            <td>
+               Avoid printStackTrace(); use a logger call instead.
+               
+            </td>
+         </tr>
+         <tr class="alternate">
+            <td>pmd</td>
+            <td>1</td>
+            <td>158</td>
+            <td>java logging</td>
+            <td>AvoidPrintStackTrace</td>
+            <td>
+               Avoid printStackTrace(); use a logger call instead.
+               
+            </td>
+         </tr>
+         <tr class="alternate">
+            <td>pmd</td>
+            <td>1</td>
+            <td>184</td>
+            <td>java logging</td>
+            <td>AvoidPrintStackTrace</td>
+            <td>
+               Avoid printStackTrace(); use a logger call instead.
+               
+            </td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>2</td>
+            <td>29</td>
+            <td>style</td>
+            <td>JavadocFilterCheck</td>
+            <td>Missing Javadoc comment.</td>
+         </tr>
+         <tr class="alternate">
+            <td>pmd</td>
+            <td>2</td>
+            <td>78</td>
+            <td>strict exceptions</td>
+            <td>AvoidCatchingNPE</td>
+            <td>
+               Avoid catching NullPointerException; consider removing the cause of the NPE.
+               
+            </td>
+         </tr>
+         <tr class="alternate">
+            <td>pmd</td>
+            <td>2</td>
+            <td>183</td>
+            <td>strict exceptions</td>
+            <td>AvoidCatchingNPE</td>
+            <td>
+               Avoid catching NullPointerException; consider removing the cause of the NPE.
+               
+            </td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>50</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'GetDevices' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>69</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'GetDevice' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>90</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'AddDevice' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>112</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'UpdateDevice' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>132</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'RemoveDevice' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>150</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'RemoveDevices' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+         <tr class="alternate">
+            <td>checkstyle</td>
+            <td>3</td>
+            <td>167</td>
+            <td>style</td>
+            <td>MethodNameCheck</td>
+            <td>Name 'ExportDevice' must match pattern '^[a-z][a-zA-Z0-9]*$'.</td>
+         </tr>
+      </table><br></body>
+</html>

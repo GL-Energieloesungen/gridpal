@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: .
+Bundle-ManifestVersion: 2
+Bundle-Name: Gridpal System Information Binding
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-SymbolicName: org.openhab.binding.gridpal.sysinfo;singleton:=true
+Bundle-Vendor: Gridpal
+Bundle-Version: 0.1.1.qualifier
+Export-Package: 
+ org.openhab.binding.gridpal.sysinfo
+Import-Package: 
+ org.json;version="20180130.0.0";resolution:=optional,
+ javax.annotation.security,
+ javax.ws.rs,
+ javax.ws.rs.container,
+ javax.ws.rs.core,
+ org.eclipse.jdt.annotation;resolution:=optional,
+ org.eclipse.smarthome.core.auth,
+ org.slf4j
+Service-Component: OSGI-INF/*.xml

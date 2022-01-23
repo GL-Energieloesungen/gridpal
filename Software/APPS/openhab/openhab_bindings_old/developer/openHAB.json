@@ -1,0 +1,809 @@
+{
+	"info": {
+		"name": "openHAB",
+		"_postman_id": "74c0a509-f2df-497b-a564-86005337d7c9",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Cloud",
+			"description": "",
+			"item": [
+				{
+					"name": "Local",
+					"description": null,
+					"item": [
+						{
+							"name": "Handshake",
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "clientversion",
+										"value": "2.1.0"
+									},
+									{
+										"key": "openhabversion",
+										"value": "2.2.0"
+									},
+									{
+										"key": "remoteaccess",
+										"value": "true"
+									},
+									{
+										"key": "secret",
+										"value": "vafZGVAH8a3FUdwXiChf"
+									},
+									{
+										"key": "uuid",
+										"value": "dc403b5a-40c7-422c-bfdc-29b1aba7f62f"
+									},
+									{
+										"key": "user-agent",
+										"value": "Java/1.8.0_161"
+									},
+									{
+										"key": "host",
+										"value": "localhost:3000"
+									},
+									{
+										"key": "accept",
+										"value": "text/html, image/gif, image/jpeg, ; q=.2, /*; q=.2"
+									},
+									{
+										"key": "connection",
+										"value": "keep-alive"
+									},
+									{
+										"key": "time",
+										"value": "Thu Mar 08 2018 15:05:26 GMT+0600 (+06)"
+									},
+									{
+										"key": "address",
+										"value": "::ffff:127.0.0.1"
+									},
+									{
+										"key": "xdomain",
+										"value": "false"
+									},
+									{
+										"key": "secure",
+										"value": "false"
+									},
+									{
+										"key": "issued",
+										"value": "1520499926534"
+									},
+									{
+										"key": "url",
+										"value": "/socket.io/?EIO=3&transport=polling"
+									},
+									{
+										"key": "EIO",
+										"value": "3"
+									},
+									{
+										"key": "transport",
+										"value": "polling"
+									}
+								],
+								"body": {},
+								"url": {
+									"raw": "http://localhost:3000",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "3000"
+								},
+								"description": ""
+							},
+							"response": []
+						}
+					],
+					"_postman_isSubFolder": true
+				},
+				{
+					"name": "REST",
+					"description": null,
+					"item": [
+						{
+							"name": "Items",
+							"request": {
+								"auth": {
+									"type": "basic",
+									"basic": [
+										{
+											"key": "password",
+											"value": "fArHaBihElAl00721995@oPeNhAbClOuD",
+											"type": "string"
+										},
+										{
+											"key": "username",
+											"value": "faheyon@yahoo.com",
+											"type": "string"
+										}
+									]
+								},
+								"method": "GET",
+								"header": [],
+								"body": {},
+								"url": {
+									"raw": "https://localhost:3000/rest/items",
+									"protocol": "https",
+									"host": [
+										"localhost"
+									],
+									"port": "3000",
+									"path": [
+										"rest",
+										"items"
+									]
+								},
+								"description": ""
+							},
+							"response": []
+						}
+					],
+					"_postman_isSubFolder": true
+				}
+			]
+		},
+		{
+			"name": "Runtime",
+			"description": "",
+			"item": [
+				{
+					"name": "REST",
+					"description": "",
+					"item": [
+						{
+							"name": "Items",
+							"description": "",
+							"item": [
+								{
+									"name": "Items : GET",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"body": {},
+										"url": {
+											"raw": "localhost:8080/rest/items",
+											"host": [
+												"localhost"
+											],
+											"port": "8080",
+											"path": [
+												"rest",
+												"items"
+											]
+										},
+										"description": ""
+									},
+									"response": []
+								},
+								{
+									"name": "Items : PUT",
+									"request": {
+										"method": "PUT",
+										"header": [],
+										"body": {},
+										"url": {
+											"raw": "localhost:8080/rest/items",
+											"host": [
+												"localhost"
+											],
+											"port": "8080",
+											"path": [
+												"rest",
+												"items"
+											]
+										},
+										"description": ""
+									},
+									"response": []
+								},
+								{
+									"name": "Item State : GET",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"body": {},
+										"url": {
+											"raw": "localhost:8080/rest/items/{itemname}/state",
+											"host": [
+												"localhost"
+											],
+											"port": "8080",
+											"path": [
+												"rest",
+												"items",
+												"{itemname}",
+												"state"
+											]
+										},
+										"description": ""
+									},
+									"response": []
+								},
+								{
+									"name": "Item State : PUT",
+									"request": {
+										"method": "PUT",
+										"header": [],
+										"body": {},
+										"url": {
+											"raw": "localhost:8080/rest/items/{itemname}/state",
+											"host": [
+												"localhost"
+											],
+											"port": "8080",
+											"path": [
+												"rest",
+												"items",
+												"{itemname}",
+												"state"
+											]
+										},
+										"description": ""
+									},
+									"response": []
+								}
+							],
+							"_postman_isSubFolder": true
+						},
+						{
+							"name": "Gridpal",
+							"description": "",
+							"item": [
+								{
+									"name": "System",
+									"description": "",
+									"item": [
+										{
+											"name": "Resources",
+											"description": "",
+											"item": [
+												{
+													"name": "Resources",
+													"request": {
+														"method": "GET",
+														"header": [],
+														"body": {},
+														"url": {
+															"raw": "localhost:8080/rest/system/resources",
+															"host": [
+																"localhost"
+															],
+															"port": "8080",
+															"path": [
+																"rest",
+																"system",
+																"resources"
+															]
+														},
+														"description": ""
+													},
+													"response": []
+												},
+												{
+													"name": "LANs",
+													"request": {
+														"method": "GET",
+														"header": [],
+														"body": {},
+														"url": {
+															"raw": "localhost:8080/rest/system/resources/lans",
+															"host": [
+																"localhost"
+															],
+															"port": "8080",
+															"path": [
+																"rest",
+																"system",
+																"resources",
+																"lans"
+															]
+														},
+														"description": ""
+													},
+													"response": []
+												},
+												{
+													"name": "WiFis",
+													"request": {
+														"method": "GET",
+														"header": [],
+														"body": {},
+														"url": {
+															"raw": "localhost:8080/rest/system/resources/wifis",
+															"host": [
+																"localhost"
+															],
+															"port": "8080",
+															"path": [
+																"rest",
+																"system",
+																"resources",
+																"wifis"
+															]
+														},
+														"description": ""
+													},
+													"response": []
+												},
+												{
+													"name": "CPU",
+													"request": {
+														"method": "GET",
+														"header": [],
+														"body": {},
+														"url": {
+															"raw": "localhost:8080/rest/system/resources/cpu",
+															"host": [
+																"localhost"
+															],
+															"port": "8080",
+															"path": [
+																"rest",
+																"system",
+																"resources",
+																"cpu"
+															]
+														},
+														"description": ""
+													},
+													"response": []
+												},
+												{
+													"name": "RAM",
+													"request": {
+														"method": "GET",
+														"header": [],
+														"body": {},
+														"url": {
+															"raw": "localhost:8080/rest/system/resources/ram",
+															"host": [
+																"localhost"
+															],
+															"port": "8080",
+															"path": [
+																"rest",
+																"system",
+																"resources",
+																"ram"
+															]
+														},
+														"description": ""
+													},
+													"response": []
+												}
+											],
+											"_postman_isSubFolder": true
+										},
+										{
+											"name": "Internet",
+											"description": "",
+											"item": [
+												{
+													"name": "Status",
+													"request": {
+														"method": "GET",
+														"header": [],
+														"body": {},
+														"url": {
+															"raw": "localhost:8080/rest/system/internet/status",
+															"host": [
+																"localhost"
+															],
+															"port": "8080",
+															"path": [
+																"rest",
+																"system",
+																"internet",
+																"status"
+															]
+														},
+														"description": ""
+													},
+													"response": []
+												}
+											],
+											"_postman_isSubFolder": true
+										},
+										{
+											"name": "Buses",
+											"request": {
+												"method": "GET",
+												"header": [],
+												"body": {},
+												"url": {
+													"raw": "localhost:8080/rest/system/buses",
+													"host": [
+														"localhost"
+													],
+													"port": "8080",
+													"path": [
+														"rest",
+														"system",
+														"buses"
+													]
+												},
+												"description": ""
+											},
+											"response": []
+										},
+										{
+											"name": "Interfaces",
+											"request": {
+												"method": "GET",
+												"header": [],
+												"body": {},
+												"url": {
+													"raw": "localhost:8080/rest/system/interfaces",
+													"host": [
+														"localhost"
+													],
+													"port": "8080",
+													"path": [
+														"rest",
+														"system",
+														"interfaces"
+													]
+												},
+												"description": ""
+											},
+											"response": []
+										},
+										{
+											"name": "Serial Ports",
+											"request": {
+												"method": "GET",
+												"header": [],
+												"body": {},
+												"url": {
+													"raw": "localhost:8080/rest/system/serials",
+													"host": [
+														"localhost"
+													],
+													"port": "8080",
+													"path": [
+														"rest",
+														"system",
+														"serials"
+													]
+												},
+												"description": ""
+											},
+											"response": []
+										}
+									],
+									"_postman_isSubFolder": true
+								},
+								{
+									"name": "Modbus",
+									"description": "",
+									"item": [
+										{
+											"name": "Get All Devices",
+											"request": {
+												"auth": {
+													"type": "noauth"
+												},
+												"method": "GET",
+												"header": [],
+												"body": {
+													"mode": "raw",
+													"raw": "{\n\t\"name\": \"abb\",\n\t\"id\": \"100\",\n\t\"type\": \"super-type\"\n}"
+												},
+												"url": {
+													"raw": "localhost:8080/rest/devices",
+													"host": [
+														"localhost"
+													],
+													"port": "8080",
+													"path": [
+														"rest",
+														"devices"
+													]
+												},
+												"description": ""
+											},
+											"response": []
+										},
+										{
+											"name": "Get Device",
+											"request": {
+												"method": "GET",
+												"header": [],
+												"body": {},
+												"url": {
+													"raw": "localhost:8080/rest/devices/Abba%20Electronic%20%26%20Device%202",
+													"host": [
+														"localhost"
+													],
+													"port": "8080",
+													"path": [
+														"rest",
+														"devices",
+														"Abba%20Electronic%20%26%20Device%202"
+													]
+												},
+												"description": ""
+											},
+											"response": []
+										},
+										{
+											"name": "Update Device",
+											"request": {
+												"method": "POST",
+												"header": [
+													{
+														"key": "Content-Type",
+														"value": "application/json"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "{\n\t\"name\": \"Abba Electronic & Device\",\n\t\"id\": \"1\"\n}"
+												},
+												"url": {
+													"raw": "localhost:8080/rest/devices/update",
+													"host": [
+														"localhost"
+													],
+													"port": "8080",
+													"path": [
+														"rest",
+														"devices",
+														"update"
+													]
+												},
+												"description": ""
+											},
+											"response": []
+										},
+										{
+											"name": "Add Device",
+											"request": {
+												"method": "POST",
+												"header": [
+													{
+														"key": "Content-Type",
+														"value": "application/json"
+													}
+												],
+												"body": {
+													"mode": "raw",
+													"raw": "{\n\t\"register-map\": [\n\t    {\n\t        \"valuetype\": \"uint16\",\n\t        \"start\": \"23340\",\n\t        \"length\": \"10\",\n\t        \"description\": \"L2 Register\",\n\t        \"multiply\": \"0.1\",\n\t        \"unit\": \"Ohm\",\n\t        \"type\": \"holding\"\n\t    },\n\t    {\n\t        \"valuetype\": \"int32\",\n\t        \"start\": \"10000\",\n\t        \"length\": \"80\",\n\t        \"description\": \"L3 Register\",\n\t        \"multiply\": \"0.1\",\n\t        \"unit\": \"Ohm\",\n\t        \"type\": \"holding\"\n\t    }\n\t],\n\t\"name\": \"Abba Electronic & Device 2\",\n\t\"slave-type\": \"serial\",\n\t\"connection\": [\n\t    \"/dev/ttyUSB0\",\n\t    \"9600\",\n\t    \"8\",\n\t    \"none\",\n\t    \"1\",\n\t    \"rtu\",\n\t    \"1000\",\n\t    \"5000\"\n\t],\n\t\"id\": \"1\",\n\t\"manufacturer\": \"Abba Industry\",\n\t\"devicetype\": \"modbus\"\n}"
+												},
+												"url": {
+													"raw": "localhost:8080/rest/devices/add",
+													"host": [
+														"localhost"
+													],
+													"port": "8080",
+													"path": [
+														"rest",
+														"devices",
+														"add"
+													]
+												},
+												"description": ""
+											},
+											"response": []
+										},
+										{
+											"name": "Remove Device",
+											"request": {
+												"method": "GET",
+												"header": [],
+												"body": {},
+												"url": {
+													"raw": "localhost:8080/rest/devices/remove/Abba%20Electronic%20%26%20Device%202",
+													"host": [
+														"localhost"
+													],
+													"port": "8080",
+													"path": [
+														"rest",
+														"devices",
+														"remove",
+														"Abba%20Electronic%20%26%20Device%202"
+													]
+												},
+												"description": ""
+											},
+											"response": []
+										},
+										{
+											"name": "Remove All Devices",
+											"request": {
+												"method": "GET",
+												"header": [],
+												"body": {},
+												"url": {
+													"raw": "localhost:8080/rest/devices/remove/all",
+													"host": [
+														"localhost"
+													],
+													"port": "8080",
+													"path": [
+														"rest",
+														"devices",
+														"remove",
+														"all"
+													]
+												},
+												"description": ""
+											},
+											"response": []
+										}
+									],
+									"_postman_isSubFolder": true
+								},
+								{
+									"name": "Vendors",
+									"description": "",
+									"item": [
+										{
+											"name": "Interfaces",
+											"request": {
+												"method": "GET",
+												"header": [],
+												"body": {},
+												"url": {
+													"raw": "localhost:8080/rest/vendors/interface",
+													"host": [
+														"localhost"
+													],
+													"port": "8080",
+													"path": [
+														"rest",
+														"vendors",
+														"interface"
+													]
+												},
+												"description": ""
+											},
+											"response": []
+										},
+										{
+											"name": "Manufacturers",
+											"request": {
+												"method": "GET",
+												"header": [],
+												"body": {},
+												"url": {
+													"raw": "localhost:8080/rest/vendors/manufacturer?id_interface=1",
+													"host": [
+														"localhost"
+													],
+													"port": "8080",
+													"path": [
+														"rest",
+														"vendors",
+														"manufacturer"
+													],
+													"query": [
+														{
+															"key": "id_interface",
+															"value": "1",
+															"equals": true
+														}
+													]
+												},
+												"description": ""
+											},
+											"response": []
+										},
+										{
+											"name": "Devices",
+											"request": {
+												"method": "GET",
+												"header": [],
+												"body": {},
+												"url": {
+													"raw": "localhost:8080/rest/vendors/device?id_interface=1&id_manufacturer=1",
+													"host": [
+														"localhost"
+													],
+													"port": "8080",
+													"path": [
+														"rest",
+														"vendors",
+														"device"
+													],
+													"query": [
+														{
+															"key": "id_interface",
+															"value": "1",
+															"equals": true
+														},
+														{
+															"key": "id_manufacturer",
+															"value": "1",
+															"equals": true
+														}
+													]
+												},
+												"description": ""
+											},
+											"response": []
+										},
+										{
+											"name": "Config",
+											"request": {
+												"method": "GET",
+												"header": [],
+												"body": {},
+												"url": {
+													"raw": "localhost:8080/rest/vendors/device/config?id=1",
+													"host": [
+														"localhost"
+													],
+													"port": "8080",
+													"path": [
+														"rest",
+														"vendors",
+														"device",
+														"config"
+													],
+													"query": [
+														{
+															"key": "id",
+															"value": "1",
+															"equals": true
+														}
+													]
+												},
+												"description": ""
+											},
+											"response": []
+										},
+										{
+											"name": "Register Map",
+											"request": {
+												"method": "GET",
+												"header": [],
+												"body": {},
+												"url": {
+													"raw": "localhost:8080/rest/vendors/registermap?id_device=1",
+													"host": [
+														"localhost"
+													],
+													"port": "8080",
+													"path": [
+														"rest",
+														"vendors",
+														"registermap"
+													],
+													"query": [
+														{
+															"key": "id_device",
+															"value": "1",
+															"equals": true
+														}
+													]
+												},
+												"description": ""
+											},
+											"response": []
+										}
+									],
+									"_postman_isSubFolder": true
+								}
+							],
+							"_postman_isSubFolder": true
+						}
+					],
+					"_postman_isSubFolder": true
+				}
+			]
+		}
+	]
+}

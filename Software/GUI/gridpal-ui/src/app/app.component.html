@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="MD Sakib Ibne Farhad">
+  <title>GridPal Admin Panel</title>
+</head>
+<div [ngSwitch]="initialDataObject">
+  <div *ngSwitchCase="200">
+
+    <body>
+      <div [style.pointer-events]="activity? 'none' : 'auto'" [style.opacity]="activity? '0.5' : '1'">
+        <div>
+
+          <div class="row" style="height: 80px; width: 100%;">
+
+            <img class="navbar-brand" style="widows: 300px; height: 80px; margin-bottom: 10px; margin-left: 15px" [src]="gridpal_logo"
+              routerLink="home">
+
+            <div class="form-inline pull-right" style="margin-top: 20px; margin-right: 25px" [hidden]="ipAddressHidden">
+              <form>
+                <div class="form-group">
+                  <input type="text" class="form-control" [(ngModel)]="ipAddress" name="ipAddress" placeholder="0.0.0.0">
+                </div>
+                <button class="btn btn-info" hotkey="{enter: click}" (click)="changeIP()">Set IP</button>
+                <button class="btn btn-danger" (click)="resetIP()">Reset IP</button>
+              </form>
+            </div>
+          </div>
+
+        </div>
+        <div class="overlay navbar-default sidebar" role="navigation" style="height: 90%;">
+          <div class="sidebar-nav navbar-collapse">
+            <ul class="nav" id="side-menu">
+              <li>
+                <a routerLink="home">
+                  <i class="fa fa-home"></i> Home </a>
+              </li>
+              <li>
+                <a routerLink="internet">
+                  <i class="fa fa-globe"></i> Internet </a>
+              </li>
+              <li>
+                <a routerLink="wifi">
+                  <i class="fa fa-wifi"></i> Wireless </a>
+              </li>
+              <li>
+                <a routerLink="devicemanager">
+                  <i class="fa fa-cog"></i> Device Manager </a>
+              </li>
+              <li>
+                <a routerLink="live-data">
+                  <i class="fa fa-table"></i> Live Data </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div id="page-wrapper" class="container-fluid">
+          <div class="row">
+            <div class="col-lg-12" style="margin-bottom: 20px">
+              <router-outlet></router-outlet>
+            </div>
+          </div>
+        </div>
+      </div>
+    </body>
+  </div>
+  <div *ngSwitchDefault>
+
+    <body>
+      <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+        <div class="container-fluid">
+          <div class="row" style="height: 20px">
+            <div class="col-md-6">
+              <a class="navbar-brand" routerLink="home">
+                <img [src]="gridpal_logo">
+              </a>
+            </div>
+            <div class="form-inline pull-right" style="margin-top: 20px; margin-right: 25px" [hidden]="ipAddressHidden">
+              <form>
+                <div class="form-group">
+                  <input type="text" class="form-control" [(ngModel)]="ipAddress" name="ipAddress" placeholder="0.0.0.0">
+                </div>
+                <button class="btn btn-info" (click)="changeIP()">Set IP</button>
+                <button class="btn btn-danger" (click)="resetIP()">Reset IP</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div class="col-lg-4" style="margin-top: 15px;">
+        <div class="panel panel-danger">
+          <div class="panel-heading">ERROR</div>
+          <div class="panel-body">
+            Could not connect to backend server
+          </div>
+        </div>
+      </div>
+    </body>
+  </div>
+</div>
+
+</html>

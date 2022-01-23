@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><sca xmlns:pmdns="http://pmd.sourceforge.net/report/2.0.0" xmlns:functx="http://www.functx.com">
+
+
+
+   <file name=".binding.gridpalsysinfo/META-INF/MANIFEST.MF">
+      <message tool="checkstyle" line="0" message="The package org.openhab.binding.gridpalsysinfo.rest should be marked as &#34;internal&#34; if it is not exported." priority="1" rule="PackageExportsNameCheck" category="style"/>
+      <message tool="checkstyle" line="11" message="Unexpected &#34;gridpal&#34;, only allowed options: [openHAB]" priority="2" rule="BundleVendorCheck" category="style"/>
+   </file>
+
+
+   <file name="org.openhab.binding.gridpalsysinfo.internal.Agent.java">
+      <message tool="pmd" line="38" message="&#xA;Avoid printStackTrace(); use a logger call instead.&#xA;" priority="1" rule="AvoidPrintStackTrace" rule_url="https://pmd.github.io/pmd-6.7.0/pmd_rules_java_bestpractices.html#avoidprintstacktrace" category="best practices"/>
+   </file>
+   <file name="org.openhab.binding.gridpalsysinfo.internal.Iftop.java">
+      <message tool="pmd" line="69" message="&#xA;Avoid empty if statements&#xA;" priority="3" rule="EmptyIfStmt" rule_url="https://pmd.github.io/pmd-6.7.0/pmd_rules_java_errorprone.html#emptyifstmt" category="error prone"/>
+   </file>
+   <file name="org.openhab.binding.gridpalsysinfo.rest.SystemResources.java">
+      <message tool="checkstyle" line="0" message="File does not end with a newline." priority="3" rule="NewlineAtEndOfFileCheck" category="style"/>
+      <message tool="checkstyle" line="1" message="Header is missing" priority="1" rule="ParameterizedRegexpHeaderCheck" category="style"/>
+      <message tool="checkstyle" line="25" message="An author tag is missing" priority="1" rule="AuthorTagCheck" category="style"/>
+      <message tool="checkstyle" line="25" message="Missing Javadoc comment." priority="2" rule="JavadocFilterCheck" category="style"/>
+      <message tool="checkstyle" line="28" message="Classes/Interfaces should be annotated with @NonNullByDefault" priority="2" rule="NullAnnotationsCheck" category="style"/>
+      <message tool="checkstyle" line="44" message="Name 'GetResources' must match pattern '^[a-z][a-zA-Z0-9]*$'." priority="3" rule="MethodNameCheck" category="style"/>
+      <message tool="checkstyle" line="119" message="Name 'GetInterfaces' must match pattern '^[a-z][a-zA-Z0-9]*$'." priority="3" rule="MethodNameCheck" category="style"/>
+      <message tool="checkstyle" line="145" message="Name 'GetBuses' must match pattern '^[a-z][a-zA-Z0-9]*$'." priority="3" rule="MethodNameCheck" category="style"/>
+      <message tool="checkstyle" line="146" message="Remove empty line after opening brace" priority="3" rule="NoEmptyLineSeparatorCheck" category="style"/>
+      <message tool="checkstyle" line="167" message="Name 'GetCPU' must match pattern '^[a-z][a-zA-Z0-9]*$'." priority="3" rule="MethodNameCheck" category="style"/>
+      <message tool="checkstyle" line="176" message="Name 'GetRAM' must match pattern '^[a-z][a-zA-Z0-9]*$'." priority="3" rule="MethodNameCheck" category="style"/>
+      <message tool="checkstyle" line="185" message="Name 'GetLANs' must match pattern '^[a-z][a-zA-Z0-9]*$'." priority="3" rule="MethodNameCheck" category="style"/>
+      <message tool="checkstyle" line="194" message="Name 'GetWiFis' must match pattern '^[a-z][a-zA-Z0-9]*$'." priority="3" rule="MethodNameCheck" category="style"/>
+      <message tool="checkstyle" line="203" message="Name 'GetInternetStatus' must match pattern '^[a-z][a-zA-Z0-9]*$'." priority="3" rule="MethodNameCheck" category="style"/>
+      <message tool="checkstyle" line="232" message="Name 'GetSerialPorts' must match pattern '^[a-z][a-zA-Z0-9]*$'." priority="3" rule="MethodNameCheck" category="style"/>
+      <message tool="checkstyle" line="236" message="Remove empty line before closing brace" priority="3" rule="NoEmptyLineSeparatorCheck" category="style"/>
+      <message tool="checkstyle" line="242" message="Name 'GetTraffic' must match pattern '^[a-z][a-zA-Z0-9]*$'." priority="3" rule="MethodNameCheck" category="style"/>
+   <message tool="pmd" line="108" message="&#xA;Avoid printStackTrace(); use a logger call instead.&#xA;" priority="1" rule="AvoidPrintStackTrace" rule_url="https://pmd.github.io/pmd-6.7.0/pmd_rules_java_bestpractices.html#avoidprintstacktrace" category="best practices"/>
+      <message tool="pmd" line="135" message="&#xA;Avoid printStackTrace(); use a logger call instead.&#xA;" priority="1" rule="AvoidPrintStackTrace" rule_url="https://pmd.github.io/pmd-6.7.0/pmd_rules_java_bestpractices.html#avoidprintstacktrace" category="best practices"/>
+      <message tool="pmd" line="158" message="&#xA;Avoid printStackTrace(); use a logger call instead.&#xA;" priority="1" rule="AvoidPrintStackTrace" rule_url="https://pmd.github.io/pmd-6.7.0/pmd_rules_java_bestpractices.html#avoidprintstacktrace" category="best practices"/>
+      <message tool="pmd" line="223" message="&#xA;Avoid printStackTrace(); use a logger call instead.&#xA;" priority="1" rule="AvoidPrintStackTrace" rule_url="https://pmd.github.io/pmd-6.7.0/pmd_rules_java_bestpractices.html#avoidprintstacktrace" category="best practices"/>
+   </file>
+   <file name="org.openhab.binding.gridpalsysinfo.internal.SystemUtility.java">
+      <message tool="checkstyle" line="0" message="File does not end with a newline." priority="3" rule="NewlineAtEndOfFileCheck" category="style"/>
+      <message tool="checkstyle" line="1" message="Header is missing" priority="1" rule="ParameterizedRegexpHeaderCheck" category="style"/>
+      <message tool="checkstyle" line="11" message="An author tag is missing" priority="1" rule="AuthorTagCheck" category="style"/>
+      <message tool="checkstyle" line="11" message="Classes/Interfaces should be annotated with @NonNullByDefault" priority="2" rule="NullAnnotationsCheck" category="style"/>
+      <message tool="checkstyle" line="19" message="Remove empty line after opening brace" priority="3" rule="NoEmptyLineSeparatorCheck" category="style"/>
+      <message tool="checkstyle" line="22" message="Name 'GetCPU' must match pattern '^[a-z][a-zA-Z0-9]*$'." priority="3" rule="MethodNameCheck" category="style"/>
+      <message tool="checkstyle" line="50" message="Name 'GetRAM' must match pattern '^[a-z][a-zA-Z0-9]*$'." priority="3" rule="MethodNameCheck" category="style"/>
+      <message tool="checkstyle" line="58" message="Name 'GetTotalRAM' must match pattern '^[a-z][a-zA-Z0-9]*$'." priority="3" rule="MethodNameCheck" category="style"/>
+      <message tool="checkstyle" line="67" message="Remove empty line after opening brace" priority="3" rule="NoEmptyLineSeparatorCheck" category="style"/>
+      <message tool="checkstyle" line="73" message="Name 'GetAvailableRAM' must match pattern '^[a-z][a-zA-Z0-9]*$'." priority="3" rule="MethodNameCheck" category="style"/>
+      <message tool="checkstyle" line="82" message="Remove empty line after opening brace" priority="3" rule="NoEmptyLineSeparatorCheck" category="style"/>
+      <message tool="checkstyle" line="88" message="Name 'GetFreeRAM' must match pattern '^[a-z][a-zA-Z0-9]*$'." priority="3" rule="MethodNameCheck" category="style"/>
+      <message tool="checkstyle" line="97" message="Remove empty line after opening brace" priority="3" rule="NoEmptyLineSeparatorCheck" category="style"/>
+      <message tool="checkstyle" line="103" message="Name 'GetUsedRAM' must match pattern '^[a-z][a-zA-Z0-9]*$'." priority="3" rule="MethodNameCheck" category="style"/>
+      <message tool="checkstyle" line="111" message="Name 'GetLANs' must match pattern '^[a-z][a-zA-Z0-9]*$'." priority="3" rule="MethodNameCheck" category="style"/>
+      <message tool="checkstyle" line="138" message="Name 'GetWiFis' must match pattern '^[a-z][a-zA-Z0-9]*$'." priority="3" rule="MethodNameCheck" category="style"/>
+      <message tool="checkstyle" line="165" message="Name 'GetWiFiFrequency' must match pattern '^[a-z][a-zA-Z0-9]*$'." priority="3" rule="MethodNameCheck" category="style"/>
+      <message tool="checkstyle" line="173" message="Remove empty line after opening brace" priority="3" rule="NoEmptyLineSeparatorCheck" category="style"/>
+      <message tool="checkstyle" line="179" message="Name 'GetSerialPorts' must match pattern '^[a-z][a-zA-Z0-9]*$'." priority="3" rule="MethodNameCheck" category="style"/>
+      <message tool="checkstyle" line="202" message="Name 'GetIPAddress' must match pattern '^[a-z][a-zA-Z0-9]*$'." priority="3" rule="MethodNameCheck" category="style"/>
+      <message tool="checkstyle" line="212" message="Remove empty line after opening brace" priority="3" rule="NoEmptyLineSeparatorCheck" category="style"/>
+      <message tool="checkstyle" line="218" message="Name 'GetIPAllAddresses' must match pattern '^[a-z][a-zA-Z0-9]*$'." priority="3" rule="MethodNameCheck" category="style"/>
+      <message tool="checkstyle" line="224" message="Name 'GetUptime' must match pattern '^[a-z][a-zA-Z0-9]*$'." priority="3" rule="MethodNameCheck" category="style"/>
+   </file>
+   <file name="org.openhab.binding.gridpalsysinfo.internal.Iftop.java">
+      <message tool="checkstyle" line="1" message="Header is missing" priority="1" rule="ParameterizedRegexpHeaderCheck" category="style"/>
+      <message tool="checkstyle" line="12" message="An author tag is missing" priority="1" rule="AuthorTagCheck" category="style"/>
+      <message tool="checkstyle" line="12" message="Classes/Interfaces should be annotated with @NonNullByDefault" priority="2" rule="NullAnnotationsCheck" category="style"/>
+      <message tool="checkstyle" line="21" message="Remove empty line after opening brace" priority="3" rule="NoEmptyLineSeparatorCheck" category="style"/>
+      <message tool="checkstyle" line="33" message="Remove empty line before closing brace" priority="3" rule="NoEmptyLineSeparatorCheck" category="style"/>
+      <message tool="checkstyle" line="37" message="Remove empty line after opening brace" priority="3" rule="NoEmptyLineSeparatorCheck" category="style"/>
+      <message tool="checkstyle" line="62" message="Name 'SourceHost' must match pattern '^[a-z][a-zA-Z0-9]*$'." priority="3" rule="LocalVariableNameCheck" category="style"/>
+   </file>
+   <file name="org.openhab.binding.gridpalsysinfo.internal.ShellCommands.java">
+      <message tool="checkstyle" line="0" message="File does not end with a newline." priority="3" rule="NewlineAtEndOfFileCheck" category="style"/>
+      <message tool="checkstyle" line="1" message="Header is missing" priority="1" rule="ParameterizedRegexpHeaderCheck" category="style"/>
+      <message tool="checkstyle" line="3" message="An author tag is missing" priority="1" rule="AuthorTagCheck" category="style"/>
+      <message tool="checkstyle" line="3" message="Classes/Interfaces should be annotated with @NonNullByDefault" priority="2" rule="NullAnnotationsCheck" category="style"/>
+   </file>
+   <file name="org.openhab.binding.gridpalsysinfo.internal.Agent.java">
+      <message tool="checkstyle" line="1" message="Header is missing" priority="1" rule="ParameterizedRegexpHeaderCheck" category="style"/>
+      <message tool="checkstyle" line="8" message="An author tag is missing" priority="1" rule="AuthorTagCheck" category="style"/>
+      <message tool="checkstyle" line="8" message="Classes/Interfaces should be annotated with @NonNullByDefault" priority="2" rule="NullAnnotationsCheck" category="style"/>
+      <message tool="checkstyle" line="15" message="Name 'Execute' must match pattern '^[a-z][a-zA-Z0-9]*$'." priority="3" rule="MethodNameCheck" category="style"/>
+      <message tool="checkstyle" line="35" message="Remove empty line before closing brace" priority="3" rule="NoEmptyLineSeparatorCheck" category="style"/>
+   </file>
+   <file name="org.openhab.binding.gridpalsysinfo.internal.HttpClient.java">
+      <message tool="checkstyle" line="1" message="Header is missing" priority="1" rule="ParameterizedRegexpHeaderCheck" category="style"/>
+      <message tool="checkstyle" line="142" message="Classes/Interfaces should be annotated with @NonNullByDefault" priority="2" rule="NullAnnotationsCheck" category="style"/>
+      <message tool="checkstyle" line="160" message="Classes/Interfaces should be annotated with @NonNullByDefault" priority="2" rule="NullAnnotationsCheck" category="style"/>
+   </file>
+   <file name=".binding.gridpalsysinfo/ESH-INF/binding/binding.xml">
+      <message tool="checkstyle" line="4" message="Cannot find the declaration of element binding:binding." priority="1" rule="EshInfXmlValidationCheck" category="style"/>
+   </file>
+
+</sca>

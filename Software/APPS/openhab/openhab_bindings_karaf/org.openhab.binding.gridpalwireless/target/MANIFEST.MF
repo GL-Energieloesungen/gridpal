@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+Automatic-Module-Name: org.openhab.binding.gridpalwireless
+Bundle-SymbolicName: org.openhab.binding.gridpalwireless;singleton:=tr
+ ue
+Bundle-Name: gridpalWireless Binding
+Bundle-Version: 2.5.0.201904261042
+Bundle-ClassPath: .,lib/json-20180813.jar
+Bundle-ActivationPolicy: lazy
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-Vendor: openHAB
+Import-Package: org.eclipse.jdt.annotation;resolution:=optional,javax.
+ annotation.security;javax.ws.rs;javax.ws.rs.container;javax.ws.rs.cor
+ e;org.eclipse.smarthome.config.core,org.eclipse.smarthome.core.auth,o
+ rg.eclipse.smarthome.core.common,org.eclipse.smarthome.core.events,or
+ g.eclipse.smarthome.core.items,org.eclipse.smarthome.core.library.typ
+ es,org.eclipse.smarthome.core.thing,org.eclipse.smarthome.core.thing.
+ binding,org.eclipse.smarthome.core.thing.binding.builder,org.eclipse.
+ smarthome.core.thing.type,org.eclipse.smarthome.core.types,org.slf4j
+Service-Component: OSGI-INF/*.xml
+

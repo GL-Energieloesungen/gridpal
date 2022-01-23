@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><sca xmlns:functx="http://www.functx.com">
+
+
+
+
+   <file name=".binding.gridpalrest/META-INF/MANIFEST.MF">
+      <message tool="checkstyle" line="0" message="The manifest version did not match the requirements ^2.5.0" priority="1" rule="PomXmlCheck" category="style"/>
+      <message tool="checkstyle" line="0" message="The package org.openhab.binding.gridpalrest should be marked as &#34;internal&#34; if it is not exported." priority="1" rule="PackageExportsNameCheck" category="style"/>
+      <message tool="checkstyle" line="14" message="The version of the package javax.annotation.security should not be specified" priority="2" rule="ManifestPackageVersionCheck" category="style"/>
+      <message tool="checkstyle" line="15" message="The version of the package javax.ws.rs should not be specified" priority="2" rule="ManifestPackageVersionCheck" category="style"/>
+      <message tool="checkstyle" line="16" message="The version of the package javax.ws.rs.container should not be specified" priority="2" rule="ManifestPackageVersionCheck" category="style"/>
+      <message tool="checkstyle" line="17" message="The version of the package javax.ws.rs.core should not be specified" priority="2" rule="ManifestPackageVersionCheck" category="style"/>
+   </file>
+
+
+   <file name="org.openhab.binding.gridpalrest.RESTResources.java">
+      <message tool="checkstyle" line="1" message="Header is missing" priority="1" rule="ParameterizedRegexpHeaderCheck" category="style"/>
+      <message tool="checkstyle" line="22" message="An author tag is missing" priority="1" rule="AuthorTagCheck" category="style"/>
+      <message tool="checkstyle" line="22" message="Missing Javadoc comment." priority="2" rule="JavadocFilterCheck" category="style"/>
+      <message tool="checkstyle" line="38" message="Name 'MethodGET' must match pattern '^[a-z][a-zA-Z0-9]*$'." priority="3" rule="MethodNameCheck" category="style"/>
+      <message tool="checkstyle" line="54" message="Name 'MethodPOST' must match pattern '^[a-z][a-zA-Z0-9]*$'." priority="3" rule="MethodNameCheck" category="style"/>
+   </file>
+
+
+</sca>

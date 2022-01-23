@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Automatic-Module-Name: org.openhab.binding.gridpaldevicemanager
+Bundle-SymbolicName: org.openhab.binding.gridpaldevicemanager;singleto
+ n:=true
+Bundle-Name: gridpalDeviceManager Binding
+Bundle-Version: 2.5.0.201903261306
+Bundle-ClassPath: .,lib/json-20180813.jar,lib/sqlite-jdbc-3.21.0.jar
+Bundle-ActivationPolicy: lazy
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-Vendor: openHAB
+Import-Package: javax.annotation.security,javax.ws.rs,javax.ws.rs.cont
+ ainer,javax.ws.rs.core,org.eclipse.jdt.annotation;resolution:=optiona
+ l,org.eclipse.smarthome.config.core,org.eclipse.smarthome.core.auth,o
+ rg.eclipse.smarthome.core.common,org.eclipse.smarthome.core.events,or
+ g.eclipse.smarthome.core.items,org.eclipse.smarthome.core.library.typ
+ es,org.eclipse.smarthome.core.thing,org.eclipse.smarthome.core.thing.
+ binding,org.eclipse.smarthome.core.thing.binding.builder,org.eclipse.
+ smarthome.core.thing.type,org.eclipse.smarthome.core.types,org.osgi.f
+ ramework;org.osgi.service.cm;org.slf4j
+Service-Component: OSGI-INF/*.xml
+

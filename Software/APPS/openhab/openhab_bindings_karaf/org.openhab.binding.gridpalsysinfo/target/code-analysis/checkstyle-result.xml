@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.12">
+<file name="/home/kanok/openhab-master/git/openhab2-addons/addons/binding/org.openhab.binding.gridpalsysinfo/OSGI-INF/.gitignore">
+</file>
+<file name="/home/kanok/openhab-master/git/openhab2-addons/addons/binding/org.openhab.binding.gridpalsysinfo/OSGI-INF/org.openhab.binding.gridpalsysinfo.rest.SystemResources.xml">
+</file>
+<file name="/home/kanok/openhab-master/git/openhab2-addons/addons/binding/org.openhab.binding.gridpalsysinfo/README.md">
+</file>
+<file name="/home/kanok/openhab-master/git/openhab2-addons/addons/binding/org.openhab.binding.gridpalsysinfo/META-INF/MANIFEST.MF">
+<error line="0" severity="error" message="The package org.openhab.binding.gridpalsysinfo.rest should be marked as &quot;internal&quot; if it is not exported." source="org.openhab.tools.analysis.checkstyle.PackageExportsNameCheck"/>
+<error line="11" severity="warning" message="Unexpected &quot;gridpal&quot;, only allowed options: [openHAB]" source="org.openhab.tools.analysis.checkstyle.BundleVendorCheck"/>
+</file>
+<file name="/home/kanok/openhab-master/git/openhab2-addons/addons/binding/org.openhab.binding.gridpalsysinfo/build.properties">
+</file>
+<file name="/home/kanok/openhab-master/git/openhab2-addons/addons/binding/org.openhab.binding.gridpalsysinfo/.classpath">
+</file>
+<file name="/home/kanok/openhab-master/git/openhab2-addons/addons/binding/org.openhab.binding.gridpalsysinfo/src/main/java/org/openhab/binding/gridpalsysinfo/rest/SystemResources.java">
+<error line="0" severity="info" message="File does not end with a newline." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="1" severity="error" message="Header is missing" source="org.openhab.tools.analysis.checkstyle.ParameterizedRegexpHeaderCheck"/>
+<error line="25" severity="error" message="An author tag is missing" source="org.openhab.tools.analysis.checkstyle.AuthorTagCheck"/>
+<error line="25" severity="warning" message="Missing Javadoc comment." source="org.openhab.tools.analysis.checkstyle.JavadocFilterCheck"/>
+<error line="28" severity="warning" message="Classes/Interfaces should be annotated with @NonNullByDefault" source="org.openhab.tools.analysis.checkstyle.NullAnnotationsCheck"/>
+<error line="44" column="21" severity="info" message="Name &apos;GetResources&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"/>
+<error line="119" column="21" severity="info" message="Name &apos;GetInterfaces&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"/>
+<error line="145" column="21" severity="info" message="Name &apos;GetBuses&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"/>
+<error line="146" severity="info" message="Remove empty line after opening brace" source="org.openhab.tools.analysis.checkstyle.NoEmptyLineSeparatorCheck"/>
+<error line="167" column="21" severity="info" message="Name &apos;GetCPU&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"/>
+<error line="176" column="21" severity="info" message="Name &apos;GetRAM&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"/>
+<error line="185" column="21" severity="info" message="Name &apos;GetLANs&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"/>
+<error line="194" column="21" severity="info" message="Name &apos;GetWiFis&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"/>
+<error line="203" column="21" severity="info" message="Name &apos;GetInternetStatus&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"/>
+<error line="232" column="21" severity="info" message="Name &apos;GetSerialPorts&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"/>
+<error line="236" severity="info" message="Remove empty line before closing brace" source="org.openhab.tools.analysis.checkstyle.NoEmptyLineSeparatorCheck"/>
+<error line="242" column="21" severity="info" message="Name &apos;GetTraffic&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"/>
+</file>
+<file name="/home/kanok/openhab-master/git/openhab2-addons/addons/binding/org.openhab.binding.gridpalsysinfo/src/main/java/org/openhab/binding/gridpalsysinfo/internal/SystemUtility.java">
+<error line="0" severity="info" message="File does not end with a newline." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="1" severity="error" message="Header is missing" source="org.openhab.tools.analysis.checkstyle.ParameterizedRegexpHeaderCheck"/>
+<error line="11" severity="error" message="An author tag is missing" source="org.openhab.tools.analysis.checkstyle.AuthorTagCheck"/>
+<error line="11" severity="warning" message="Classes/Interfaces should be annotated with @NonNullByDefault" source="org.openhab.tools.analysis.checkstyle.NullAnnotationsCheck"/>
+<error line="19" severity="info" message="Remove empty line after opening brace" source="org.openhab.tools.analysis.checkstyle.NoEmptyLineSeparatorCheck"/>
+<error line="22" column="19" severity="info" message="Name &apos;GetCPU&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"/>
+<error line="50" column="19" severity="info" message="Name &apos;GetRAM&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"/>
+<error line="58" column="19" severity="info" message="Name &apos;GetTotalRAM&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"/>
+<error line="67" severity="info" message="Remove empty line after opening brace" source="org.openhab.tools.analysis.checkstyle.NoEmptyLineSeparatorCheck"/>
+<error line="73" column="19" severity="info" message="Name &apos;GetAvailableRAM&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"/>
+<error line="82" severity="info" message="Remove empty line after opening brace" source="org.openhab.tools.analysis.checkstyle.NoEmptyLineSeparatorCheck"/>
+<error line="88" column="19" severity="info" message="Name &apos;GetFreeRAM&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"/>
+<error line="97" severity="info" message="Remove empty line after opening brace" source="org.openhab.tools.analysis.checkstyle.NoEmptyLineSeparatorCheck"/>
+<error line="103" column="19" severity="info" message="Name &apos;GetUsedRAM&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"/>
+<error line="111" column="30" severity="info" message="Name &apos;GetLANs&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"/>
+<error line="138" column="30" severity="info" message="Name &apos;GetWiFis&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"/>
+<error line="165" column="19" severity="info" message="Name &apos;GetWiFiFrequency&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"/>
+<error line="173" severity="info" message="Remove empty line after opening brace" source="org.openhab.tools.analysis.checkstyle.NoEmptyLineSeparatorCheck"/>
+<error line="179" column="30" severity="info" message="Name &apos;GetSerialPorts&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"/>
+<error line="202" column="19" severity="info" message="Name &apos;GetIPAddress&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"/>
+<error line="212" severity="info" message="Remove empty line after opening brace" source="org.openhab.tools.analysis.checkstyle.NoEmptyLineSeparatorCheck"/>
+<error line="218" column="21" severity="info" message="Name &apos;GetIPAllAddresses&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"/>
+<error line="224" column="19" severity="info" message="Name &apos;GetUptime&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"/>
+</file>
+<file name="/home/kanok/openhab-master/git/openhab2-addons/addons/binding/org.openhab.binding.gridpalsysinfo/src/main/java/org/openhab/binding/gridpalsysinfo/internal/Iftop.java">
+<error line="1" severity="error" message="Header is missing" source="org.openhab.tools.analysis.checkstyle.ParameterizedRegexpHeaderCheck"/>
+<error line="12" severity="error" message="An author tag is missing" source="org.openhab.tools.analysis.checkstyle.AuthorTagCheck"/>
+<error line="12" severity="warning" message="Classes/Interfaces should be annotated with @NonNullByDefault" source="org.openhab.tools.analysis.checkstyle.NullAnnotationsCheck"/>
+<error line="21" severity="info" message="Remove empty line after opening brace" source="org.openhab.tools.analysis.checkstyle.NoEmptyLineSeparatorCheck"/>
+<error line="33" severity="info" message="Remove empty line before closing brace" source="org.openhab.tools.analysis.checkstyle.NoEmptyLineSeparatorCheck"/>
+<error line="37" severity="info" message="Remove empty line after opening brace" source="org.openhab.tools.analysis.checkstyle.NoEmptyLineSeparatorCheck"/>
+<error line="62" column="36" severity="info" message="Name &apos;SourceHost&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+</file>
+<file name="/home/kanok/openhab-master/git/openhab2-addons/addons/binding/org.openhab.binding.gridpalsysinfo/src/main/java/org/openhab/binding/gridpalsysinfo/internal/ShellCommands.java">
+<error line="0" severity="info" message="File does not end with a newline." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="1" severity="error" message="Header is missing" source="org.openhab.tools.analysis.checkstyle.ParameterizedRegexpHeaderCheck"/>
+<error line="3" severity="error" message="An author tag is missing" source="org.openhab.tools.analysis.checkstyle.AuthorTagCheck"/>
+<error line="3" severity="warning" message="Classes/Interfaces should be annotated with @NonNullByDefault" source="org.openhab.tools.analysis.checkstyle.NullAnnotationsCheck"/>
+</file>
+<file name="/home/kanok/openhab-master/git/openhab2-addons/addons/binding/org.openhab.binding.gridpalsysinfo/src/main/java/org/openhab/binding/gridpalsysinfo/internal/Agent.java">
+<error line="1" severity="error" message="Header is missing" source="org.openhab.tools.analysis.checkstyle.ParameterizedRegexpHeaderCheck"/>
+<error line="8" severity="error" message="An author tag is missing" source="org.openhab.tools.analysis.checkstyle.AuthorTagCheck"/>
+<error line="8" severity="warning" message="Classes/Interfaces should be annotated with @NonNullByDefault" source="org.openhab.tools.analysis.checkstyle.NullAnnotationsCheck"/>
+<error line="15" column="19" severity="info" message="Name &apos;Execute&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"/>
+<error line="35" severity="info" message="Remove empty line before closing brace" source="org.openhab.tools.analysis.checkstyle.NoEmptyLineSeparatorCheck"/>
+</file>
+<file name="/home/kanok/openhab-master/git/openhab2-addons/addons/binding/org.openhab.binding.gridpalsysinfo/src/main/java/org/openhab/binding/gridpalsysinfo/internal/HttpClient.java">
+<error line="1" severity="error" message="Header is missing" source="org.openhab.tools.analysis.checkstyle.ParameterizedRegexpHeaderCheck"/>
+<error line="142" severity="warning" message="Classes/Interfaces should be annotated with @NonNullByDefault" source="org.openhab.tools.analysis.checkstyle.NullAnnotationsCheck"/>
+<error line="160" severity="warning" message="Classes/Interfaces should be annotated with @NonNullByDefault" source="org.openhab.tools.analysis.checkstyle.NullAnnotationsCheck"/>
+</file>
+<file name="/home/kanok/openhab-master/git/openhab2-addons/addons/binding/org.openhab.binding.gridpalsysinfo/ESH-INF/binding/binding.xml">
+<error line="4" severity="error" message="Cannot find the declaration of element binding:binding." source="org.openhab.tools.analysis.checkstyle.EshInfXmlValidationCheck"/>
+</file>
+<file name="/home/kanok/openhab-master/git/openhab2-addons/addons/binding/org.openhab.binding.gridpalsysinfo/pom.xml">
+</file>
+</checkstyle>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<thing:thing-descriptions bindingId="gridpal" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:thing="http://eclipse.org/smarthome/schemas/thing-description/v1.0.0"
+    xsi:schemaLocation="http://eclipse.org/smarthome/schemas/thing-description/v1.0.0 http://eclipse.org/smarthome/schemas/thing-description-1.0.0.xsd">
+
+    <thing-type id="gridpal-gateway">
+    
+        <label>Gridpal Smart Home Gateway</label>
+        <description>The gateway for Gridpal smart devices.</description>
+                
+        <config-description-ref uri="gridpal:config:gridpal-gateway" />
+    
+    </thing-type>
+
+</thing:thing-descriptions>

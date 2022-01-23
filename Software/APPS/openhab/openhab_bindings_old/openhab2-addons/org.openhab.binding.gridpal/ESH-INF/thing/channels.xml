@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<thing:thing-descriptions bindingId="gridpal" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:thing="http://eclipse.org/smarthome/schemas/thing-description/v1.0.0"
+    xsi:schemaLocation="http://eclipse.org/smarthome/schemas/thing-description/v1.0.0 http://eclipse.org/smarthome/schemas/thing-description-1.0.0.xsd">
+
+    
+
+    <channel-type id="smart-switch-01">
+        <item-type>Switch</item-type>
+        <label>Switch 1</label>
+    </channel-type>
+    
+    <channel-type id="smart-switch-02">
+        <item-type>Switch</item-type>
+        <label>Switch 2</label>
+    </channel-type>
+    
+    <channel-type id="smart-switch-03">
+        <item-type>Switch</item-type>
+        <label>Switch 3</label>
+    </channel-type>
+    
+    <channel-type id="smart-switch-04">
+        <item-type>Switch</item-type>
+        <label>Switch 4</label>
+    </channel-type>
+    
+    <channel-type id="smart-switch-05">
+        <item-type>Switch</item-type>
+        <label>Switch 5</label>
+    </channel-type>
+    
+    <channel-type id="smart-switch-06">
+        <item-type>Switch</item-type>
+        <label>Switch 6</label>
+    </channel-type>
+    
+    
+
+</thing:thing-descriptions>

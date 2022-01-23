@@ -1,0 +1,40 @@
+{
+    "slaves": [
+        {
+            "interface-type": "Modbus-Serial",
+            "register-map": [
+                {
+                    "valuetype": "uint16",
+                    "unit": "Ohm",
+                    "start": "23340",
+                    "length": "10",
+                    "description": "L2 Register",
+                    "multiply": "0.1"
+                },
+                {
+                    "valuetype": "int32",
+                    "unit": "Ohm",
+                    "start": "10000",
+                    "length": "80",
+                    "description": "L3 Register",
+                    "multiply": "0.1"
+                }
+            ],
+            "name": "Abba Electronic & Device 2",
+            "connection": [
+                "/dev/ttyUSB0",
+                "9600",
+                "8",
+                "none",
+                "1",
+                "rtu",
+                "1000",
+                "5000"
+            ],
+            "id": "1",
+            "devicetype": "3P Meter",
+            "manufacturer": "Abba Industry"
+        }
+    ],
+    "poll": "200"
+}

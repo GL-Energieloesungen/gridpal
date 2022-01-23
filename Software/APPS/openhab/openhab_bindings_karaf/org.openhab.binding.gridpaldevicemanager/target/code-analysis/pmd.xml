@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="5.8.1" timestamp="2019-03-26T14:07:24.872">
+<file name="/home/kanok/openhab-master/git/openhab2-addons/addons/binding/org.openhab.binding.gridpaldevicemanager/src/main/java/org/openhab/binding/gridpaldevicemanager/device/knx/KnxConfigManager.java">
+<violation beginline="68" endline="68" begincolumn="13" endcolumn="31" rule="AvoidPrintStackTrace" ruleset="Java Logging" package="org.openhab.binding.gridpaldevicemanager.device.knx" class="KnxConfigManager" method="UpdateDevice" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/logging-java.html#AvoidPrintStackTrace" priority="1">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+<violation beginline="95" endline="95" begincolumn="13" endcolumn="31" rule="AvoidPrintStackTrace" ruleset="Java Logging" package="org.openhab.binding.gridpaldevicemanager.device.knx" class="KnxConfigManager" method="AddDevice" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/logging-java.html#AvoidPrintStackTrace" priority="1">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+<violation beginline="124" endline="124" begincolumn="13" endcolumn="31" rule="AvoidPrintStackTrace" ruleset="Java Logging" package="org.openhab.binding.gridpaldevicemanager.device.knx" class="KnxConfigManager" method="RemoveDevice" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/logging-java.html#AvoidPrintStackTrace" priority="1">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+<violation beginline="141" endline="141" begincolumn="13" endcolumn="31" rule="AvoidPrintStackTrace" ruleset="Java Logging" package="org.openhab.binding.gridpaldevicemanager.device.knx" class="KnxConfigManager" method="RemoveDevices" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/logging-java.html#AvoidPrintStackTrace" priority="1">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+</file>
+<file name="/home/kanok/openhab-master/git/openhab2-addons/addons/binding/org.openhab.binding.gridpaldevicemanager/src/main/java/org/openhab/binding/gridpaldevicemanager/device/knx/KnxConfigParser.java">
+<violation beginline="101" endline="103" begincolumn="82" endcolumn="37" rule="EmptyIfStmt" ruleset="Empty Code" package="org.openhab.binding.gridpaldevicemanager.device.knx" class="KnxConfigParser" method="ToConfig" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/empty.html#EmptyIfStmt" priority="3">
+Avoid empty if statements
+</violation>
+</file>
+<file name="/home/kanok/openhab-master/git/openhab2-addons/addons/binding/org.openhab.binding.gridpaldevicemanager/src/main/java/org/openhab/binding/gridpaldevicemanager/device/knx/KnxManager.java">
+<violation beginline="36" endline="36" begincolumn="13" endcolumn="31" rule="AvoidPrintStackTrace" ruleset="Java Logging" package="org.openhab.binding.gridpaldevicemanager.device.knx" class="KnxManager" method="AddDevice" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/logging-java.html#AvoidPrintStackTrace" priority="1">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+<violation beginline="46" endline="46" begincolumn="13" endcolumn="31" rule="AvoidPrintStackTrace" ruleset="Java Logging" package="org.openhab.binding.gridpaldevicemanager.device.knx" class="KnxManager" method="RemoveDevice" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/logging-java.html#AvoidPrintStackTrace" priority="1">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+<violation beginline="56" endline="56" begincolumn="13" endcolumn="31" rule="AvoidPrintStackTrace" ruleset="Java Logging" package="org.openhab.binding.gridpaldevicemanager.device.knx" class="KnxManager" method="RemoveDevices" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/logging-java.html#AvoidPrintStackTrace" priority="1">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+<violation beginline="66" endline="66" begincolumn="13" endcolumn="31" rule="AvoidPrintStackTrace" ruleset="Java Logging" package="org.openhab.binding.gridpaldevicemanager.device.knx" class="KnxManager" method="UpdateDevice" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/logging-java.html#AvoidPrintStackTrace" priority="1">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+</file>
+<file name="/home/kanok/openhab-master/git/openhab2-addons/addons/binding/org.openhab.binding.gridpaldevicemanager/src/main/java/org/openhab/binding/gridpaldevicemanager/device/mbus/MBusConfigManager.java">
+<violation beginline="68" endline="68" begincolumn="13" endcolumn="31" rule="AvoidPrintStackTrace" ruleset="Java Logging" package="org.openhab.binding.gridpaldevicemanager.device.mbus" class="MBusConfigManager" method="UpdateDevice" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/logging-java.html#AvoidPrintStackTrace" priority="1">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+<violation beginline="106" endline="106" begincolumn="13" endcolumn="31" rule="AvoidPrintStackTrace" ruleset="Java Logging" package="org.openhab.binding.gridpaldevicemanager.device.mbus" class="MBusConfigManager" method="AddDevice" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/logging-java.html#AvoidPrintStackTrace" priority="1">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+<violation beginline="135" endline="135" begincolumn="13" endcolumn="31" rule="AvoidPrintStackTrace" ruleset="Java Logging" package="org.openhab.binding.gridpaldevicemanager.device.mbus" class="MBusConfigManager" method="RemoveDevice" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/logging-java.html#AvoidPrintStackTrace" priority="1">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+<violation beginline="152" endline="152" begincolumn="13" endcolumn="31" rule="AvoidPrintStackTrace" ruleset="Java Logging" package="org.openhab.binding.gridpaldevicemanager.device.mbus" class="MBusConfigManager" method="RemoveDevices" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/logging-java.html#AvoidPrintStackTrace" priority="1">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+</file>
+<file name="/home/kanok/openhab-master/git/openhab2-addons/addons/binding/org.openhab.binding.gridpaldevicemanager/src/main/java/org/openhab/binding/gridpaldevicemanager/device/mbus/MBusConfigParser.java">
+<violation beginline="145" endline="147" begincolumn="94" endcolumn="41" rule="EmptyIfStmt" ruleset="Empty Code" package="org.openhab.binding.gridpaldevicemanager.device.mbus" class="MBusConfigParser" method="ToConfig" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/empty.html#EmptyIfStmt" priority="3">
+Avoid empty if statements
+</violation>
+</file>
+<file name="/home/kanok/openhab-master/git/openhab2-addons/addons/binding/org.openhab.binding.gridpaldevicemanager/src/main/java/org/openhab/binding/gridpaldevicemanager/device/mbus/MBusManager.java">
+<violation beginline="37" endline="37" begincolumn="13" endcolumn="31" rule="AvoidPrintStackTrace" ruleset="Java Logging" package="org.openhab.binding.gridpaldevicemanager.device.mbus" class="MBusManager" method="AddDevice" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/logging-java.html#AvoidPrintStackTrace" priority="1">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+<violation beginline="47" endline="47" begincolumn="13" endcolumn="31" rule="AvoidPrintStackTrace" ruleset="Java Logging" package="org.openhab.binding.gridpaldevicemanager.device.mbus" class="MBusManager" method="RemoveDevice" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/logging-java.html#AvoidPrintStackTrace" priority="1">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+<violation beginline="57" endline="57" begincolumn="13" endcolumn="31" rule="AvoidPrintStackTrace" ruleset="Java Logging" package="org.openhab.binding.gridpaldevicemanager.device.mbus" class="MBusManager" method="RemoveDevices" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/logging-java.html#AvoidPrintStackTrace" priority="1">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+<violation beginline="67" endline="67" begincolumn="13" endcolumn="31" rule="AvoidPrintStackTrace" ruleset="Java Logging" package="org.openhab.binding.gridpaldevicemanager.device.mbus" class="MBusManager" method="UpdateDevice" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/logging-java.html#AvoidPrintStackTrace" priority="1">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+</file>
+<file name="/home/kanok/openhab-master/git/openhab2-addons/addons/binding/org.openhab.binding.gridpaldevicemanager/src/main/java/org/openhab/binding/gridpaldevicemanager/device/modbus/ModbusConfigManager.java">
+<violation beginline="75" endline="75" begincolumn="13" endcolumn="31" rule="AvoidPrintStackTrace" ruleset="Java Logging" package="org.openhab.binding.gridpaldevicemanager.device.modbus" class="ModbusConfigManager" method="UpdateDevice" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/logging-java.html#AvoidPrintStackTrace" priority="1">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+<violation beginline="104" endline="104" begincolumn="13" endcolumn="31" rule="AvoidPrintStackTrace" ruleset="Java Logging" package="org.openhab.binding.gridpaldevicemanager.device.modbus" class="ModbusConfigManager" method="AddDevice" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/logging-java.html#AvoidPrintStackTrace" priority="1">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+<violation beginline="135" endline="135" begincolumn="13" endcolumn="31" rule="AvoidPrintStackTrace" ruleset="Java Logging" package="org.openhab.binding.gridpaldevicemanager.device.modbus" class="ModbusConfigManager" method="RemoveDevice" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/logging-java.html#AvoidPrintStackTrace" priority="1">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+<violation beginline="154" endline="154" begincolumn="13" endcolumn="31" rule="AvoidPrintStackTrace" ruleset="Java Logging" package="org.openhab.binding.gridpaldevicemanager.device.modbus" class="ModbusConfigManager" method="RemoveDevices" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/logging-java.html#AvoidPrintStackTrace" priority="1">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+</file>
+<file name="/home/kanok/openhab-master/git/openhab2-addons/addons/binding/org.openhab.binding.gridpaldevicemanager/src/main/java/org/openhab/binding/gridpaldevicemanager/device/modbus/ModbusConfigParser.java">
+<violation beginline="146" endline="148" begincolumn="96" endcolumn="41" rule="EmptyIfStmt" ruleset="Empty Code" package="org.openhab.binding.gridpaldevicemanager.device.modbus" class="ModbusConfigParser" method="ToConfig" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/empty.html#EmptyIfStmt" priority="3">
+Avoid empty if statements
+</violation>
+</file>
+<file name="/home/kanok/openhab-master/git/openhab2-addons/addons/binding/org.openhab.binding.gridpaldevicemanager/src/main/java/org/openhab/binding/gridpaldevicemanager/device/modbus/ModbusManager.java">
+<violation beginline="37" endline="37" begincolumn="13" endcolumn="31" rule="AvoidPrintStackTrace" ruleset="Java Logging" package="org.openhab.binding.gridpaldevicemanager.device.modbus" class="ModbusManager" method="AddDevice" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/logging-java.html#AvoidPrintStackTrace" priority="1">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+<violation beginline="47" endline="47" begincolumn="13" endcolumn="31" rule="AvoidPrintStackTrace" ruleset="Java Logging" package="org.openhab.binding.gridpaldevicemanager.device.modbus" class="ModbusManager" method="RemoveDevice" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/logging-java.html#AvoidPrintStackTrace" priority="1">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+<violation beginline="57" endline="57" begincolumn="13" endcolumn="31" rule="AvoidPrintStackTrace" ruleset="Java Logging" package="org.openhab.binding.gridpaldevicemanager.device.modbus" class="ModbusManager" method="RemoveDevices" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/logging-java.html#AvoidPrintStackTrace" priority="1">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+<violation beginline="67" endline="67" begincolumn="13" endcolumn="31" rule="AvoidPrintStackTrace" ruleset="Java Logging" package="org.openhab.binding.gridpaldevicemanager.device.modbus" class="ModbusManager" method="UpdateDevice" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/logging-java.html#AvoidPrintStackTrace" priority="1">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+</file>
+<file name="/home/kanok/openhab-master/git/openhab2-addons/addons/binding/org.openhab.binding.gridpaldevicemanager/src/main/java/org/openhab/binding/gridpaldevicemanager/device/utils/Utility.java">
+<violation beginline="27" endline="27" begincolumn="13" endcolumn="31" rule="AvoidPrintStackTrace" ruleset="Java Logging" package="org.openhab.binding.gridpaldevicemanager.device.utils" class="Utility" method="Read" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/logging-java.html#AvoidPrintStackTrace" priority="1">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+<violation beginline="50" endline="50" begincolumn="13" endcolumn="31" rule="AvoidPrintStackTrace" ruleset="Java Logging" package="org.openhab.binding.gridpaldevicemanager.device.utils" class="Utility" method="Write" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/logging-java.html#AvoidPrintStackTrace" priority="1">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+<violation beginline="61" endline="61" begincolumn="13" endcolumn="31" rule="AvoidPrintStackTrace" ruleset="Java Logging" package="org.openhab.binding.gridpaldevicemanager.device.utils" class="Utility" method="Write" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/logging-java.html#AvoidPrintStackTrace" priority="1">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+</file>
+<file name="/home/kanok/openhab-master/git/openhab2-addons/addons/binding/org.openhab.binding.gridpaldevicemanager/src/main/java/org/openhab/binding/gridpaldevicemanager/device/wmbus/WMBusConfigManager.java">
+<violation beginline="68" endline="68" begincolumn="13" endcolumn="31" rule="AvoidPrintStackTrace" ruleset="Java Logging" package="org.openhab.binding.gridpaldevicemanager.device.wmbus" class="WMBusConfigManager" method="UpdateDevice" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/logging-java.html#AvoidPrintStackTrace" priority="1">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+<violation beginline="95" endline="95" begincolumn="13" endcolumn="31" rule="AvoidPrintStackTrace" ruleset="Java Logging" package="org.openhab.binding.gridpaldevicemanager.device.wmbus" class="WMBusConfigManager" method="AddDevice" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/logging-java.html#AvoidPrintStackTrace" priority="1">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+<violation beginline="124" endline="124" begincolumn="13" endcolumn="31" rule="AvoidPrintStackTrace" ruleset="Java Logging" package="org.openhab.binding.gridpaldevicemanager.device.wmbus" class="WMBusConfigManager" method="RemoveDevice" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/logging-java.html#AvoidPrintStackTrace" priority="1">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+<violation beginline="141" endline="141" begincolumn="13" endcolumn="31" rule="AvoidPrintStackTrace" ruleset="Java Logging" package="org.openhab.binding.gridpaldevicemanager.device.wmbus" class="WMBusConfigManager" method="RemoveDevices" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/logging-java.html#AvoidPrintStackTrace" priority="1">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+</file>
+<file name="/home/kanok/openhab-master/git/openhab2-addons/addons/binding/org.openhab.binding.gridpaldevicemanager/src/main/java/org/openhab/binding/gridpaldevicemanager/device/wmbus/WMBusConfigParser.java">
+<violation beginline="110" endline="112" begincolumn="95" endcolumn="37" rule="EmptyIfStmt" ruleset="Empty Code" package="org.openhab.binding.gridpaldevicemanager.device.wmbus" class="WMBusConfigParser" method="ToConfig" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/empty.html#EmptyIfStmt" priority="3">
+Avoid empty if statements
+</violation>
+</file>
+<file name="/home/kanok/openhab-master/git/openhab2-addons/addons/binding/org.openhab.binding.gridpaldevicemanager/src/main/java/org/openhab/binding/gridpaldevicemanager/device/wmbus/WMBusManager.java">
+<violation beginline="37" endline="37" begincolumn="13" endcolumn="31" rule="AvoidPrintStackTrace" ruleset="Java Logging" package="org.openhab.binding.gridpaldevicemanager.device.wmbus" class="WMBusManager" method="AddDevice" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/logging-java.html#AvoidPrintStackTrace" priority="1">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+<violation beginline="47" endline="47" begincolumn="13" endcolumn="31" rule="AvoidPrintStackTrace" ruleset="Java Logging" package="org.openhab.binding.gridpaldevicemanager.device.wmbus" class="WMBusManager" method="RemoveDevice" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/logging-java.html#AvoidPrintStackTrace" priority="1">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+<violation beginline="57" endline="57" begincolumn="13" endcolumn="31" rule="AvoidPrintStackTrace" ruleset="Java Logging" package="org.openhab.binding.gridpaldevicemanager.device.wmbus" class="WMBusManager" method="RemoveDevices" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/logging-java.html#AvoidPrintStackTrace" priority="1">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+<violation beginline="67" endline="67" begincolumn="13" endcolumn="31" rule="AvoidPrintStackTrace" ruleset="Java Logging" package="org.openhab.binding.gridpaldevicemanager.device.wmbus" class="WMBusManager" method="UpdateDevice" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/logging-java.html#AvoidPrintStackTrace" priority="1">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+</file>
+<file name="/home/kanok/openhab-master/git/openhab2-addons/addons/binding/org.openhab.binding.gridpaldevicemanager/src/main/java/org/openhab/binding/gridpaldevicemanager/item/ItemManager.java">
+<violation beginline="37" endline="37" begincolumn="13" endcolumn="31" rule="AvoidPrintStackTrace" ruleset="Java Logging" package="org.openhab.binding.gridpaldevicemanager.item" class="ItemManager" method="Put" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/logging-java.html#AvoidPrintStackTrace" priority="1">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+</file>
+<file name="/home/kanok/openhab-master/git/openhab2-addons/addons/binding/org.openhab.binding.gridpaldevicemanager/src/main/java/org/openhab/binding/gridpaldevicemanager/manager/ConfigManager.java">
+<violation beginline="33" endline="33" begincolumn="17" endcolumn="35" rule="AvoidPrintStackTrace" ruleset="Java Logging" package="org.openhab.binding.gridpaldevicemanager.manager" class="ConfigManager" method="Delete" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/logging-java.html#AvoidPrintStackTrace" priority="1">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+<violation beginline="43" endline="43" begincolumn="13" endcolumn="31" rule="AvoidPrintStackTrace" ruleset="Java Logging" package="org.openhab.binding.gridpaldevicemanager.manager" class="ConfigManager" method="Delete" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/logging-java.html#AvoidPrintStackTrace" priority="1">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+<violation beginline="55" endline="57" begincolumn="9" endcolumn="9" rule="NonThreadSafeSingleton" ruleset="Design" package="org.openhab.binding.gridpaldevicemanager.manager" class="ConfigManager" method="GetInstance" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/design.html#NonThreadSafeSingleton" priority="3">
+Singleton is not thread safe
+</violation>
+</file>
+<file name="/home/kanok/openhab-master/git/openhab2-addons/addons/binding/org.openhab.binding.gridpaldevicemanager/src/main/java/org/openhab/binding/gridpaldevicemanager/manager/DeviceManager.java">
+<violation beginline="104" endline="104" begincolumn="13" endcolumn="31" rule="AvoidPrintStackTrace" ruleset="Java Logging" package="org.openhab.binding.gridpaldevicemanager.manager" class="DeviceManager" method="ExportDevice" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/logging-java.html#AvoidPrintStackTrace" priority="1">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+</file>
+<file name="/home/kanok/openhab-master/git/openhab2-addons/addons/binding/org.openhab.binding.gridpaldevicemanager/src/main/java/org/openhab/binding/gridpaldevicemanager/manager/ExportManager.java">
+<violation beginline="55" endline="55" begincolumn="13" endcolumn="31" rule="AvoidPrintStackTrace" ruleset="Java Logging" package="org.openhab.binding.gridpaldevicemanager.manager" class="ExportManager" method="Disconnect" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/logging-java.html#AvoidPrintStackTrace" priority="1">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+<violation beginline="77" endline="77" begincolumn="13" endcolumn="31" rule="AvoidPrintStackTrace" ruleset="Java Logging" package="org.openhab.binding.gridpaldevicemanager.manager" class="ExportManager" method="GetItemId" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/logging-java.html#AvoidPrintStackTrace" priority="1">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+<violation beginline="118" endline="118" begincolumn="13" endcolumn="31" rule="AvoidPrintStackTrace" ruleset="Java Logging" package="org.openhab.binding.gridpaldevicemanager.manager" class="ExportManager" method="GetItemData" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/logging-java.html#AvoidPrintStackTrace" priority="1">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+<violation beginline="132" endline="132" begincolumn="45" endcolumn="79" rule="UnsynchronizedStaticDateFormatter" ruleset="Design" package="org.openhab.binding.gridpaldevicemanager.manager" class="ExportManager" method="GetItemDataFromPersistance" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/design.html#UnsynchronizedStaticDateFormatter" priority="3">
+Static DateFormatter objects should be accessed in a synchronized manner
+</violation>
+<violation beginline="133" endline="133" begincolumn="21" endcolumn="55" rule="UnsynchronizedStaticDateFormatter" ruleset="Design" package="org.openhab.binding.gridpaldevicemanager.manager" class="ExportManager" method="GetItemDataFromPersistance" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/design.html#UnsynchronizedStaticDateFormatter" priority="3">
+Static DateFormatter objects should be accessed in a synchronized manner
+</violation>
+<violation beginline="166" endline="166" begincolumn="25" endcolumn="48" rule="UnsynchronizedStaticDateFormatter" ruleset="Design" package="org.openhab.binding.gridpaldevicemanager.manager" class="ExportManager" method="GetItemDataFromPersistance" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/design.html#UnsynchronizedStaticDateFormatter" priority="3">
+Static DateFormatter objects should be accessed in a synchronized manner
+</violation>
+<violation beginline="177" endline="177" begincolumn="13" endcolumn="31" rule="AvoidPrintStackTrace" ruleset="Java Logging" package="org.openhab.binding.gridpaldevicemanager.manager" class="ExportManager" method="GetItemDataFromPersistance" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/logging-java.html#AvoidPrintStackTrace" priority="1">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+<violation beginline="213" endline="213" begincolumn="13" endcolumn="31" rule="AvoidPrintStackTrace" ruleset="Java Logging" package="org.openhab.binding.gridpaldevicemanager.manager" class="ExportManager" method="ParseCredentials" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/logging-java.html#AvoidPrintStackTrace" priority="1">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+</file>
+<file name="/home/kanok/openhab-master/git/openhab2-addons/addons/binding/org.openhab.binding.gridpaldevicemanager/src/main/java/org/openhab/binding/gridpaldevicemanager/rest/ConfigResources.java">
+<violation beginline="48" endline="48" begincolumn="13" endcolumn="31" rule="AvoidPrintStackTrace" ruleset="Java Logging" package="org.openhab.binding.gridpaldevicemanager.rest" class="ConfigResources" method="DeleteConfig" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/logging-java.html#AvoidPrintStackTrace" priority="1">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+</file>
+<file name="/home/kanok/openhab-master/git/openhab2-addons/addons/binding/org.openhab.binding.gridpaldevicemanager/src/main/java/org/openhab/binding/gridpaldevicemanager/rest/DeviceResources.java">
+<violation beginline="59" endline="59" begincolumn="13" endcolumn="31" rule="AvoidPrintStackTrace" ruleset="Java Logging" package="org.openhab.binding.gridpaldevicemanager.rest" class="DeviceResources" method="GetDevices" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/logging-java.html#AvoidPrintStackTrace" priority="1">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+<violation beginline="78" endline="78" begincolumn="48" endcolumn="67" rule="AvoidCatchingNPE" ruleset="Strict Exceptions" package="org.openhab.binding.gridpaldevicemanager.rest" class="DeviceResources" method="GetDevice" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/strictexception.html#AvoidCatchingNPE" priority="2">
+Avoid catching NullPointerException; consider removing the cause of the NPE.
+</violation>
+<violation beginline="79" endline="79" begincolumn="13" endcolumn="31" rule="AvoidPrintStackTrace" ruleset="Java Logging" package="org.openhab.binding.gridpaldevicemanager.rest" class="DeviceResources" method="GetDevice" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/logging-java.html#AvoidPrintStackTrace" priority="1">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+<violation beginline="101" endline="101" begincolumn="13" endcolumn="31" rule="AvoidPrintStackTrace" ruleset="Java Logging" package="org.openhab.binding.gridpaldevicemanager.rest" class="DeviceResources" method="AddDevice" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/logging-java.html#AvoidPrintStackTrace" priority="1">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+<violation beginline="123" endline="123" begincolumn="13" endcolumn="31" rule="AvoidPrintStackTrace" ruleset="Java Logging" package="org.openhab.binding.gridpaldevicemanager.rest" class="DeviceResources" method="UpdateDevice" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/logging-java.html#AvoidPrintStackTrace" priority="1">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+<violation beginline="141" endline="141" begincolumn="13" endcolumn="31" rule="AvoidPrintStackTrace" ruleset="Java Logging" package="org.openhab.binding.gridpaldevicemanager.rest" class="DeviceResources" method="RemoveDevice" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/logging-java.html#AvoidPrintStackTrace" priority="1">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+<violation beginline="158" endline="158" begincolumn="13" endcolumn="31" rule="AvoidPrintStackTrace" ruleset="Java Logging" package="org.openhab.binding.gridpaldevicemanager.rest" class="DeviceResources" method="RemoveDevices" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/logging-java.html#AvoidPrintStackTrace" priority="1">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+<violation beginline="183" endline="183" begincolumn="18" endcolumn="37" rule="AvoidCatchingNPE" ruleset="Strict Exceptions" package="org.openhab.binding.gridpaldevicemanager.rest" class="DeviceResources" method="ExportDevice" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/strictexception.html#AvoidCatchingNPE" priority="2">
+Avoid catching NullPointerException; consider removing the cause of the NPE.
+</violation>
+<violation beginline="184" endline="184" begincolumn="13" endcolumn="31" rule="AvoidPrintStackTrace" ruleset="Java Logging" package="org.openhab.binding.gridpaldevicemanager.rest" class="DeviceResources" method="ExportDevice" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/logging-java.html#AvoidPrintStackTrace" priority="1">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+</file>
+</pmd>

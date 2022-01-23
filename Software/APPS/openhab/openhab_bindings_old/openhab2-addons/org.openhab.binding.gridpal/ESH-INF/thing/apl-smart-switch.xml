@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<thing:thing-descriptions bindingId="gridpal" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:thing="http://eclipse.org/smarthome/schemas/thing-description/v1.0.0"
+    xsi:schemaLocation="http://eclipse.org/smarthome/schemas/thing-description/v1.0.0 http://eclipse.org/smarthome/schemas/thing-description-1.0.0.xsd">
+
+    <thing-type id="apl-smart-switch">
+    
+        <label>APL Smart Switch</label>
+        <description>Smart switch provides advanced functionality than regular switches.</description>
+        
+        <channels>
+            <channel id="smart-switch-01" typeId="smart-switch-01" />
+            <channel id="smart-switch-02" typeId="smart-switch-02" />
+            <channel id="smart-switch-03" typeId="smart-switch-03" />
+            <channel id="smart-switch-04" typeId="smart-switch-04" />
+            <channel id="smart-switch-05" typeId="smart-switch-05" />
+            <channel id="smart-switch-06" typeId="smart-switch-06" />
+        </channels>        
+        
+        <config-description-ref uri="gridpal:config:apl-smart-switch" />
+    
+    </thing-type>
+
+</thing:thing-descriptions>

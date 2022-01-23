@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><sca xmlns:pmdns="http://pmd.sourceforge.net/report/2.0.0" xmlns:functx="http://www.functx.com">
+
+
+
+   <file name=".binding.gridpalui/META-INF/MANIFEST.MF">
+      <message tool="checkstyle" line="0" message="The package org.openhab.binding.gridpalui.ui should be marked as &#34;internal&#34; if it is not exported." priority="1" rule="PackageExportsNameCheck" category="style"/>
+   </file>
+
+
+   <file name="org.openhab.binding.gridpalui.ui.ConfigKey.java">
+      <message tool="checkstyle" line="0" message="File does not end with a newline." priority="3" rule="NewlineAtEndOfFileCheck" category="style"/>
+      <message tool="checkstyle" line="1" message="Header is missing" priority="1" rule="ParameterizedRegexpHeaderCheck" category="style"/>
+      <message tool="checkstyle" line="3" message="An author tag is missing" priority="1" rule="AuthorTagCheck" category="style"/>
+      <message tool="checkstyle" line="3" message="Classes/Interfaces should be annotated with @NonNullByDefault" priority="2" rule="NullAnnotationsCheck" category="style"/>
+      <message tool="checkstyle" line="3" message="Missing Javadoc comment." priority="2" rule="JavadocFilterCheck" category="style"/>
+   </file>
+   <file name="org.openhab.binding.gridpalui.ui.GridpalUIApp.java">
+      <message tool="checkstyle" line="0" message="File does not end with a newline." priority="3" rule="NewlineAtEndOfFileCheck" category="style"/>
+      <message tool="checkstyle" line="1" message="Header is missing" priority="1" rule="ParameterizedRegexpHeaderCheck" category="style"/>
+      <message tool="checkstyle" line="16" message="First javadoc author should have &#34;Initial contribution&#34; contribution description." priority="2" rule="AuthorContributionDescriptionCheck" category="style"/>
+      <message tool="checkstyle" line="19" message="Classes/Interfaces should be annotated with @NonNullByDefault" priority="2" rule="NullAnnotationsCheck" category="style"/>
+   </file>
+   <file name="org.openhab.binding.gridpalui.ui.Config.java">
+      <message tool="checkstyle" line="0" message="File does not end with a newline." priority="3" rule="NewlineAtEndOfFileCheck" category="style"/>
+      <message tool="checkstyle" line="1" message="Header is missing" priority="1" rule="ParameterizedRegexpHeaderCheck" category="style"/>
+      <message tool="checkstyle" line="3" message="An author tag is missing" priority="1" rule="AuthorTagCheck" category="style"/>
+      <message tool="checkstyle" line="3" message="Classes/Interfaces should be annotated with @NonNullByDefault" priority="2" rule="NullAnnotationsCheck" category="style"/>
+      <message tool="checkstyle" line="3" message="Missing Javadoc comment." priority="2" rule="JavadocFilterCheck" category="style"/>
+      <message tool="checkstyle" line="5" message="Name 'RESOURCES_DIR' must match pattern '^[a-z][a-zA-Z0-9]*$'." priority="3" rule="MemberNameCheck" category="style"/>
+   </file>
+   <file name="org.openhab.binding.gridpalui.ui.ConfigManager.java">
+      <message tool="pmd" line="51" message="&#xA;Avoid printStackTrace(); use a logger call instead.&#xA;" priority="1" rule="AvoidPrintStackTrace" rule_url="https://pmd.github.io/pmd-6.7.0/pmd_rules_java_bestpractices.html#avoidprintstacktrace" category="best practices"/>
+      <message tool="pmd" line="63" message="&#xA;Avoid printStackTrace(); use a logger call instead.&#xA;" priority="1" rule="AvoidPrintStackTrace" rule_url="https://pmd.github.io/pmd-6.7.0/pmd_rules_java_bestpractices.html#avoidprintstacktrace" category="best practices"/>
+      <message tool="pmd" line="79" message="&#xA;Avoid printStackTrace(); use a logger call instead.&#xA;" priority="1" rule="AvoidPrintStackTrace" rule_url="https://pmd.github.io/pmd-6.7.0/pmd_rules_java_bestpractices.html#avoidprintstacktrace" category="best practices"/>
+   </file>
+   <file name="org.openhab.binding.gridpalui.ui.GridpalUIHttpContext.java">
+      <message tool="checkstyle" line="0" message="File does not end with a newline." priority="3" rule="NewlineAtEndOfFileCheck" category="style"/>
+      <message tool="checkstyle" line="1" message="Header is missing" priority="1" rule="ParameterizedRegexpHeaderCheck" category="style"/>
+      <message tool="checkstyle" line="15" message="An author tag is missing" priority="1" rule="AuthorTagCheck" category="style"/>
+      <message tool="checkstyle" line="15" message="Classes/Interfaces should be annotated with @NonNullByDefault" priority="2" rule="NullAnnotationsCheck" category="style"/>
+      <message tool="checkstyle" line="15" message="Missing Javadoc comment." priority="2" rule="JavadocFilterCheck" category="style"/>
+      <message tool="checkstyle" line="25" message="Remove empty line after opening brace" priority="3" rule="NoEmptyLineSeparatorCheck" category="style"/>
+   <message tool="pmd" line="49" message="&#xA;Avoid printStackTrace(); use a logger call instead.&#xA;" priority="1" rule="AvoidPrintStackTrace" rule_url="https://pmd.github.io/pmd-6.7.0/pmd_rules_java_bestpractices.html#avoidprintstacktrace" category="best practices"/>
+   </file>
+   <file name="org.openhab.binding.gridpalui.ui.ConfigManager.java">
+      <message tool="checkstyle" line="0" message="File does not end with a newline." priority="3" rule="NewlineAtEndOfFileCheck" category="style"/>
+      <message tool="checkstyle" line="1" message="Header is missing" priority="1" rule="ParameterizedRegexpHeaderCheck" category="style"/>
+      <message tool="checkstyle" line="14" message="An author tag is missing" priority="1" rule="AuthorTagCheck" category="style"/>
+      <message tool="checkstyle" line="14" message="Classes/Interfaces should be annotated with @NonNullByDefault" priority="2" rule="NullAnnotationsCheck" category="style"/>
+      <message tool="checkstyle" line="14" message="Missing Javadoc comment." priority="2" rule="JavadocFilterCheck" category="style"/>
+      <message tool="checkstyle" line="17" message="Name 'patternCfg' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'." priority="3" rule="ConstantNameCheck" category="style"/>
+      <message tool="checkstyle" line="19" message="Name 'logger' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'." priority="3" rule="ConstantNameCheck" category="style"/>
+      <message tool="checkstyle" line="25" message="Name 'GetConfig' must match pattern '^[a-z][a-zA-Z0-9]*$'." priority="3" rule="MethodNameCheck" category="style"/>
+      <message tool="checkstyle" line="57" message="Name 'SetConfig' must match pattern '^[a-z][a-zA-Z0-9]*$'." priority="3" rule="MethodNameCheck" category="style"/>
+      <message tool="checkstyle" line="67" message="Name 'Create' must match pattern '^[a-z][a-zA-Z0-9]*$'." priority="3" rule="MethodNameCheck" category="style"/>
+   </file>
+
+   <file name=".binding.gridpalui/ESH-INF/thing/thing-types.xml">
+      <message tool="checkstyle" line="5" message="Cannot find the declaration of element thing:thing-descriptions." priority="1" rule="EshInfXmlValidationCheck" category="style"/>
+   </file>
+   <file name=".binding.gridpalui/ESH-INF/binding/binding.xml">
+      <message tool="checkstyle" line="4" message="Cannot find the declaration of element binding:binding." priority="1" rule="EshInfXmlValidationCheck" category="style"/>
+   </file>
+
+</sca>

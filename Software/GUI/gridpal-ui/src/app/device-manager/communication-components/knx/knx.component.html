@@ -1,0 +1,55 @@
+<div>
+  <div class="row">
+    <div class="col-md-2 text-center">
+      <label>Type</label>
+    </div>
+    <div class="col-md-2  text-center">
+      <label>Description</label>
+    </div>
+    <div class="col-md-2  text-center">
+      <label>Offset</label>
+    </div>
+    <div class="col-md-2  text-center">
+      <label>Multiplication Factor</label>
+    </div>
+    <div class="col-md-2 text-center">
+      <label>Address</label>
+    </div>
+    <div class="col-md-2 text-center">
+      <label>Auto Refresh</label>
+    </div>
+  </div>
+</div>
+
+
+<div *ngFor="let item of knxData">
+  <form>
+    <div class="row">
+      <div class="col-md-2">
+        <select class="form-control" [(ngModel)]="item['type']" name="type">
+          <option disabled>== SELECT ==</option>
+          <option *ngFor="let typeListItem of typeList">
+            {{typeListItem}}
+          </option>
+        </select>
+      </div>
+      <div class="col-md-2">
+        <input class="form-control" placeholder="Label" [(ngModel)]="item['description']" name="label" [attr.disabled]=true>
+      </div>
+      <div class="col-md-2">
+        <input class="form-control" placeholder="Offset" [(ngModel)]="item['offset']" name="offset">
+      </div>
+      <div class="col-md-2">
+        <input class="form-control" placeholder="Multiplication" [(ngModel)]="item['multiply']" name="multiply">
+      </div>
+
+      <div class="col-md-2">
+        <input class="form-control" placeholder="Address" [(ngModel)]="item['start']" name="address">
+      </div>
+      <div class="col-md-2">
+        <input class="form-control" placeholder="Auto Refresh" [(ngModel)]="item['length']" name="autoRefresh">
+      </div>
+    </div>
+  </form>
+  <br>
+</div>

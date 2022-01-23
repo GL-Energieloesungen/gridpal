@@ -1,0 +1,23 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: .
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-Name: Gridpal Device Manager Binding
+Bundle-SymbolicName: org.openhab.binding.gridpal.devicemanager;singleton:=true
+Bundle-Vendor: Gridpal
+Bundle-Version: 2.4.0.qualifier
+Import-Package: 
+ org.json;version="20180130.0.0";resolution:=optional,
+ com.mysql.cj.jdbc;version="8.0.11";resolution:=optional,
+ javax.annotation.security,
+ javax.ws.rs,
+ javax.ws.rs.container,
+ javax.ws.rs.core,
+ org.eclipse.jdt.annotation;resolution:=optional,
+ org.eclipse.smarthome.core.auth,
+ org.slf4j,
+ org.osgi.service.cm,
+ org.osgi.framework
+Service-Component: OSGI-INF/*.xml
+Export-Package: org.openhab.binding.gridpal.devicemanager

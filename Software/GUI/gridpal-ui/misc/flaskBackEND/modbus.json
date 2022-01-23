@@ -1,0 +1,43 @@
+{
+  "devices": [{
+      "name": "abb",
+      "connection": [
+        "/dev/ttyUSB0",
+        "9600",
+        "8",
+        "none",
+        "1",
+        "rtu",
+        "1000",
+        "5000"
+      ],
+      "manufacturer": "ABB",
+      "deviceType": "modbus",
+      "id": "1",
+      "start": "23340",
+      "length": "1",
+      "type": "holding",
+      "valuetype": "uint16"
+    },
+    {
+      "name": "abb2",
+      "connection": [
+        "/dev/ttyUSB0",
+        "9600",
+        "8",
+        "none",
+        "1",
+        "rtu",
+        "1000",
+        "5000"
+      ],
+      "manufacturer": "ABB2",
+      "deviceType": "modbus",
+      "id": "1",
+      "start": "23305",
+      "length": "3",
+      "type": "holding",
+      "valuetype": "uint16"
+    }
+  ]
+}

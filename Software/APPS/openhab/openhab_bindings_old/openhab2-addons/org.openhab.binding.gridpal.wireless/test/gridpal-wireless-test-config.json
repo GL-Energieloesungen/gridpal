@@ -1,0 +1,33 @@
+{
+    "connection": {
+        "wired": [
+            {
+                "name": "Wired connection 1"
+            }
+        ],
+        "wifi": [
+            {
+                "name": "APL",
+                "ssid": "APL",
+                "password": "Ash01eiJanina"
+            },
+            {
+                "name": "APL-EXT",
+                "ssid": "APL-EXT",
+                "password": "root1234"
+            }
+        ]
+    },
+    "interface": {
+        "wired": [
+            {
+                "name": "eno1"
+            }
+        ],
+        "wifi": [
+            {
+                "name": "wlo1"
+            }
+        ]
+    }
+}

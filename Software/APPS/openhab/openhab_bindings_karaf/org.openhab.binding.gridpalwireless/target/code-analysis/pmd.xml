@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.7.0" timestamp="2019-04-26T12:44:03.345">
+<file name="/home/kanok/openhab-master/git/openhab2-addons/addons/binding/org.openhab.binding.gridpalwireless/src/main/java/org/openhab/binding/gridpalWireless/agent/Agent.java">
+<violation beginline="34" endline="34" begincolumn="13" endcolumn="31" rule="AvoidPrintStackTrace" ruleset="Best Practices" package="org.openhab.binding.gridpalWireless.agent" class="Agent" method="Execute" externalInfoUrl="https://pmd.github.io/pmd-6.7.0/pmd_rules_java_bestpractices.html#avoidprintstacktrace" priority="1">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+</file>
+<file name="/home/kanok/openhab-master/git/openhab2-addons/addons/binding/org.openhab.binding.gridpalwireless/src/main/java/org/openhab/binding/gridpalWireless/internal/WirelessUtility.java">
+<violation beginline="242" endline="242" begincolumn="13" endcolumn="31" rule="AvoidPrintStackTrace" ruleset="Best Practices" package="org.openhab.binding.gridpalWireless.internal" class="WirelessUtility" method="GetConnections" externalInfoUrl="https://pmd.github.io/pmd-6.7.0/pmd_rules_java_bestpractices.html#avoidprintstacktrace" priority="1">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+<violation beginline="263" endline="263" begincolumn="17" endcolumn="35" rule="AvoidPrintStackTrace" ruleset="Best Practices" package="org.openhab.binding.gridpalWireless.internal" class="WirelessUtility" method="GetAvailableConnections" externalInfoUrl="https://pmd.github.io/pmd-6.7.0/pmd_rules_java_bestpractices.html#avoidprintstacktrace" priority="1">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+<violation beginline="334" endline="334" begincolumn="13" endcolumn="31" rule="AvoidPrintStackTrace" ruleset="Best Practices" package="org.openhab.binding.gridpalWireless.internal" class="WirelessUtility" method="GetAvailableConnections" externalInfoUrl="https://pmd.github.io/pmd-6.7.0/pmd_rules_java_bestpractices.html#avoidprintstacktrace" priority="1">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+<violation beginline="372" endline="372" begincolumn="13" endcolumn="31" rule="AvoidPrintStackTrace" ruleset="Best Practices" package="org.openhab.binding.gridpalWireless.internal" class="WirelessUtility" method="GetStatus" externalInfoUrl="https://pmd.github.io/pmd-6.7.0/pmd_rules_java_bestpractices.html#avoidprintstacktrace" priority="1">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+<violation beginline="405" endline="405" begincolumn="13" endcolumn="31" rule="AvoidPrintStackTrace" ruleset="Best Practices" package="org.openhab.binding.gridpalWireless.internal" class="WirelessUtility" method="GetActiveConnections" externalInfoUrl="https://pmd.github.io/pmd-6.7.0/pmd_rules_java_bestpractices.html#avoidprintstacktrace" priority="1">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+<violation beginline="421" endline="421" begincolumn="13" endcolumn="31" rule="AvoidPrintStackTrace" ruleset="Best Practices" package="org.openhab.binding.gridpalWireless.internal" class="WirelessUtility" method="IsConnected" externalInfoUrl="https://pmd.github.io/pmd-6.7.0/pmd_rules_java_bestpractices.html#avoidprintstacktrace" priority="1">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+</file>
+<file name="/home/kanok/openhab-master/git/openhab2-addons/addons/binding/org.openhab.binding.gridpalwireless/src/main/java/org/openhab/binding/gridpalwireless/rest/WirelessResources.java">
+<violation beginline="42" endline="42" begincolumn="13" endcolumn="31" rule="AvoidPrintStackTrace" ruleset="Best Practices" package="org.openhab.binding.gridpalwireless.rest" class="WirelessResources" method="GetConnections" externalInfoUrl="https://pmd.github.io/pmd-6.7.0/pmd_rules_java_bestpractices.html#avoidprintstacktrace" priority="1">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+<violation beginline="66" endline="66" begincolumn="13" endcolumn="31" rule="AvoidPrintStackTrace" ruleset="Best Practices" package="org.openhab.binding.gridpalwireless.rest" class="WirelessResources" method="GetStatus" externalInfoUrl="https://pmd.github.io/pmd-6.7.0/pmd_rules_java_bestpractices.html#avoidprintstacktrace" priority="1">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+<violation beginline="100" endline="100" begincolumn="13" endcolumn="31" rule="AvoidPrintStackTrace" ruleset="Best Practices" package="org.openhab.binding.gridpalwireless.rest" class="WirelessResources" method="Connect" externalInfoUrl="https://pmd.github.io/pmd-6.7.0/pmd_rules_java_bestpractices.html#avoidprintstacktrace" priority="1">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+<violation beginline="128" endline="128" begincolumn="13" endcolumn="31" rule="AvoidPrintStackTrace" ruleset="Best Practices" package="org.openhab.binding.gridpalwireless.rest" class="WirelessResources" method="Disconnect" externalInfoUrl="https://pmd.github.io/pmd-6.7.0/pmd_rules_java_bestpractices.html#avoidprintstacktrace" priority="1">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+<violation beginline="154" endline="154" begincolumn="13" endcolumn="31" rule="AvoidPrintStackTrace" ruleset="Best Practices" package="org.openhab.binding.gridpalwireless.rest" class="WirelessResources" method="Delete" externalInfoUrl="https://pmd.github.io/pmd-6.7.0/pmd_rules_java_bestpractices.html#avoidprintstacktrace" priority="1">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+</file>
+</pmd>

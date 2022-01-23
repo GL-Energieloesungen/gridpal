@@ -1,0 +1,129 @@
+<ng-progress [showSpinner]="true" [color]="'#23527C'" [thick]="'true'"></ng-progress>
+<div id="page-wrapper">
+  <div class="row">
+    <div class="col-lg-12">
+      <h1 class="page-header">Home</h1>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-4">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <i class="fa fa-info-circle fa-fw"></i> System Interfaces
+        </div>
+        <div class="panel-body">
+          <div class="list-group">
+            <div class="radio">
+              <label>
+                <input type="radio" [checked]="homePage.systemInterface['lan']" [attr.disabled]="true">LAN</label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" [checked]="homePage.systemInterface['wlan24']" [attr.disabled]="true">WLAN 2.4 GHz</label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" [checked]="homePage.systemInterface['wlan50']" [attr.disabled]="true">WLAN 5 GHz</label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" [checked]="homePage.systemInterface['usb1']" [attr.disabled]="true">USB 1</label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" [checked]="homePage.systemInterface['usb2']" [attr.disabled]="true">USB 2</label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" [checked]="homePage.systemInterface['usb3']" [attr.disabled]="true">USB 3</label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" [checked]="homePage.systemInterface['usb4']" [attr.disabled]="true">USB 4</label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" [checked]="homePage.systemInterface['usb5']" [attr.disabled]="true">USB 5</label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" [checked]="homePage.systemInterface['uart']" [attr.disabled]="true">UART</label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <i class="fa fa-info-circle fa-fw"></i> Bus Connectors
+        </div>
+        <div class="panel-body">
+          <div class="list-group">
+            <div class="checkbox">
+              <label>
+                <input #modbus_rs485 id="modbus_rs485" type="checkbox" [checked]="homePage.busConnectors['modbus-rs485']" (change)="onValueChange('modbus-rs485', modbus_rs485.checked)">Modbus
+                RS485</label>
+            </div>
+            <div class="checkbox">
+              <label>
+                <input #mbus id="mbus" type="checkbox" [checked]="homePage.busConnectors['mbus']" (change)="onValueChange('mbus', mbus.checked)" >M-Bus</label>
+            </div>
+            <div class="checkbox">
+              <label>
+                <input #knx id="knx" type="checkbox" [checked]="homePage.busConnectors['knx-eib']" (change)="onValueChange('knx-eib', knx.checked)">KNX/EIB</label>
+            </div>
+            <div class="checkbox">
+              <label>
+                <input #w_mbus id="w_mbus" type="checkbox" [checked]="homePage.busConnectors['wireless-mbus']" (change)="onValueChange('wireless-mbus', w_mbus.checked)">Wireless
+                M-Bus</label>
+            </div>
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" [checked]="homePage.busConnectors['bluetooth']" [attr.disabled]="true">Bluetooth</label>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <i class="fa fa-info-circle fa-fw"></i> Resource Usage
+        </div>
+        <table class="table">
+          <tr>
+            <td>CPU</td>
+            <td> {{homePage.resourceUseage['cpu']}} </td>
+          </tr>
+          <tr>
+            <td>RAM</td>
+            <td> {{homePage.resourceUseage['ram']}} </td>
+          </tr>
+          <tr>
+            <td>WLAN 2.4GHz</td>
+            <td>
+              <span class="fa fa-arrow-up"> {{wifiTX}} MB</span>
+              <span class="fa fa-arrow-down"> {{wifiRX}} MB</span>
+            </td>
+          </tr>
+          <tr>
+            <td>WLAN 5 GHz</td>
+            <td>
+              <span class="fa fa-arrow-up"> 0.00 MB</span>
+              <span class="fa fa-arrow-down"> 0.00 MB</span>
+            </td>
+          </tr>
+          <tr>
+            <td>LAN</td>
+            <td>
+              <span class="fa fa-arrow-up"> {{lanTX}} MB</span>
+              <span class="fa fa-arrow-down"> {{lanRX}} MB</span>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>

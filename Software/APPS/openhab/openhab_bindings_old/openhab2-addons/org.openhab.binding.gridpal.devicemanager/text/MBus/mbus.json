@@ -1,0 +1,36 @@
+{
+    "slaves": [
+        {
+            "interface-type": "MBus-Serial",
+            "register-map": [
+                {
+                    "address": "FCFA088",
+                    "unit": "Ohm",
+                    "description": "L2 Register",
+                    "multiply": "0.1"
+                },
+                {
+                    "address": "FCFA089",
+                    "unit": "Ohm",
+                    "description": "L3 Register",
+                    "multiply": "0.1"
+                }
+            ],
+            "name": "Gridpal Smart Meter",
+            "connection": [
+                "/dev/ttyUSB0",
+                "9600",
+                "8",
+                "none",
+                "1",
+                "rtu",
+                "1000",
+                "5000"
+            ],
+            "id": "1",
+            "devicetype": "3P Meter",
+            "manufacturer": "Gridpal"
+        }
+    ],
+    "poll": "5000"
+}

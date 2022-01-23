@@ -1,0 +1,144 @@
+{
+	"info": {
+		"_postman_id": "387b5334-a905-4d45-91d9-93397775db5e",
+		"name": "Gridpal Wireless Binding",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Connect",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"ssid\": \"APL-EXT\",\n\t\"password\": \"root1234\"\n}"
+				},
+				"url": {
+					"raw": "localhost:8080/rest/wireless/connect",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"rest",
+						"wireless",
+						"connect"
+					]
+				},
+				"description": "{\n\t\"ssid\": \"string\",\n\t\"password\": \"string\"\n}"
+			},
+			"response": []
+		},
+		{
+			"name": "Disconnect",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "localhost:8080/rest/wireless/disconnect",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"rest",
+						"wireless",
+						"disconnect"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Status",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "localhost:8080/rest/wireless/status",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"rest",
+						"wireless",
+						"status"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "List",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "localhost:8080/rest/wireless/list",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"rest",
+						"wireless",
+						"list"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"ssid\": \"APL-EXT\"\n}"
+				},
+				"url": {
+					"raw": "localhost:8080/rest/wireless/delete",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"rest",
+						"wireless",
+						"delete"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

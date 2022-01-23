@@ -1,0 +1,100 @@
+<ng-progress [showSpinner]="true" [color]="'#23527C'" [thick]="'true'"></ng-progress>
+
+<div *ngIf="pageStatus; then alertBlock; else normalBlock"></div>
+
+<ng-template #alertBlock>
+  <div class="row">
+    <div class="col-lg-12">
+      <h1 class="page-header"> WiFi Connection </h1>
+    </div>
+  </div>
+  <alert type="danger">
+    <strong>Warning!</strong> {{errorMsg}}
+  </alert>
+</ng-template>
+
+<ng-template #normalBlock>
+  <div id="page-wrapper">
+    <div class="row">
+      <div class="col-lg-12">
+        <h1 class="page-header"> WiFi Connection </h1>
+      </div>
+    </div>
+    <div class="panel panel-default" style="width:40%" [hidden]="activeConnectionTable">
+      <div class="panel-heading text-center panel-relative"> <strong>Active Connection</strong> </div>
+      <table class="table table-striped table-bordered">
+        <tr>
+          <th> SSID </th>
+          <th> Encryption </th>
+          <th> Action </th>
+        </tr>
+        <tr>
+          <td> {{wirelessConnectionObjSSID}} </td>
+          <td> {{wirelessConnectionObjEncryp}} </td>
+          <td>
+            <button type="button" class="btn btn-danger" (click)="onDiconnect()">
+              Disconnect
+            </button>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="panel panel-default" style="width:40%" [hidden]="availableConnectionTable">
+      <div class="panel-heading text-center panel-relative"> <strong>Available Connections</strong>
+        <span class="pull-right">
+          <button tooltip="Refresh" class="btn-link" (click)="forceRefresh()">
+            <i class="fa fa-refresh" aria-hidden="true"></i>
+          </button>
+        </span>
+      </div>
+      <ul class="list-group" style="cursor: pointer;" *ngFor="let item of wirelessListData">
+        <a class="list-group-item {{getTableClass(item['signal'])}}" type="button" (click)="getModal(secureTemplate, item['ssid'], item['saved'])">
+
+          <div *ngIf="getSecurityState(item['security']); then secureBlock; else openBlock"></div>
+          <ng-template #secureBlock>
+            <i class="fa fa-lock" aria-hidden="true"></i>
+          </ng-template>
+          <ng-template #openBlock>
+            <i class="fa fa-unlock-alt" aria-hidden="true"></i>
+          </ng-template>&nbsp;&nbsp;&nbsp;{{item['ssid']}} &nbsp;&nbsp;&nbsp;
+
+          <span class="pull-right">
+            <div *ngIf="item['saved']=='true'; then savedBlock"></div>
+            <ng-template #savedBlock>
+              <i class="fa fa-save" aria-hidden="true"></i>
+            </ng-template>
+          </span>
+        </a>
+      </ul>
+    </div>
+
+    <button type="button" class="btn btn-info" (click)="openModal(secureTemplate)" [hidden]="otherButton">Other Network</button>
+
+    <ng-template #secureTemplate>
+      <div class="modal-header">
+        <h4 class="modal-title pull-left">Enter Connection Information</h4>
+        <button type="button" class="close pull-right" aria-label="Close" (click)="modalRef.hide()">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <input style="margin-bottom: 5px" class="form-control" type="text" placeholder="SSID" [(ngModel)]="modalData['ssid']">
+        <input class="form-control" type="{{passType}}" placeholder="WiFi Password" [(ngModel)]="modalData['password']"
+          [disabled]="modalData['passwordEn']">
+        <div style="margin: 20px;">
+          <input type="checkbox" (change)="showPass($event)"> Show Password <br>
+          <input type="checkbox" (change)="enablePass($event)"> Change Password
+
+          <button type="button" class="btn btn-primary pull-right" (click)="onConnectClick(modalData)">
+            Connect
+          </button>
+
+          <button type="button" style="margin-right: 10px" class="btn btn-danger pull-right" (click)="forgetNetwork(modalData)">
+            Forget Network
+          </button>
+        </div>
+      </div>
+    </ng-template>
+  </div>
+</ng-template>

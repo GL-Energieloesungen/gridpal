@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<thing:thing-descriptions bindingId="gridpal" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:thing="http://eclipse.org/smarthome/schemas/thing-description/v1.0.0"
+	xsi:schemaLocation="http://eclipse.org/smarthome/schemas/thing-description/v1.0.0 http://eclipse.org/smarthome/schemas/thing-description-1.0.0.xsd">
+
+	<!-- APL Smart Bulb Thing Type -->
+	<thing-type id="apl-smart-bulb">
+		<label>APL Smart Bulb</label>
+		<description>This is the smart bulb from AplombTech Bd.</description>
+
+		<channels>
+			<channel id="channel-apl-smart-bulb-color" typeId="apl-smart-bulb-color" />
+            <channel id="channel-apl-smart-bulb-switch" typeId="apl-smart-bulb-switch" />
+		</channels>
+
+
+		<config-description>
+			
+			<parameter name="config-url-apl-smart-bulb" type="text" required="true">
+				<label>URL</label>
+				<description>The url of the bulb.</description>
+			</parameter>
+			
+			<parameter name="config-command-on-apl-smart-bulb" type="text" required="true">
+                <label>On Command</label>
+                <description>Command to execute when turning on the bulb.</description>
+            </parameter>
+            
+            <parameter name="config-command-off-apl-smart-bulb" type="text" required="true">
+                <label>Off Command</label>
+                <description>Command to execute when turning off the bulb.</description>
+            </parameter>
+            
+		</config-description>
+
+	</thing-type>
+	
+
+	<!-- APL Smart Bulb Color Channel Type -->
+	<channel-type id="apl-smart-bulb-color">
+		<item-type>Color</item-type>
+		<label>Color</label>
+		<description>APL Smart Bulb Color channel.</description>
+	</channel-type>
+	
+	<!-- APL Smart Bulb Switch Channel Type -->
+    <channel-type id="apl-smart-bulb-switch">
+        <item-type>Switch</item-type>
+        <label>Switch</label>
+        <description>APL Smart Bulb Switch channel.</description>
+    </channel-type>
+    
+
+</thing:thing-descriptions>

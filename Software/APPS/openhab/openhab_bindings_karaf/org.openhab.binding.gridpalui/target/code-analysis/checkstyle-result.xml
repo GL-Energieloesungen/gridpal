@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.12">
+<file name="/home/kanok/openhab-master/git/openhab2-addons/addons/binding/org.openhab.binding.gridpalui/OSGI-INF/.gitignore">
+</file>
+<file name="/home/kanok/openhab-master/git/openhab2-addons/addons/binding/org.openhab.binding.gridpalui/OSGI-INF/org.openhab.binding.gridpalui.ui.GridpalUIApp.xml">
+</file>
+<file name="/home/kanok/openhab-master/git/openhab2-addons/addons/binding/org.openhab.binding.gridpalui/README.md">
+</file>
+<file name="/home/kanok/openhab-master/git/openhab2-addons/addons/binding/org.openhab.binding.gridpalui/META-INF/MANIFEST.MF">
+<error line="0" severity="error" message="The package org.openhab.binding.gridpalui.ui should be marked as &quot;internal&quot; if it is not exported." source="org.openhab.tools.analysis.checkstyle.PackageExportsNameCheck"/>
+</file>
+<file name="/home/kanok/openhab-master/git/openhab2-addons/addons/binding/org.openhab.binding.gridpalui/build.properties">
+</file>
+<file name="/home/kanok/openhab-master/git/openhab2-addons/addons/binding/org.openhab.binding.gridpalui/.classpath">
+</file>
+<file name="/home/kanok/openhab-master/git/openhab2-addons/addons/binding/org.openhab.binding.gridpalui/src/main/java/org/openhab/binding/gridpalui/ui/ConfigKey.java">
+<error line="0" severity="info" message="File does not end with a newline." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="1" severity="error" message="Header is missing" source="org.openhab.tools.analysis.checkstyle.ParameterizedRegexpHeaderCheck"/>
+<error line="3" severity="error" message="An author tag is missing" source="org.openhab.tools.analysis.checkstyle.AuthorTagCheck"/>
+<error line="3" severity="warning" message="Classes/Interfaces should be annotated with @NonNullByDefault" source="org.openhab.tools.analysis.checkstyle.NullAnnotationsCheck"/>
+<error line="3" severity="warning" message="Missing Javadoc comment." source="org.openhab.tools.analysis.checkstyle.JavadocFilterCheck"/>
+</file>
+<file name="/home/kanok/openhab-master/git/openhab2-addons/addons/binding/org.openhab.binding.gridpalui/src/main/java/org/openhab/binding/gridpalui/ui/GridpalUIApp.java">
+<error line="0" severity="info" message="File does not end with a newline." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="1" severity="error" message="Header is missing" source="org.openhab.tools.analysis.checkstyle.ParameterizedRegexpHeaderCheck"/>
+<error line="16" severity="warning" message="First javadoc author should have &quot;Initial contribution&quot; contribution description." source="org.openhab.tools.analysis.checkstyle.AuthorContributionDescriptionCheck"/>
+<error line="19" severity="warning" message="Classes/Interfaces should be annotated with @NonNullByDefault" source="org.openhab.tools.analysis.checkstyle.NullAnnotationsCheck"/>
+</file>
+<file name="/home/kanok/openhab-master/git/openhab2-addons/addons/binding/org.openhab.binding.gridpalui/src/main/java/org/openhab/binding/gridpalui/ui/Config.java">
+<error line="0" severity="info" message="File does not end with a newline." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="1" severity="error" message="Header is missing" source="org.openhab.tools.analysis.checkstyle.ParameterizedRegexpHeaderCheck"/>
+<error line="3" severity="error" message="An author tag is missing" source="org.openhab.tools.analysis.checkstyle.AuthorTagCheck"/>
+<error line="3" severity="warning" message="Classes/Interfaces should be annotated with @NonNullByDefault" source="org.openhab.tools.analysis.checkstyle.NullAnnotationsCheck"/>
+<error line="3" severity="warning" message="Missing Javadoc comment." source="org.openhab.tools.analysis.checkstyle.JavadocFilterCheck"/>
+<error line="5" column="19" severity="info" message="Name &apos;RESOURCES_DIR&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+</file>
+<file name="/home/kanok/openhab-master/git/openhab2-addons/addons/binding/org.openhab.binding.gridpalui/src/main/java/org/openhab/binding/gridpalui/ui/GridpalUIHttpContext.java">
+<error line="0" severity="info" message="File does not end with a newline." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="1" severity="error" message="Header is missing" source="org.openhab.tools.analysis.checkstyle.ParameterizedRegexpHeaderCheck"/>
+<error line="15" severity="error" message="An author tag is missing" source="org.openhab.tools.analysis.checkstyle.AuthorTagCheck"/>
+<error line="15" severity="warning" message="Classes/Interfaces should be annotated with @NonNullByDefault" source="org.openhab.tools.analysis.checkstyle.NullAnnotationsCheck"/>
+<error line="15" severity="warning" message="Missing Javadoc comment." source="org.openhab.tools.analysis.checkstyle.JavadocFilterCheck"/>
+<error line="25" severity="info" message="Remove empty line after opening brace" source="org.openhab.tools.analysis.checkstyle.NoEmptyLineSeparatorCheck"/>
+</file>
+<file name="/home/kanok/openhab-master/git/openhab2-addons/addons/binding/org.openhab.binding.gridpalui/src/main/java/org/openhab/binding/gridpalui/ui/ConfigManager.java">
+<error line="0" severity="info" message="File does not end with a newline." source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="1" severity="error" message="Header is missing" source="org.openhab.tools.analysis.checkstyle.ParameterizedRegexpHeaderCheck"/>
+<error line="14" severity="error" message="An author tag is missing" source="org.openhab.tools.analysis.checkstyle.AuthorTagCheck"/>
+<error line="14" severity="warning" message="Classes/Interfaces should be annotated with @NonNullByDefault" source="org.openhab.tools.analysis.checkstyle.NullAnnotationsCheck"/>
+<error line="14" severity="warning" message="Missing Javadoc comment." source="org.openhab.tools.analysis.checkstyle.JavadocFilterCheck"/>
+<error line="17" column="33" severity="info" message="Name &apos;patternCfg&apos; must match pattern &apos;^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"/>
+<error line="19" column="33" severity="info" message="Name &apos;logger&apos; must match pattern &apos;^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"/>
+<error line="25" column="26" severity="info" message="Name &apos;GetConfig&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"/>
+<error line="57" column="24" severity="info" message="Name &apos;SetConfig&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"/>
+<error line="67" column="24" severity="info" message="Name &apos;Create&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"/>
+</file>
+<file name="/home/kanok/openhab-master/git/openhab2-addons/addons/binding/org.openhab.binding.gridpalui/ESH-INF/i18n/gridpalui_xx_XX.properties">
+</file>
+<file name="/home/kanok/openhab-master/git/openhab2-addons/addons/binding/org.openhab.binding.gridpalui/ESH-INF/thing/thing-types.xml">
+<error line="5" severity="error" message="Cannot find the declaration of element thing:thing-descriptions." source="org.openhab.tools.analysis.checkstyle.EshInfXmlValidationCheck"/>
+</file>
+<file name="/home/kanok/openhab-master/git/openhab2-addons/addons/binding/org.openhab.binding.gridpalui/ESH-INF/binding/binding.xml">
+<error line="4" severity="error" message="Cannot find the declaration of element binding:binding." source="org.openhab.tools.analysis.checkstyle.EshInfXmlValidationCheck"/>
+</file>
+<file name="/home/kanok/openhab-master/git/openhab2-addons/addons/binding/org.openhab.binding.gridpalui/pom.xml">
+</file>
+</checkstyle>

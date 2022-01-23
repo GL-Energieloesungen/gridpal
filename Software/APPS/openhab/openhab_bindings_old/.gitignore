@@ -1,0 +1,10 @@
+**/target
+
+.directory
+
+# VS Code
+**/.vscode
+
+# Intellij Idea
+**/.idea
+*.iml

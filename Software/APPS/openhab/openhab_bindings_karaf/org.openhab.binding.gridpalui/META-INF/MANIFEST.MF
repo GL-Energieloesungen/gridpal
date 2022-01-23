@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Automatic-Module-Name: org.openhab.binding.gridpalui
+Bundle-ActivationPolicy: lazy
+Bundle-ClassPath: .
+Bundle-ManifestVersion: 2
+Bundle-Name: GridpalUi Binding
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-SymbolicName: org.openhab.binding.gridpalui;singleton:=true
+Bundle-Vendor: openHAB
+Bundle-Version: 2.5.0.qualifier
+Import-Package: 
+ javax.servlet.http,
+ org.eclipse.jdt.annotation;resolution:=optional,
+ org.eclipse.smarthome.io.net.http,
+ org.osgi.framework,
+ org.osgi.service.component;resolution:=optional,
+ org.osgi.service.http,
+ org.slf4j
+Service-Component: OSGI-INF/*.xml

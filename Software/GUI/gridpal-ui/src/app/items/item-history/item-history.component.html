@@ -1,0 +1,57 @@
+<div id="page-wrapper">
+  <div class="row">
+    <div class="col-lg-12">
+      <h1 class="page-header"> Export Data </h1>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-3">
+    <label>Item Name: </label>
+    <input class="form-control" [(ngModel)]="itemObject['original']" [attr.disabled]="true">
+  </div>
+</div>
+<div class="row" style="margin-top: 20px">
+  <div class="col-md-5">
+    <div class="panel panel-default">
+      <div class="panel-heading">From</div>
+      <div style="margin: 15px">
+        <div class="row">
+          <div class="col-xs-12 col-12 col-md-4 form-group">
+            <input type="text" placeholder="Start Date" [(ngModel)]="startDate" class="form-control" bsDatepicker
+              [bsConfig]="{ dateInputFormat: 'YYYY-MM-DD' }">
+          </div>
+        </div>
+        <timepicker [(ngModel)]="startTime" [showMeridian]="isMeridian"></timepicker>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-5">
+    <div class="panel panel-default">
+      <div class="panel-heading">To</div>
+      <div style="margin: 15px">
+        <div class="row">
+          <div class="col-xs-12 col-12 col-md-4 form-group">
+            <input type="text" placeholder="End Date" [(ngModel)]="endDate" class="form-control" bsDatepicker
+              [bsConfig]="{ dateInputFormat: 'YYYY-MM-DD' }">
+          </div>
+        </div>
+        <timepicker [(ngModel)]="endTime" [showMeridian]="isMeridian"></timepicker>
+      </div>
+    </div>
+  </div>
+</div>
+<button type="button" class="btn btn-primary" target="_blank" (click)="historyDownload()">
+  Download
+</button>
+<button type="button" class="btn btn-info" (click)="viewButton()">
+  View
+</button>
+<button type="button" class="btn btn-warning" routerLink="/live-data">
+  Cancel
+</button>
+<div class="row" style="margin-top: 20px" [hidden]="hideViewData">
+  <div class="col-md-5">
+    <app-view-data *ngIf="!hideViewData" [tableData]="viewTableData" [dataPoints]="dataPoints"></app-view-data>
+  </div>
+</div>

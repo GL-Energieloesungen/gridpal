@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name 4port-usb-hub-rescue)(type Legacy)(uri ${KIPRJMOD}/4port-usb-hub-rescue.lib)(options "")(descr ""))
+)

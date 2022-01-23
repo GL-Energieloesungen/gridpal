@@ -1,0 +1,40 @@
+[
+    {
+        "interface-type": "wmbus",
+            "register-map": [
+                {
+                    "valuetype": "",
+                    "unit": "____CHANGE_HERE____",
+                    "offset": "",
+                    "start": "____CHANGE_HERE____",
+                    "length": "",
+                    "description": "____CHANGE_HERE____",
+                    "multiply": "1.0",
+                    "type": ""
+                },
+                {
+                    "valuetype": "",
+                    "unit": "____CHANGE_HERE____",
+                    "offset": "",
+                    "start": "____CHANGE_HERE____",
+                    "length": "",
+                    "description": "____CHANGE_HERE____",
+                    "multiply": "1.0",
+                    "type": ""
+                }
+            ],
+        "connection": [
+            "/dev/ttyDUMMY0",
+            "19200",
+            "8",
+            "none",
+            "1",
+            "rtu",
+            "1000",
+            "5000"
+        ],
+        "id": "____CHANGE_HERE____",
+        "devicetype": "____CHANGE_HERE____",
+        "manufacturer": "____CHANGE_HERE____"
+    }
+]

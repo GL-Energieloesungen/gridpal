@@ -1,0 +1,6 @@
+Number pqr_slave__L1_Register "[MULTIPLY(0.10):%.2f] Ohm" <number> (pqr_slave)  {modbus="pqr_slave_0:0"}
+Number abba_electronic_device__L2_Register "[MULTIPLY(0.10):%.2f] Ohm" <number> (abba_electronic_device)  {modbus="abba_electronic_device_0:0"}
+Number abba_electronic_device__L3_Register "[MULTIPLY(0.10):%.2f] Ohm" <number> (abba_electronic_device)  {modbus="abba_electronic_device_1:0"}
+Number super_limitless_worker__L4_Register "[MULTIPLY(0.10):%.2f] Ohm" <number> (super_limitless_worker)  {modbus="super_limitless_worker_0:0"}
+Number abba_electronic_device_2__L2_Register "[MULTIPLY(0.10):%.2f] Ohm" <number> (abba_electronic_device_2)  {modbus="abba_electronic_device_2_0:0"}
+Number abba_electronic_device_2__L3_Register "[MULTIPLY(0.10):%.2f] Ohm" <number> (abba_electronic_device_2)  {modbus="abba_electronic_device_2_1:0"}

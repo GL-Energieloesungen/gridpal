@@ -1,0 +1,16 @@
+{
+    "interface-type": "String",
+    "name": "String",
+    "manufacturer": "String",
+    "devicetype": "String",
+    "register-map": [
+        {
+            "description": "String",
+            "address": "String",  // "start"
+            "auto-refresh": "Integer", // "length"
+            "item-type": "String",
+            "multiply": "Float",
+            "unit": "String" // optional
+        }
+    ]
+}

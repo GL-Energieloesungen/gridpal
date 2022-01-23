@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="lib" path="lib/rxtxcomm-2.2.jar" sourcepath="/home/faheyon007/Downloads/RxTxComm/rxtxcomm-2.2-sources.jar"/>
+	<classpathentry kind="lib" path="lib/jmbus-3.1.0.jar" sourcepath="/home/faheyon007/Downloads/JmBus/jmbus-3.1.0-sources.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="con" path="org.eclipse.pde.core.requiredPlugins"/>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="lib" path="lib/jrxtx-1.0.1.jar" sourcepath="/home/faheyon007/Downloads/JRxTx/jrxtx-1.0.1-sources.jar">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="/usr/lib/jvm/java-8-oracle/jre/lib/amd64"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

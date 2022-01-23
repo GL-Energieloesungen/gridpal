@@ -1,0 +1,52 @@
+<div style="margin-bottom: 15px">
+  <button type="button" class="btn btn-info" (click)="selectAllButton()" [disabled]="resisterMapDisabled">Select All</button>
+  <button type="button" class="btn btn-warning" (click)="clearAllButton()" [disabled]="resisterMapDisabled">Clear All</button>
+</div>
+
+<div>
+  <div class="row">
+    <div class="col-md-1 text-right">
+      <label>Select</label>
+    </div>
+    <div class="col-md-2 text-center">
+      <label>Description</label>
+    </div>
+    <div class="col-md-2 text-center">
+      <label>Offset</label>
+    </div>
+    <div class="col-md-2 text-center">
+      <label>Start Address</label>
+    </div>
+    <div class="col-md-2 text-center">
+      <label>Multiplier</label>
+    </div>
+    <div class="col-md-2 text-center">
+      <label>Unit</label>
+    </div>
+  </div>
+</div>
+
+<div *ngFor="let item of resisterMap; let i = index">
+  <div class="row">
+    <div class="col-md-1 text-right">
+      <input type="checkbox" [id]="i" [value]="i" (change)="checkBoxClick(item, $event)" [(checked)]="selectionStatus"
+        [disabled]="resisterMapDisabled">
+    </div>
+    <div class="col-md-2">
+      <input class="form-control" placeholder="Description" type="text" [(ngModel)]="item['description']" [attr.disabled]=true>
+    </div>
+    <div class="col-md-2">
+      <input class="form-control" placeholder="Offset" type="text" [(ngModel)]="item['offset']">
+    </div>
+    <div class="col-md-2">
+      <input class="form-control" placeholder="Start Address" type="text" [(ngModel)]="item['start']">
+    </div>
+    <div class="col-md-2">
+      <input class="form-control" placeholder="Multiplication Factor" type="text" [(ngModel)]="item['multiply']">
+    </div>
+    <div class="col-md-2">
+      <input class="form-control" placeholder="Unit" type="text" [(ngModel)]="item['unit']">
+    </div>
+  </div>
+  <br>
+</div>

@@ -1,0 +1,52 @@
+<ng-progress [showSpinner]="true" [color]="'#23527C'" [thick]="'true'"></ng-progress>
+<div class="row">
+  <div class="col-md-12">
+    <h1 class="page-header">Device Manager</h1>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-12">
+    <div class="panel panel-default">
+      <div style="margin: 10px" *ngIf="_getItemData.length==0; else elseBlock">
+        No device found, Add a new one.
+      </div>
+      <ng-template #elseBlock>
+        <table width="100%" class="table table-striped table-bordered table-hover dataTable no-footer dtr-inline" role="grid"
+          style="width: 100%;">
+          <thead>
+            <tr role="row">
+              <th>Device Name</th>
+              <th>Manufacturer</th>
+              <th>Device Type</th>
+              <th>Interface Type</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let item of _getItemData">
+              <td style="vertical-align: middle">{{item.label}}</td>
+              <td style="vertical-align: middle">{{item.manufacturer}}</td>
+              <td style="vertical-align: middle">{{item.devicetype}} </td>
+              <td style="vertical-align: middle">{{item['interface-type']}}</td>
+              <td>
+                <a class="btn btn-primary" routerLink="device-add-setting" (click)="sendDataObject(this.item)">
+                  <i class="fa fa-cog" aria-hidden="true"></i>
+                </a>
+                <a routerLink="" class="btn btn-danger" (click)="deleteDataObject(this.item['name'])">
+                  <i class="fa fa-times"></i>
+                </a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </ng-template>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-12">
+    <button routerLink="device-add-setting" type="button" (click)="sendEmptyObject()" class="btn btn-primary">Add
+      Device</button>
+    <button type="button" (click)="deleteAllObject()" class="btn btn-danger">Delete All</button>
+  </div>
+</div>

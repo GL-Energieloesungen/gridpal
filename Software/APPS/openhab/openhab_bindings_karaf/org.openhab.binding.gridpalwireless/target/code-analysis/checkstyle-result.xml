@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.12">
+<file name="/home/kanok/openhab-master/git/openhab2-addons/addons/binding/org.openhab.binding.gridpalwireless/OSGI-INF/.gitignore">
+</file>
+<file name="/home/kanok/openhab-master/git/openhab2-addons/addons/binding/org.openhab.binding.gridpalwireless/OSGI-INF/org.openhab.binding.gridpalwireless.rest.WirelessResources.xml">
+</file>
+<file name="/home/kanok/openhab-master/git/openhab2-addons/addons/binding/org.openhab.binding.gridpalwireless/README.md">
+</file>
+<file name="/home/kanok/openhab-master/git/openhab2-addons/addons/binding/org.openhab.binding.gridpalwireless/META-INF/MANIFEST.MF">
+<error line="0" severity="error" message="The package org.openhab.binding.gridpalWireless should be marked as &quot;internal&quot; if it is not exported." source="org.openhab.tools.analysis.checkstyle.PackageExportsNameCheck"/>
+<error line="0" severity="error" message="The package org.openhab.binding.gridpalWireless.agent should be marked as &quot;internal&quot; if it is not exported." source="org.openhab.tools.analysis.checkstyle.PackageExportsNameCheck"/>
+<error line="0" severity="error" message="The package org.openhab.binding.gridpalwireless.rest should be marked as &quot;internal&quot; if it is not exported." source="org.openhab.tools.analysis.checkstyle.PackageExportsNameCheck"/>
+</file>
+<file name="/home/kanok/openhab-master/git/openhab2-addons/addons/binding/org.openhab.binding.gridpalwireless/build.properties">
+</file>
+<file name="/home/kanok/openhab-master/git/openhab2-addons/addons/binding/org.openhab.binding.gridpalwireless/.classpath">
+</file>
+<file name="/home/kanok/openhab-master/git/openhab2-addons/addons/binding/org.openhab.binding.gridpalwireless/src/main/java/org/openhab/binding/gridpalWireless/WirelessConstants.java">
+<error line="1" severity="error" message="Header is missing" source="org.openhab.tools.analysis.checkstyle.ParameterizedRegexpHeaderCheck"/>
+<error line="1" column="9" severity="info" message="Name &apos;org.openhab.binding.gridpalWireless&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="3" severity="error" message="An author tag is missing" source="org.openhab.tools.analysis.checkstyle.AuthorTagCheck"/>
+<error line="3" severity="warning" message="Classes/Interfaces should be annotated with @NonNullByDefault" source="org.openhab.tools.analysis.checkstyle.NullAnnotationsCheck"/>
+<error line="3" severity="warning" message="Missing Javadoc comment." source="org.openhab.tools.analysis.checkstyle.JavadocFilterCheck"/>
+</file>
+<file name="/home/kanok/openhab-master/git/openhab2-addons/addons/binding/org.openhab.binding.gridpalwireless/src/main/java/org/openhab/binding/gridpalWireless/internal/WirelessUtility.java">
+<error line="1" severity="error" message="Header is missing" source="org.openhab.tools.analysis.checkstyle.ParameterizedRegexpHeaderCheck"/>
+<error line="1" column="9" severity="info" message="Name &apos;org.openhab.binding.gridpalWireless.internal&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="18" severity="warning" message="First javadoc author should have &quot;Initial contribution&quot; contribution description." source="org.openhab.tools.analysis.checkstyle.AuthorContributionDescriptionCheck"/>
+<error line="21" severity="warning" message="Classes/Interfaces should be annotated with @NonNullByDefault" source="org.openhab.tools.analysis.checkstyle.NullAnnotationsCheck"/>
+<error line="27" severity="info" message="Remove empty line after opening brace" source="org.openhab.tools.analysis.checkstyle.NoEmptyLineSeparatorCheck"/>
+<error line="36" column="17" severity="info" message="Name &apos;Connect&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"/>
+<error line="103" column="17" severity="info" message="Name &apos;Connect&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"/>
+<error line="154" severity="info" message="Remove empty line after opening brace" source="org.openhab.tools.analysis.checkstyle.NoEmptyLineSeparatorCheck"/>
+<error line="173" severity="info" message="Remove empty line after opening brace" source="org.openhab.tools.analysis.checkstyle.NoEmptyLineSeparatorCheck"/>
+<error line="179" column="20" severity="info" message="Name &apos;Disconnect&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"/>
+<error line="208" column="22" severity="info" message="Name &apos;GetConnections&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"/>
+<error line="212" column="28" severity="info" message="Name &apos;FIELDS&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalFinalVariableNameCheck"/>
+<error line="249" column="22" severity="info" message="Name &apos;GetAvailableConnections&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"/>
+<error line="250" column="24" severity="info" message="Name &apos;FIELDS&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalFinalVariableNameCheck"/>
+<error line="340" column="23" severity="info" message="Name &apos;GetStatus&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"/>
+<error line="379" column="22" severity="info" message="Name &apos;GetActiveConnections&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"/>
+<error line="383" column="28" severity="info" message="Name &apos;FIELDS&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalFinalVariableNameCheck"/>
+<error line="411" column="20" severity="info" message="Name &apos;IsConnected&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"/>
+<error line="428" column="23" severity="info" message="Name &apos;GetWirelessStatus&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"/>
+<error line="431" column="18" severity="info" message="Name &apos;FIELDS&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+<error line="446" column="17" severity="info" message="Name &apos;DeleteConnection&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"/>
+</file>
+<file name="/home/kanok/openhab-master/git/openhab2-addons/addons/binding/org.openhab.binding.gridpalwireless/src/main/java/org/openhab/binding/gridpalWireless/agent/Agent.java">
+<error line="1" severity="error" message="Header is missing" source="org.openhab.tools.analysis.checkstyle.ParameterizedRegexpHeaderCheck"/>
+<error line="1" column="9" severity="info" message="Name &apos;org.openhab.binding.gridpalWireless.agent&apos; must match pattern &apos;^[a-z]+(\.[a-z][a-z0-9]*)*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.PackageNameCheck"/>
+<error line="8" severity="error" message="An author tag is missing" source="org.openhab.tools.analysis.checkstyle.AuthorTagCheck"/>
+<error line="8" severity="warning" message="Classes/Interfaces should be annotated with @NonNullByDefault" source="org.openhab.tools.analysis.checkstyle.NullAnnotationsCheck"/>
+<error line="8" severity="warning" message="Missing Javadoc comment." source="org.openhab.tools.analysis.checkstyle.JavadocFilterCheck"/>
+<error line="15" column="19" severity="info" message="Name &apos;Execute&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"/>
+<error line="41" column="19" severity="info" message="Name &apos;Execute&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"/>
+</file>
+<file name="/home/kanok/openhab-master/git/openhab2-addons/addons/binding/org.openhab.binding.gridpalwireless/src/main/java/org/openhab/binding/gridpalwireless/rest/WirelessResources.java">
+<error line="1" severity="error" message="Header is missing" source="org.openhab.tools.analysis.checkstyle.ParameterizedRegexpHeaderCheck"/>
+<error line="22" severity="error" message="An author tag is missing" source="org.openhab.tools.analysis.checkstyle.AuthorTagCheck"/>
+<error line="22" severity="warning" message="Missing Javadoc comment." source="org.openhab.tools.analysis.checkstyle.JavadocFilterCheck"/>
+<error line="25" severity="warning" message="Classes/Interfaces should be annotated with @NonNullByDefault" source="org.openhab.tools.analysis.checkstyle.NullAnnotationsCheck"/>
+<error line="36" column="21" severity="info" message="Name &apos;GetConnections&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"/>
+<error line="52" column="21" severity="info" message="Name &apos;GetStatus&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"/>
+<error line="77" column="21" severity="info" message="Name &apos;Connect&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"/>
+<error line="91" severity="info" message="Remove empty line before closing brace" source="org.openhab.tools.analysis.checkstyle.NoEmptyLineSeparatorCheck"/>
+<error line="109" column="21" severity="info" message="Name &apos;Disconnect&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"/>
+<error line="138" column="21" severity="info" message="Name &apos;Delete&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"/>
+</file>
+<file name="/home/kanok/openhab-master/git/openhab2-addons/addons/binding/org.openhab.binding.gridpalwireless/ESH-INF/binding/binding.xml">
+<error line="4" severity="error" message="Cannot find the declaration of element binding:binding." source="org.openhab.tools.analysis.checkstyle.EshInfXmlValidationCheck"/>
+</file>
+<file name="/home/kanok/openhab-master/git/openhab2-addons/addons/binding/org.openhab.binding.gridpalwireless/pom.xml">
+</file>
+</checkstyle>
