@@ -1,0 +1,14 @@
+[Unit]
+Description=Led runner service
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python2.7 /root/scripts/gpio/warn-led-ctl.py
+Restart=on-abort
+User=root
+Group=root
+
+[Install]
+WantedBy=multi-user.target

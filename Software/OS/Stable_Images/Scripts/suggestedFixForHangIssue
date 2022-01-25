@@ -1,0 +1,8 @@
+mkdir -p /var/log/journal
+systemd-tmpfiles --create --prefix /var/log/journal
+systemctl restart systemd-journald
+nano /etc/sysctl.conf and add following
+kernel.panic = 10
+kernel.panic_on_oops = 1
+reboot
+
