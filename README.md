@@ -1,8 +1,8 @@
 # Project Overview
-The Main idea behind gridpal is to help customer tracking energy usage in his/her factory premises from different machieneries and then try to optimize the usage by analyzing the usage data. So Core competent of this project is the collection of energy usage data, trasnfer of this data securely to central server and later apply different efficient data analysis technique to suggest customer the necessary changes in the factory to achieve optimum enegry consumption hence save costs.
+GL Energy Cloud 2.0 was developed as an intelligent measurement and analysis system and offers real added value compared to conventional monitoring systems. The core competence of this project is therefore the collection of energy consumption data, the secure transmission of this data to a central server and the subsequent application of various efficient data analysis techniques in order to provide the customer with the necessary changes both in companies and public buildings (e.g. administration buildings, sports facilities, etc.). propose in order to achieve optimal energy consumption and thus save costs. The system includes both a hardware and a software solution.
 
 ## Data Collection 
-The gridpal supports various wired and wireless communication protocols to allow a broad application for data logging and controlling functions. It facilitates the logging of any environmental, consumption, user or status data via connected devices such as meters and sensors (for continuous measurement), actors or programmable controllers (SPS). It also supports the control of such connected devices through its on-/offboard interfaces/protocols. Currently Supported interfaces to collect data are as bellows
+The GL Energy Cloud 2.0 supports various wired and wireless communication protocols to allow a broad application for data logging and controlling functions. It facilitates the logging of any environmental, consumption, user or status data via connected devices such as meters and sensors (for continuous measurement), actors or programmable controllers (SPS). It also supports the control of such connected devices through its on-/offboard interfaces/protocols. Currently Supported interfaces to collect data are as bellows
 
 - ModBus
 - Mbus
@@ -20,10 +20,10 @@ Bellows are the details of the hardware and interfaces
 
 
 ## Data Transfer
-The gridpal uses mqtt as the transfer mechanism to transfer the collected data to a distributed mqtt broker.
+The GL Energy Cloud 2.0 uses mqtt as the transfer mechanism to transfer the collected data to a distributed mqtt broker.
 
 ## Data analysis
-The gridpal can provide data feed to any third party data analysis tool
+The GL Energy Cloud 2.0 can provide data feed to any third party data analysis tool
 
 ## Hardware
     All the schematics and pcb layout are designed in Kicad, an open source Electronic Design Automation (EDA) tool 
