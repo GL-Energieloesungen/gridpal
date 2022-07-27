@@ -9,7 +9,7 @@ The GL Energy Cloud 2.0 supports various wired and wireless communication protoc
 - Wireless Mbus
 - KNX
 
-Bellows are the details of the hardware and interfaces
+Bellow are the details of the hardware and interfaces
 
 - Mainboard: Quad-Core ARM Cortex A53 Processor (64bit),Built-in Crypto-Engine, Ethernet 10/100/1000 Mbps (see Allwinner A64 documentation)
 - Supplemental PCB board: Bluetooth Low Energy (BLE, 4.2 compliant), LAN min. 2x Gigabit Ethernet, Wifi 802.11n 2.4GhZ / 802.11ac 5 Ghz, 1x Modbus RS485 connector, 1x M-bus connector, 1x wireless M-bus, 1x KNX/EIB connector
