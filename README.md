@@ -26,15 +26,33 @@ The GL Energy Cloud 2.0 uses mqtt as the transfer mechanism to transfer the coll
 The GL Energy Cloud 2.0 can provide data feed to any third party data analysis tool
 
 ## Hardware
-    All the schematics and pcb layout are designed in Kicad, an open source Electronic Design Automation (EDA) tool 
-    https://www.kicad.org/
-    There are 2 PCBA to be manufactured.
-        - Com Board [https://github.com/GL-Energieloesungen/gridpal/tree/main/Hardware/Com%20Board]
-        - Main Board [https://github.com/GL-Energieloesungen/gridpal/tree/main/Hardware/Main%20Board]
-    To Manufacture the PCBA you have to open the respective folders in kicad tool and have to generate the gerber files for each board.
-    One can easily follow kicad tool's documentation to generate the gerber. For [example](https://support.jlcpcb.com/article/44-how-to-export-kicad-pcb-to-gerber-files) 
+All the schematics and pcb layout are designed in Kicad, an open source Electronic Design Automation (EDA) tool https://www.kicad.org/
+
+There are 2 PCBA to be manufactured
+
+- [Com Board](Hardware/Com%20Board)
+- [Main Board](Hardware/Main%20Board)
+    
+To Manufacture the PCBA you have to open the respective folders in kicad tool and have to generate the gerber files for each board.
+One can easily follow kicad tool's documentation to generate the gerber. For [example](https://support.jlcpcb.com/article/44-how-to-export-kicad-pcb-to-gerber-files) 
     
 ## Software
-    Software part consist of opensource Linux OS available at https://www.armbian.com/ and apps based on openhab platform (https://www.openhab.org/docs/)
-    Graphincal User Interface is developed with angular js, Html and CS
-    
+Software part consist of
+- [Operating System](Software/OS)
+- [Application Program](Software/APPS)
+- [Graphical User Interface](Software/GUI/gridpal-ui)
+
+## Pre-built Linux image
+For convenience a stable linux image is pre-built in this [link](https://drive.google.com/drive/folders/1ytiXBGopky1tuhhxSThNLuGj5j8QVbeQ)
+
+All the applications, GUI on top of the linux image is prebuilt inside the image.
+
+## Installing Linux Image to a SD card
+- Download the prebuilt [linux image](https://drive.google.com/drive/folders/1ytiXBGopky1tuhhxSThNLuGj5j8QVbeQ)
+- Grab a SD card (at lease 32 GB)
+- Install [Etcher software](https://www.balena.io/etcher) in a PC
+- Then burn the image to sd card using the Etcher software
+- Insert the sd card in the hardware
+
+
+
