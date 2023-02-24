@@ -7,6 +7,6 @@ There are 2 types of application software.
 - [Wireless Mbus Driver](java/LegacyWMbusDriver)
 
 ## OpenHAB Bindings
-There are 2 types of bindins.
+There are 2 types of bindings.
 - [Karaf style bindings](openhab/openhab_bindings_karaf)
 - [Old Stly bindings](openhab/openhab_bindings_old)
