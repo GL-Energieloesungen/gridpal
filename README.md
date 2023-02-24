@@ -37,7 +37,7 @@ To Manufacture the PCBA you have to open the respective folders in kicad tool an
 One can easily follow kicad tool's documentation to generate the gerber. For [example](https://support.jlcpcb.com/article/44-how-to-export-kicad-pcb-to-gerber-files) 
     
 ## Software
-Software part consist of
+Software is consist of following parts. Each part has their own documentation to build them from their repective source code
 - [Operating System](Software/OS)
 - [Application Program](Software/APPS)
 - [Graphical User Interface](Software/GUI/gridpal-ui)
@@ -52,7 +52,9 @@ All the applications, GUI on top of the linux image is prebuilt inside the image
 - Grab a SD card (at lease 32 GB)
 - Install [Etcher software](https://www.balena.io/etcher) in a PC
 - Then burn the image to sd card using the Etcher software
-- Insert the sd card in the hardware
+- Insert the sd card in the [Main Board](Hardware/Main%20Board)
+
+
 
 
 
