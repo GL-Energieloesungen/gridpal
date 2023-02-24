@@ -28,6 +28,13 @@ The GL Energy Cloud 2.0 can provide data feed to any third party data analysis t
 ## Hardware
     All the schematics and pcb layout are designed in Kicad, an open source Electronic Design Automation (EDA) tool 
     https://www.kicad.org/
+    There are 2 PCBA to be manufactured.
+        - Com Board [https://github.com/GL-Energieloesungen/gridpal/tree/main/Hardware/Com%20Board]
+        - Main Board [https://github.com/GL-Energieloesungen/gridpal/tree/main/Hardware/Main%20Board]
+    To Manufacture the PCBA you have to open the respective folders in kicad tool and have to generate the gerber files for each board.
+    One can easily follow kicad tool's documentation to generate the gerber. For [example](https://support.jlcpcb.com/article/44-how-to-export-kicad-pcb-to-gerber-files) 
+    
 ## Software
     Software part consist of opensource Linux OS available at https://www.armbian.com/ and apps based on openhab platform (https://www.openhab.org/docs/)
     Graphincal User Interface is developed with angular js, Html and CS
+    
